@@ -1,0 +1,4 @@
+multivalueIndicator,classSetIdStorageId,descriptionStorageId,hiddenIndicatorStorageId,idStorageId,masterIndicatorStorageId,nameStorageId,catStorageCategory,descriptionStorageCategory,hiddenIndicatorStorageCategory,idStorageCategory,nameStorageCategory,descriptionStorageStage,hiddenIndicatorStorageStage,idStorageStage,nameStorageStage,stageStorageStage,binStorageBin,descriptionStorageBin,idStorageBin,nameStorageBin,tag,testCaseId,expectedError
+true,1,string Storage,false,1,true,Name-100,A,string storageCategory,false,1,Name-100,string storageStage,false,1,Raw,R,H,string storageBin,1,HBase,AR1,TC-383,0
+true,1,string Storage,false,1,true,Name-100,A,string storageCategory,false,1,Name-100,string storageStage,false,1,Raw,R,H,string storageBin,1,HBase,AR1,TC-384,500
+true,1,string Storage,false,test,true,Name-100,A,string storageCategory,false,1,Name-100,string storageStage,false,1,Raw,R,H,string storageBin,1,HBase,AR1,TC-385,400

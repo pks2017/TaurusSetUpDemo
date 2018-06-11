@@ -1,0 +1,4 @@
+id,name,storageCategoryId,hiddenIndicator,testCaseId,expectedError
+168,Wilbur Ware Location Account12345,1,false,TC-493,0
+1680,Wilbur Ware Location Account12345,1,false,TC-494,500
+test,Wilbur Ware Location Account12345,1,false,TC-495,500

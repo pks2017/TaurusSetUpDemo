@@ -1,0 +1,5 @@
+timestampBinId,id,testCaseId,expectedError
+1,42,TC-436,0
+1343,42,TC-437,0
+1,4232,TC-438,0
+1432,4232,TC-439,0

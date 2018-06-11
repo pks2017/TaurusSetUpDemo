@@ -1,0 +1,5 @@
+dataFeedFieldId,dataFeedMapId,dataTermId,testCaseId,expectedError
+21,1,24,TC-378,0
+0,0,21,TC-379,0
+2342420,765765650,45646446,TC-380,0
+21,765765650,45646446,TC-381,0

@@ -1,0 +1,5 @@
+﻿id_Delete,testCaseId_Delete,repoAlias_Create,testCaseId_Create,repoAlias_Get,testCaseId_Get,id_Match,name_Match,remote_Match,testCaseId_Match,repoAlias_Update,id_Update,testCaseId_Update
+61,TC-10,automationRepo,TC-12,damsl-test3,TC-14,95,,,TC-17,newRepoAlias,1,TC-24
+999999,TC-11,automationRepo,TC-13,damsl-test1000,TC-15,,global-stats2,,TC-48,newRepoAlias,999999,TC-91
+,,,,,,,,git@bitbucket.org:arefor/damsl-global-stats.git,TC-22,,,
+,,,,,,,,,TC-23,,,

@@ -1,0 +1,8 @@
+﻿id,name,remote,testCaseId,expectedError
+95,,,TC-17,0
+,global-stats2,,TC-48,0
+,,git@bitbucket.org:arefor/damsl-global-stats.git,TC-22,0
+,,,TC-23,315
+99999,,,TC-124,0
+,abcd,,TC-125,0
+,,abcd,TC-126,0

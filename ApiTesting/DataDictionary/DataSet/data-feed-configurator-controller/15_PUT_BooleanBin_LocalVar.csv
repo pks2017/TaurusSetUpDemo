@@ -1,0 +1,4 @@
+id,description,name,testCaseId,expectedError
+21,test boolean bin updated,test boolean bin updated,TC-154,0
+100,test boolean bin updated,test boolean bin updated,TC-155,304
+test,test boolean bin updated,test boolean bin updated,TC-157,400

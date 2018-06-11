@@ -1,0 +1,7 @@
+id,dataTermId,storageId,classSetId,testCaseId,expectedError
+627,33,1,22,TC-477,0
+1000,33,1,22,TC-478,500
+627,1000,1,22,TC-479,500
+627,33,1000,22,TC-480,500
+627,33,1,2200,TC-481,500
+test,33,1,22,TC-482,500

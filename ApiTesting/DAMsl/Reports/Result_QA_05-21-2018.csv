@@ -1,0 +1,435 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1526901543099,573,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,535,272,1,1,573,0,280
+1526901543765,1,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",503,0,1,1,0,0,0
+1526901543099,574,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1038,272,1,1,573,99,280
+1526901662167,542,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,273,1,1,542,0,267
+1526901662734,1,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",505,0,1,1,0,0,0
+1526901662166,543,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,856,273,1,1,542,28,267
+1526901716216,582,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,352,277,1,1,582,0,274
+1526901716824,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",508,0,1,1,0,0,0
+1526901716215,582,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,860,277,1,1,582,30,274
+1526903830036,541,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,534,276,1,1,541,0,265
+1526903830614,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",508,0,1,1,0,0,0
+1526903830036,541,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1042,276,1,1,541,40,265
+1526904065518,544,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script111.groovy: 30: expecting ')', found '}' @ line 30, column 2.
+   	}
+    ^
+
+1 error
+",534,276,1,1,544,0,270
+1526904066100,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",509,0,1,1,0,0,0
+1526904065516,544,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 2",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1043,276,1,1,544,46,270
+1526904255731,539,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script117.groovy: 30: expecting ')', found '}' @ line 30, column 2.
+   	}
+    ^
+
+1 error
+",534,276,1,1,539,0,264
+1526904256292,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",509,0,1,1,0,0,0
+1526904255730,539,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 2",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1043,276,1,1,539,27,264
+1526904412153,543,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script123.groovy: 30: expecting ')', found '}' @ line 30, column 2.
+   	}
+    ^
+
+1 error
+",534,276,1,1,543,0,267
+1526904412723,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",509,0,1,1,0,0,0
+1526904412153,543,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 2",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1043,276,1,1,543,33,267
+1526904490078,539,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script129.groovy: 25: expecting ')', found '}' @ line 25, column 2.
+   	}
+    ^
+
+1 error
+",534,276,1,1,539,0,265
+1526904490651,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",509,0,1,1,0,0,0
+1526904490077,539,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 2",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1043,276,1,1,539,41,265
+1526904522742,537,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script135.groovy: 25: expecting ')', found '}' @ line 25, column 2.
+   	}
+    ^
+
+1 error
+",534,276,1,1,537,0,265
+1526904523313,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",509,0,1,1,0,0,0
+1526904522741,537,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 2",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1043,276,1,1,537,39,265
+1526904572428,542,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script141.groovy: 23: expecting ')', found '}' @ line 23, column 2.
+   	}
+    ^
+
+1 error
+",534,276,1,1,542,0,268
+1526904572989,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",509,0,1,1,0,0,0
+1526904572428,542,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 2",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1043,276,1,1,542,24,268
+1526904682745,540,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script147.groovy: 24: expecting ')', found '}' @ line 24, column 2.
+   	}
+    ^
+
+1 error
+",534,276,1,1,540,0,264
+1526904683316,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",509,0,1,1,0,0,0
+1526904682744,540,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 2",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1043,276,1,1,540,36,264
+1526904784523,549,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script153.groovy: 23: expecting ')', found '}' @ line 23, column 1.
+   }
+   ^
+
+1 error
+",534,276,1,1,549,0,265
+1526904785100,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",509,0,1,1,0,0,0
+1526904784523,549,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 2",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1043,276,1,1,549,31,265
+1526904828851,539,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,534,276,1,1,539,0,265
+1526904829437,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",508,0,1,1,0,0,0
+1526904828850,539,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1042,276,1,1,539,53,265
+1526904888607,540,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,534,276,1,1,539,0,265
+1526904888606,540,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,true,,534,276,1,1,539,37,265
+1526904916100,543,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: org.apache.jmeter.threads.JMeterVariables.put() is applicable for argument types: (java.lang.String, java.lang.Boolean) values: [condition, true]
+Possible solutions: put(java.lang.String, java.lang.String), get(java.lang.String), putAt(java.lang.String, java.lang.Object), wait(), dump(), any()",534,276,1,1,543,0,265
+1526904916100,543,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 1, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,534,276,1,1,543,48,265
+1526905114868,546,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,534,276,1,1,546,0,266
+1526905114868,546,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,true,,534,276,1,1,546,30,266
+1526905259434,538,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,534,276,1,1,538,0,264
+1526905259434,538,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,true,,534,276,1,1,538,43,264
+1526906525282,536,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,534,276,1,1,536,0,263
+1526906525281,536,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,true,,534,276,1,1,536,38,263
+1526906566981,538,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,277,1,1,538,0,264
+1526906566980,538,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,true,,351,277,1,1,538,47,264
+1526906762199,537,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,277,1,1,537,0,264
+1526906762198,537,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,true,,351,277,1,1,537,36,264
+1526906913813,541,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,277,1,1,541,0,265
+1526906913813,541,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,true,,351,277,1,1,541,27,265
+1526907497981,682,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,277,1,1,682,0,376
+1526907498691,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",620,0,1,1,0,0,0
+1526907497981,682,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 4, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,971,277,1,1,682,44,376
+1526907540255,558,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,277,1,1,558,0,291
+1526907540254,558,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,true,,351,277,1,1,558,32,291
+1526907655527,641,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,277,1,1,641,0,336
+1526907656196,0,Create Repository,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 46: http://172.16.1.200:8080/damsl/v1/rest/repos/${repoAlias},[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/${repoAlias}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1066,0,1,1,0,0,0
+1526907655527,641,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1417,277,1,1,641,34,336
+1526908143706,542,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,277,1,1,542,0,271
+1526908144280,288,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [415]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/test-layouts5
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+x-gitfs-workspace: ewolf
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 229
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+
+
+",465,550,1,1,288,0,0
+1526908143705,830,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,816,827,1,1,830,36,271
+1526908177825,536,Match Repo,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,277,1,1,536,0,258
+1526908178361,272,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [415]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/test-layouts5
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+x-gitfs-workspace: ewolf
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 229
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+
+
+",465,550,1,1,272,0,0
+1526908177824,808,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,816,827,1,1,808,20,258
+1526908696013,526,Match Repo,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,310,1,1,526,0,262
+1526908696541,377,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [415]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/test-layouts5
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+x-gitfs-workspace: ewolf
+Content-Type: application/json1
+Content-Length: 229
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+
+
+",465,534,1,1,376,0,0
+1526908696012,903,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,816,844,1,1,902,58,262
+1526908748412,544,Match Repo,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,310,1,1,544,0,267
+1526908748958,313,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [415]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/test-layouts5
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+x-gitfs-workspace: ewolf
+Content-Type: application/json1
+Content-Length: 229
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+
+
+",465,534,1,1,313,0,0
+1526908748412,857,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,816,844,1,1,857,43,267
+1526908786773,571,Match Repo,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,310,1,1,571,0,289
+1526908787345,279,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [415]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/test-layouts5
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+x-gitfs-workspace: ewolf
+Content-Type: application/json1
+Content-Length: 229
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+
+
+",465,534,1,1,279,0,0
+1526908786772,850,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,816,844,1,1,850,17,289
+1526909028635,527,Match Repo,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,310,1,1,527,0,256
+1526909029163,262,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [415]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/test-layouts5
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+x-gitfs-workspace: ewolf
+Content-Type: application/json1
+Content-Length: 229
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+
+
+",465,534,1,1,260,0,0
+1526909028635,789,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,816,844,1,1,787,25,256
+1526909499470,552,Match Repo,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,310,1,1,552,0,278
+1526909500023,278,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [415]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/test-layouts5
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+x-gitfs-workspace: ewolf
+Content-Type: application/json1
+Content-Length: 229
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+
+
+",465,534,1,1,278,0,0
+1526909499469,830,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 3, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,816,844,1,1,830,37,278
+1526909512021,534,Match Repo,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,310,1,1,534,0,268
+1526909512556,278,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [415]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/test-layouts5
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+x-gitfs-workspace: ewolf
+Content-Type: application/json1
+Content-Length: 229
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+
+
+",465,534,1,1,278,0,0
+1526909512882,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,644,0,1,1,0,0,0
+1526909512020,812,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 5, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1460,844,1,1,812,51,268
+1526909737286,645,Match Repo,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,310,1,1,645,0,355
+1526909737933,638,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,,465,534,1,1,638,0,0
+1526909738572,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,644,0,1,1,0,0,0
+1526909737286,1283,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 5, number of failing samples : 1",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1460,844,1,1,1283,4,355
+1526909808511,694,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,310,1,1,694,0,387
+1526909809256,358,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [415]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/test-layouts5
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+x-gitfs-workspace: ewolf
+Content-Type: application/json1
+Content-Length: 229
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+
+
+",465,534,1,1,358,0,0
+1526909809619,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",644,0,1,1,0,0,0
+1526909808511,1052,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 5, number of failing samples : 2",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1460,844,1,1,1052,82,387
+1526909852514,620,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,310,1,1,620,0,312
+1526909853177,366,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [415]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/test-layouts5
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+x-gitfs-workspace: ewolf
+Content-Type: application/json1
+Content-Length: 229
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+
+
+",465,534,1,1,366,0,0
+1526909853547,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",643,0,1,1,0,0,0
+1526909852513,986,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 5, number of failing samples : 2",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1459,844,1,1,986,55,312
+1526909877354,688,Match Repo,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,true,,351,310,1,1,687,0,359
+1526909878081,354,Create Repository,415,Unsupported Media Type,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"Expected <response code> [200] but we got instead [415]
+
+URL: http://172.16.1.200:8080/damsl/v1/rest/repos/test-layouts5
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+x-gitfs-workspace: ewolf
+Content-Type: application/json1
+Content-Length: 229
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+
+
+",465,534,1,1,354,0,0
+1526909878438,0,Debug Sampler,200,OK,[TG]-DAMsl_Normal_Workflow_Single_user 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'J' with an int value of 74
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+JMeterVariables:
+^",644,0,1,1,0,0,0
+1526909877354,1042,[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath,,"Number of samples in transaction : 5, number of failing samples : 2",[TG]-DAMsl_Normal_Workflow_Single_user 1-1,,false,,1460,844,1,1,1041,50,359

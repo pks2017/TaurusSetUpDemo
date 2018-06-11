@@ -1,0 +1,6 @@
+dataFeedId,extended,testCaseId,expectedError
+1,,TC-291,0
+1,false,TC-292_01,0
+1,true,TC-292_02,0
+100,,TC-293,0
+test,,TC-294,400

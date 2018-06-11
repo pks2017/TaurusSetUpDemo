@@ -1,0 +1,3 @@
+dataTermType_description,dataTermType_id,dataTermType_name,dataTermType_solrType,dataTermType_sqlType,dataTermType_type,description,exchangeName,mappingAllowedIndicator,id,name,synonyms,testCaseId,expectedError
+text,2,,text_general,string,t,new field  Updated..,IvanTest,true,7541,IVAN test 1,,TC-47_01,-20000
+text,2,,text_general,string,t,new field  Updated..,IvanTest,true,221,IVAN test 1,,TC-47_02,0

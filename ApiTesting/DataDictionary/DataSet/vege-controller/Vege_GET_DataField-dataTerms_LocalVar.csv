@@ -1,0 +1,5 @@
+﻿dataTermNames,ignoreHidden,expectedError,testCaseId
+integetest,TRUE,0,TC-232
+integetest,FALSE,0,TC-237
+9999999,TRUE,0,TC-239
+,,0,TC-240

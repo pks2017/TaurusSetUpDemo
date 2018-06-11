@@ -1,0 +1,4 @@
+classSetId,description,hiddenIndicator,masterIndicator,name,storageCategoryCat,storageCategoryDescription,storageCategoryHiddenIndicator,storageCategoryId,storageCategoryName,testCaseId,expectedError
+1,string,true,false,Storage Id 1,string..,string..,true,1,storage Category 1,TC-350,0
+1,string,true,false,Storage Id 2,string..,string..,true,100,storage Category 2,TC-351,500
+test,string,true,false,Storage Id 3,string..,string..,true,1,storage Category 3,TC-352,400

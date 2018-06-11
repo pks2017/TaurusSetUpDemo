@@ -1,0 +1,2 @@
+protocol,server_name,port,app_key,user_key,Endpoint_Version
+http,172.16.1.200,8080,APP_KEY,60A2623310075CDEE053BC0310ACA600,1

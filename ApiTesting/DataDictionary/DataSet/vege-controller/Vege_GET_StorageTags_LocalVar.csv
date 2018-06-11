@@ -1,0 +1,5 @@
+﻿storageTags,ignoreHidden,expectedError,testCaseId
+test,TRUE,0,TC-346
+test,FALSE,0,TC-347
+99999999,TRUE,0,TC-348
+,TRUE,0,TC-349

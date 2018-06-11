@@ -1,0 +1,4 @@
+id,activeIndicator,priority,dataFeedId,ownerId,version,ruleName,ruleDescription,ruleTypeCode,ruleContents,testCaseId,expectedError
+42,0,1,121,DATA_DCTNRY,1,com.r4cloud.cerberus.enricher.rule.EnrichCerberusTestRule,Cerberus Test 121 rule,Java,rules,TC-483,0
+99999999,1,2,99999999,DATA_DCTNRY,2,com.r4cloud.cerberus.enricher.rule.EnrichCerberusTestRule,Cerberus Test 121 rule,Java,rules,TC-484,0
+test,test,1,test,DATA_DCTNRY,1,com.r4cloud.cerberus.enricher.rule.EnrichCerberusTestRule,Cerberus Test 121 rule,Java,rules,TC-485,400

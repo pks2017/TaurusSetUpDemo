@@ -1,0 +1,5 @@
+﻿repoAlias,id,readOnly,notify,envBranch,gitPath,testCaseId,expectedError
+damsl-ui-test100,1,true,true,true,git@bitbucket.org:arefor/damsl-ui-test100.git,TC-24,0
+newRepoAlias,999999,true,true,true,git@bitbucket.org:arefor/newRepoAlias.git,TC-91,304
+!@damsl-ui-test61,61,true,true,true,git@bitbucket.org:arefor/!@damsl-ui-test61.git,TC-119,316
+,1,true,true,true,gitpath,TC-128,316

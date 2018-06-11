@@ -1,0 +1,561 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,grpThreads,allThreads,URL,Latency,SampleCount,ErrorCount
+1.53E+12,609,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,TRUE,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/list,609,1,0
+1.53E+12,609,[TC] - caller_GET_List_FilesTC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller 1-1,,TRUE,,1,1,null,609,1,0
+1.52586E+12,556,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,TRUE,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/list,556,1,0
+1.52586E+12,556,[TC] - caller_GET_List_FilesTC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller 1-1,,TRUE,,1,1,null,556,1,0
+1.52586E+12,3552,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,TRUE,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/list,3551,1,0
+1.52586E+12,3552,[TC] - caller_GET_List_FilesTC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller 1-1,,TRUE,,1,1,null,3551,1,0
+1.52586E+12,633,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,TRUE,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/list,633,1,0
+1.52586E+12,633,[TC] - caller_GET_List_FilesTC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller 1-1,,TRUE,,1,1,null,633,1,0
+1.52586E+12,555,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,TRUE,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/list,555,1,0
+1.52586E+12,555,[TC] - caller_GET_List_FilesTC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller 1-1,,TRUE,,1,1,null,555,1,0
+1.52586E+12,566,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,TRUE,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/list,566,1,0
+1.52586E+12,566,[TC] - caller_GET_List_FilesTC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller 1-1,,TRUE,,1,1,null,566,1,0
+1.52586E+12,644,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,TRUE,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/list,644,1,0
+1.52586E+12,644,[TC] - caller_GET_List_FilesTC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller 1-1,,TRUE,,1,1,null,644,1,0
+1.52586E+12,739,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,TRUE,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/list,739,1,0
+1.52586E+12,739,[TC] - caller_GET_List_FilesTC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller 1-1,,TRUE,,1,1,null,739,1,0
+1.52586E+12,688,caller_GET_List_Files_TC-100,200,OK,[TG] -caller_POST_Validate 1-1,text,TRUE,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/list,687,1,0
+1.52586E+12,688,[TC] - caller_POST_ValidateTC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,TRUE,,1,1,null,687,1,0
+1.52586E+12,559,caller_POST_Validate_TC-100,200,OK,[TG] -caller_POST_Validate 1-1,text,TRUE,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,559,1,0
+1.52586E+12,559,[TC] - caller_POST_ValidateTC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,TRUE,,1,1,null,559,1,0
+1525864500451,653,caller_POST_validate_${TestCaseId},200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,650,1,0
+1525864500450,653,[TC] - caller_POST_Validate${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,650,1,0
+1525864518240,546,caller_POST_validate_${TestCaseId},200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,544,1,0
+1525864518239,546,[TC] - caller_POST_validate${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,544,1,0
+1525864563186,643,caller_POST_validate_${TestCaseId},200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,643,1,0
+1525864563186,643,[TC] - caller_POST_validate${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,643,1,0
+1525864563831,276,caller_POST_validate_${TestCaseId},200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,276,1,0
+1525864563831,276,[TC] - caller_POST_validate${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,276,1,0
+1525864564108,283,caller_POST_validate_ ,200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,283,1,0
+1525864564108,283,[TC] - caller_POST_validate ,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,283,1,0
+1525864660505,674,caller_POST_validate_${TestCaseId},200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,673,1,0
+1525864660504,674,[TC] - caller_POST_validate_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,673,1,0
+1525864661183,280,caller_POST_validate_${TestCaseId},200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,279,1,0
+1525864661182,280,[TC] - caller_POST_validate_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,279,1,0
+1525864661466,280,caller_POST_validate_ ,200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,280,1,0
+1525864661465,280,[TC] - caller_POST_validate_ ,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,280,1,0
+1525864958971,548,caller_POST_validate_${TestCaseId},200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,548,1,0
+1525864958971,548,[TC] - caller_POST_validate_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,548,1,0
+1525864959523,277,caller_POST_validate_${TestCaseId},200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,277,1,0
+1525864959522,277,[TC] - caller_POST_validate_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,277,1,0
+1525864959804,281,caller_POST_validate_ ,200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,281,1,0
+1525864959803,281,[TC] - caller_POST_validate_ ,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,281,1,0
+1525865027701,674,caller_POST_validate_${TestCaseId},200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,674,1,0
+1525865027701,674,[TC] - caller_POST_validate_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,674,1,0
+1525865055676,598,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/list,598,1,0
+1525865055675,598,[TC] - caller_GET_List_FilesTC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller 1-1,,true,,1,1,null,598,1,0
+1525865198244,551,caller_POST_validate_${TestCaseId},200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,551,1,0
+1525865198243,551,[TC] - caller_POST_validate_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,551,1,0
+1525865240698,572,caller_POST_validate_TC-100,200,OK,[TG] -caller_POST_Validate 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/validate,572,1,0
+1525865240698,572,[TC] - caller_POST_validate_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_Validate 1-1,,true,,1,1,null,572,1,0
+1525865795974,757,caller_GET_get_TC-100,200,OK,[TG] -caller_GET_get 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/get,724,1,0
+1525865795973,757,[TC] - caller_GET_get_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_GET_get 1-1,,true,,1,1,null,724,1,0
+1525866214939,621,caller_DELETE_delete_TC-100,200,OK,[TG] -caller_DELETE_delete 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/delete,621,1,0
+1525866214938,621,[TC] - caller_DELETE_delete_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_DELETE_delete 1-1,,true,,1,1,null,621,1,0
+1525866395793,547,caller_DELETE_delete_TC-100,404,Not Found,[TG] -caller_DELETE_delete 1-1,,false,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/delete/1,547,1,1
+1525866395793,547,[TC] - caller_DELETE_delete_TC-100,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -caller_DELETE_delete 1-1,,false,,1,1,null,547,1,1
+1525866624035,547,caller_DELETE_delete_TC-100,404,Not Found,[TG] -caller_DELETE_delete 1-1,,false,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/delete1,547,1,1
+1525866624034,547,[TC] - caller_DELETE_delete_TC-100,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -caller_DELETE_delete 1-1,,false,,1,1,null,547,1,1
+1525867119503,649,caller_DELETE_delete_TC-100,200,OK,[TG] -caller_DELETE_delete 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/delete?callerId=1,648,1,0
+1525867119502,649,[TC] - caller_DELETE_delete_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_DELETE_delete 1-1,,true,,1,1,null,648,1,0
+1525867832732,568,caller_POST_save_${TestCaseId},200,OK,[TG] -caller_POST_save 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/save,567,1,0
+1525867832732,568,[TC] - caller_POST_save_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_save 1-1,,true,,1,1,null,567,1,0
+1525868131760,665,caller_POST_save_TC-100,200,OK,[TG] -caller_POST_test 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/save,665,1,0
+1525868131759,665,[TC] - caller_POST_test_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_test 1-1,,true,,1,1,null,665,1,0
+1525868149065,716,caller_POST_save_TC-100,200,OK,[TG] -caller_POST_test 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/save,716,1,0
+1525868149065,716,[TC] - caller_POST_test_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_test 1-1,,true,,1,1,null,716,1,0
+1525868184405,563,caller_POST_test_TC-100,200,OK,[TG] -caller_POST_test 1-1,text,true,,1,1,http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/Statistics/v4/rest/caller/test,562,1,0
+1525868184404,563,[TC] - caller_POST_test_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_test 1-1,,true,,1,1,null,562,1,0
+1525874919223,0,caller_POST_test_TC-100,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Expected closing bracket for IPv6 address at index 13: http://[http://172.16.1.200]:8080/Statistics/v4/rest/caller/test,[TG] -caller_POST_test 1-1,text,false,,1,1,http://[http://172.16.1.200]:8080/Statistics/v4/rest/caller/test,0,1,1
+1525874919223,0,[TC] - caller_POST_test_TC-100,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -caller_POST_test 1-1,,false,,1,1,null,0,1,1
+1525874963422,641,caller_POST_test_TC-100,200,OK,[TG] -caller_POST_test 1-1,text,true,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/test,641,1,0
+1525874963421,641,[TC] - caller_POST_test_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_test 1-1,,true,,1,1,null,641,1,0
+1525875013619,687,caller_POST_test_TC-100,200,OK,[TG] -caller_POST_test 1-1,text,true,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/test,687,1,0
+1525875013618,687,[TC] - caller_POST_test_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_POST_test 1-1,,true,,1,1,null,687,1,0
+1525875100601,588,caller_GET_get_TC-100,200,OK,[TG] -caller_GET_get 1-1,text,true,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/get,588,1,0
+1525875100600,588,[TC] - caller_GET_get_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_GET_get 1-1,,true,,1,1,null,588,1,0
+1525875152354,610,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,true,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/list,608,1,0
+1525875152354,610,[TC] - caller_GET_List_Files_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller 1-1,,true,,1,1,null,608,1,0
+1525875197184,603,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://172.16.1.200:8080/Statistics/v4/rest/caller/list
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:10], data:[[id:6, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:10, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        JSONObject obj = metadata.getJSONObject(""audienceDefinition"");
+        // call solr
+        idx.addEntries('gcpId', []);
+        return idx;
+    }
+}], [id:17, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:2, name:string, syntax:Drools, contents:string 12345], [id:5, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:8, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:15, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:20, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:4, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:11, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:14, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:16, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:7, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:9, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:12, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:13, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:18, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:558, name:restrictedrtest, syntax:Scala, contents:import org.json.JSONObject
+import com.r4cloud.stat.plugin.StatisticIndexSelector
+import com.r4cloud.stat.model.MultiIndex
+import java.util.Map;
+import org.json.JSONArray
+import java.util.HashMap
+import java.util.ArrayList
+import java.lang.String
+import java.lang.StringBuilder
+import java.net.URL
+import java.net.HttpURLConnection
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.io.OutputStream
+import java.util.Arrays
+
+new StatisticIndexSelector {
+    def getIndexes(context: Map[String, Object], metadata: JSONObject) : MultiIndex = {
+        val idx: MultiIndex = new MultiIndex;
+        idx.addEntries(""clusterId"", 1: java.lang.Long);
+        return idx;
+    }
+}]]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/list,603,1,1
+1525875197183,603,[TC] - caller_GET_List_Files_TC-100,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -caller 1-1,,false,,1,1,null,603,1,1
+1525875335874,1463,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://172.16.1.200:8080/Statistics/v4/rest/caller/list
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:49], data:[[id:6, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:10, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        JSONObject obj = metadata.getJSONObject(""audienceDefinition"");
+        // call solr
+        idx.addEntries('gcpId', []);
+        return idx;
+    }
+}], [id:17, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:2, name:string, syntax:Drools, contents:string 12345], [id:5, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:8, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:15, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:20, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:4, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:11, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:14, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:16, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:7, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:9, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:12, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:13, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:18, name:New Java Caller, syntax:Java, contents:import org.json.JSONObject;
+import com.r4cloud.stat.plugin.StatisticIndexSelector;
+import com.r4cloud.stat.model.MultiIndex;
+import java.util.Map;
+
+public class Caller_6 implements StatisticIndexSelector {
+    @Override
+    public MultiIndex getIndexes(Map<String, Object> context, JSONObject metadata){
+        MultiIndex idx = new MultiIndex();
+        idx.addEntries(""clusterId"", 1);
+        return idx;
+    }
+}], [id:558, name:restrictedrtest, syntax:Scala, contents:import org.json.JSONObject
+import com.r4cloud.stat.plugin.StatisticIndexSelector
+import com.r4cloud.stat.model.MultiIndex
+import java.util.Map;
+import org.json.JSONArray
+import java.util.HashMap
+import java.util.ArrayList
+import java.lang.String
+import java.lang.StringBuilder
+import java.net.URL
+import java.net.HttpURLConnection
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.io.OutputStream
+import java.util.Arrays
+
+new StatisticIndexSelector {
+    def getIndexes(context: Map[String, Object], metadata: JSONObject) : MultiIndex = {
+        val idx: MultiIndex = new MultiIndex;
+        idx.addEntries(""clusterId"", 1: java.lang.Long);
+        return idx;
+    }
+}]]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Host: 172.16.1.200:8080
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/list,1463,1,1
+1525875335873,1463,[TC] - caller_GET_List_Files_TC-100,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -caller 1-1,,false,,1,1,null,1463,1,1
+1525875446908,3589,caller_GET_List_Files_TC-100,200,OK,[TG] -caller 1-1,text,true,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/list,3589,1,0
+1525875446907,3589,[TC] - caller_GET_List_Files_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller 1-1,,true,,1,1,null,3589,1,0
+1525877419884,5110,caller_GET_get_TC-100,200,OK,[TG] -caller_GET_get 1-1,text,true,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/get,4797,1,0
+1525877419884,5110,[TC] - caller_GET_get_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_GET_get 1-1,,true,,1,1,null,4797,1,0
+1525877425001,5323,caller_GET_get_,200,OK,[TG] -caller_GET_get 1-1,text,true,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/get,4093,1,0
+1525877425001,5323,[TC] - caller_GET_get_,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_GET_get 1-1,,true,,1,1,null,4093,1,0
+1525877544049,1810,caller_GET_get_TC-100,200,OK,[TG] -caller_GET_get 1-1,text,true,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/get?id=1,1810,1,0
+1525877544049,1810,[TC] - caller_GET_get_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_GET_get 1-1,,true,,1,1,null,1810,1,0
+1525877545866,284,caller_GET_get_TC-100,200,OK,[TG] -caller_GET_get 1-1,text,true,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/get?id=6,284,1,0
+1525877545866,284,[TC] - caller_GET_get_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_GET_get 1-1,,true,,1,1,null,284,1,0
+1525877584885,540,caller_GET_get_TC-100,200,OK,[TG] -caller_GET_get 1-1,text,false,"Value expected to be '', but found '0'",1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/get?id=1,540,1,1
+1525877584885,540,[TC] - caller_GET_get_TC-100,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -caller_GET_get 1-1,,false,,1,1,null,540,1,1
+1525877585468,275,caller_GET_get_TC-100,200,OK,[TG] -caller_GET_get 1-1,text,false,"Value expected to be '', but found '0'",1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/get?id=6,274,1,1
+1525877585468,275,[TC] - caller_GET_get_TC-100,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -caller_GET_get 1-1,,false,,1,1,null,274,1,1
+1525877603055,541,caller_GET_get_TC-100,200,OK,[TG] -caller_GET_get 1-1,text,true,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/get?id=1,541,1,0
+1525877603055,541,[TC] - caller_GET_get_TC-100,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -caller_GET_get 1-1,,true,,1,1,null,541,1,0
+1525877603598,276,caller_GET_get_TC-100,200,OK,[TG] -caller_GET_get 1-1,text,false,"Value expected to be '', but found '0'",1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/get?id=6,275,1,1
+1525877603598,276,[TC] - caller_GET_get_TC-100,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -caller_GET_get 1-1,,false,,1,1,null,275,1,1

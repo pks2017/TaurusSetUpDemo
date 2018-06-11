@@ -1,0 +1,5 @@
+﻿repoAlias,testCaseId,readOnly,notify,envBranch,remoteRepositoryPath,expectedError
+automationRepo4,TC-12,true,true,true,git@bitbucket.org:arefor/automationRepo.git,0
+automationRepo,TC-13,true,true,true,git@bitbucket.org:arefor/automationRepo.git,312
+automationRepo2,TC-136,true,true,true,,315
+test-stats-automation10_This_repoAliasName_is_exceeding_100_Characters_for_checking_the_maxlimit_of_the_database_field,TC-137,true,true,true,git@bitbucket.org:arefor/automationRepo1.git,0

@@ -1,0 +1,6 @@
+﻿dataFieldIds,dataFieldIds1,ignoreHidden,expectedError,testCaseId
+1,,FALSE,0,TC-252
+1,,TRUE,0,TC-253
+99999999,,TRUE,0,TC-254
+abc,,TRUE,0,TC-255
+1,2,TRUE,0,TC-256

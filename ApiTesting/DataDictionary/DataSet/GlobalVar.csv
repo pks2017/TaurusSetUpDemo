@@ -1,0 +1,2 @@
+protocol,server_name,port,app_key,user_key,Endpoint_Version,user_key1
+http,internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com,,APP_KEY,5CF1A15B4EB656F0E0530100007FDACD,2,test

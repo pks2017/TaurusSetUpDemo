@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="DFC_POST_DataFeed_TF" enabled="true">
+      <stringProp name="TestPlan.comments">Create Data Feed</stringProp>
+      <boolProp name="TestPlan.functional_mode">true</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] - POST Data Feed" enabled="false"/>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - Data Feed_${testCaseId}" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;attributeDensity&quot;: &quot;${attributeDensity}&quot;,&#xd;
+  &quot;booleanBin&quot;: {&#xd;
+    &quot;description&quot;: &quot;${descriptionBooleanBin}&quot;,&#xd;
+    &quot;id&quot;: &quot;${idBooleanBin}&quot;,&#xd;
+    &quot;name&quot;: &quot;${nameBooleanBin}&quot;&#xd;
+  },&#xd;
+  &quot;classSetTag&quot;: {&#xd;
+    &quot;classSet&quot;: {&#xd;
+      &quot;dataClass&quot;: {&#xd;
+        &quot;description&quot;: &quot;${descriptionDataClass}&quot;,&#xd;
+        &quot;id&quot;: &quot;${idDataClass}&quot;,&#xd;
+        &quot;name&quot;: &quot;${nameDataClass}&quot;&#xd;
+      },&#xd;
+      &quot;description&quot;: &quot;${descriptionClassSet}&quot;,&#xd;
+   &quot;id&quot;: &quot;${idClassSet}&quot;,&#xd;
+   &quot;name&quot;: &quot;${nameClassSet}&quot;,&#xd;
+      &quot;storageIds&quot;: [&#xd;
+        {&#xd;
+          &quot;classSetId&quot;: &quot;${classSetIdStorageIds}&quot;,&#xd;
+          &quot;description&quot;: &quot;${descriptionStorageIds}&quot;,&#xd;
+          &quot;hiddenIndicator&quot;: &quot;${hiddenIndicatorStorageIds}&quot;,&#xd;
+          &quot;id&quot;: &quot;${idStorageIds}&quot;,&#xd;
+          &quot;masterIndicator&quot;: &quot;${masterIndicatorStorageIds}&quot;,&#xd;
+          &quot;name&quot;: &quot;${nameStorageIds}&quot;,&#xd;
+          &quot;storageCategory&quot;: {&#xd;
+            &quot;cat&quot;: &quot;${catStorageCategory}&quot;,&#xd;
+            &quot;description&quot;: &quot;${descriptionStorageCategory}&quot;,&#xd;
+            &quot;hiddenIndicator&quot;: &quot;${hiddenIndicatorStorageCategory}&quot;,&#xd;
+            &quot;id&quot;: &quot;${idStorageCategory}&quot;,&#xd;
+            &quot;name&quot;: &quot;${nameStorageCategory}&quot;&#xd;
+          }&#xd;
+        }&#xd;
+      ]&#xd;
+    },&#xd;
+    &quot;id&quot;: &quot;${idClassSetTag}&quot;,&#xd;
+    &quot;masterIndicator&quot;: &quot;${masterIndicatorClassSetTag}&quot;,&#xd;
+    &quot;storageTag&quot;: {&#xd;
+      &quot;id&quot;: &quot;${idStorageTag}&quot;,&#xd;
+      &quot;multivalueIndicator&quot;: &quot;${multivalueIndicatorStorageTag}&quot;,&#xd;
+      &quot;storageId&quot;: {&#xd;
+        &quot;classSetId&quot;: &quot;${classSetIdStorageId}&quot;,&#xd;
+        &quot;description&quot;: &quot;${descriptionStorageId}&quot;,&#xd;
+        &quot;hiddenIndicator&quot;: &quot;${hiddenIndicatorStorageId}&quot;,&#xd;
+        &quot;id&quot;: &quot;${idStorageId}&quot;,&#xd;
+        &quot;masterIndicator&quot;: &quot;${masterIndicatorStorageId}&quot;,&#xd;
+        &quot;name&quot;: &quot;${nameStorageId}&quot;,&#xd;
+        &quot;storageCategory&quot;: {&#xd;
+          &quot;cat&quot;: &quot;${catStorageCategory1}&quot;,&#xd;
+          &quot;description&quot;: &quot;${descriptionStorageCategory1}&quot;,&#xd;
+          &quot;hiddenIndicator&quot;: &quot;${hiddenIndicatorStorageCategory1}&quot;,&#xd;
+          &quot;id&quot;: &quot;${idStorageCategory1}&quot;,&#xd;
+          &quot;name&quot;: &quot;${nameStorageCategory1}&quot;&#xd;
+        }&#xd;
+      },&#xd;
+      &quot;storageStage&quot;: {&#xd;
+        &quot;description&quot;: &quot;${descriptionStorageStage}&quot;,&#xd;
+        &quot;hiddenIndicator&quot;: &quot;${hiddenIndicatorStorageStage}&quot;,&#xd;
+        &quot;id&quot;: &quot;${idStorageStage}&quot;,&#xd;
+        &quot;name&quot;: &quot;${nameStorageStage}&quot;,&#xd;
+        &quot;stage&quot;: &quot;${stageStorageStage}&quot;,&#xd;
+        &quot;storageBin&quot;: {&#xd;
+          &quot;bin&quot;: &quot;${binStorageBin}&quot;,&#xd;
+          &quot;description&quot;: &quot;${descriptionStorageBin}&quot;,&#xd;
+          &quot;id&quot;: &quot;${idStorageBin}&quot;,&#xd;
+          &quot;name&quot;: &quot;${nameStorageBin}&quot;&#xd;
+        }&#xd;
+      },&#xd;
+      &quot;tag&quot;: &quot;${tagStorageId}&quot;&#xd;
+    }&#xd;
+  },&#xd;
+  &quot;cleanIndicator&quot;: &quot;${cleanIndicatorStorageId}&quot;,&#xd;
+  &quot;confidenceLevel&quot;: &quot;${confidenceLevelStorageId}&quot;,&#xd;
+  &quot;dataFeedBin&quot;: {&#xd;
+    &quot;description&quot;: &quot;${descriptionDataFeedBin}&quot;,&#xd;
+    &quot;id&quot;: &quot;${idDataFeedBin}&quot;,&#xd;
+    &quot;name&quot;: &quot;${nameDataFeedBin}&quot;&#xd;
+  },&#xd;
+  &quot;daysToExpire&quot;: &quot;${daysToExpireClassSetTag}&quot;,&#xd;
+  &quot;description&quot;: &quot;${descriptionClassSetTag}&quot;,&#xd;
+  &quot;hashedDocIdIndicator&quot;: &quot;${hashedDocIdIndicatorClassSetTag}&quot;,&#xd;
+  &quot;hashedModifierIndicator&quot;: &quot;${hashedModifierIndicatorClassSetTag}&quot;,&#xd;
+  &quot;hiddenIndicator&quot;: &quot;${hiddenIndicatorClassSetTag}&quot;,&#xd;
+  &quot;ignoreUnknownFieldsIndicator&quot;: &quot;${ignoreUnknownFieldsIndicatorClassSetTag}&quot;,&#xd;
+  &quot;lastRunDate&quot;: &quot;${lastRunDateClassSetTag}&quot;,&#xd;
+  &quot;lastRunStatus&quot;: &quot;${lastRunStatusClassSetTag}&quot;,&#xd;
+  &quot;lastUpdatedDate&quot;: &quot;${lastUpdatedDateClassSetTag}&quot;,&#xd;
+  &quot;name&quot;: &quot;${nameClassSetTag}&quot;,&#xd;
+  &quot;sequenceModifierIndicator&quot;: &quot;${sequenceModifierIndicatorClassSetTag}&quot;,&#xd;
+  &quot;termCount&quot;: &quot;${termCountClassSetTag}&quot;,&#xd;
+  &quot;timestampBin&quot;: {&#xd;
+    &quot;description&quot;: &quot;${descriptionTimestampBin}&quot;,&#xd;
+    &quot;id&quot;: &quot;${idTimestampBin}&quot;,&#xd;
+    &quot;inUse&quot;: &quot;${inUseTimestampBin}&quot;,&#xd;
+    &quot;name&quot;: &quot;${nameTimestampBin}&quot;&#xd;
+  },&#xd;
+  &quot;uniqueGUIDsCount&quot;: &quot;${uniqueGUIDsCountClassSetTag}&quot;&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${server_name}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/DataDictionary/v${Endpoint_Version}/dataFeedConfigurator/dataFeed</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="TestPlan.comments">Create Data Feed</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

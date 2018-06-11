@@ -1,0 +1,8 @@
+repoAliasFC,pathFC,refIdFC,TestCaseIdFC,expectedError
+damsl-test-stats,porcelain/file1.txt,,TC-75,
+damsl-test-stats,porcelain/file1.txt,5e6f8566b85b6207751953c5c843bdd36483ba28,TC-76,
+damsl-test,test.txt,,TC-77,304
+damsl-test-stats,test.txt,,TC-78,313
+damsl-test-stats,porcelain/file1.txt,29b9b81b335b2968289388d2d92ad5859605dc7e,TC-79_01,314
+damsl-test-stats,porcelain/file1.txt,29,TC-79_02,313
+damsl-test-stats,porcelain/file1.txt,2,TC-79_03,314

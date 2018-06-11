@@ -1,0 +1,73 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1526382637019,664,GET - filterDefinitions_TC-30,404,Not Found,[TG] - r-search-data-controller-controller 1-1,text,false,"Expected <response code> [200] but we got instead [404]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/rsearch/filterDefinitions
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Host: internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",251,313,1,1,664,0,405
+1526382637019,664,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,251,313,1,1,664,84,405
+1526382875234,1282,GET - filterDefinitions_TC-30,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - r-search-data-controller-controller 1-1,text,true,,80591,266,1,1,533,0,252
+1526382875234,1282,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,80591,266,1,1,533,58,252
+1526383095149,1300,GET - filterDefinitions_TC-30,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - r-search-data-controller-controller 1-1,text,true,,80591,266,1,1,545,0,257
+1526383095149,1300,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,80591,266,1,1,545,41,257
+1526383378041,532,POST-mergeTerms_TC-30,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - r-search-data-controller-controller 1-1,text,false,"Value expected to be '0', but found '500'",488,927,1,1,532,0,257
+1526383378041,532,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,488,927,1,1,532,30,257
+1526383908531,524,POST-mergeTerms_TC-30,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - r-search-data-controller-controller 1-1,text,true,,488,927,1,1,524,0,253
+1526383908531,524,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,488,927,1,1,524,40,253
+1526383945735,523,POST-mergeTerms_TC-30,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - r-search-data-controller-controller 1-1,text,false,"Value expected to be '0', but found '500'",488,927,1,1,523,0,250
+1526383945735,523,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,488,927,1,1,523,39,250
+1526384632715,507,GET-selectForProcessings_1,200,OK,[TG] - r-search-data-controller-controller 1-1,,true,,209,279,1,1,507,0,251
+1526384632715,507,[TC] -r-search-data-controller_1,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,209,279,1,1,507,1,251
+1526384801977,0,GET-selectForProcessings_1,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 100: http://172.16.1.200:8080/DataDictionary/v2/rsearch/filterTerm/selectForProcessing?evaluationWindow=${evaluationWindow}&expirationWindow=${expirationWindow},[TG] - r-search-data-controller-controller 1-1,text,false,,1166,0,1,1,0,0,0
+1526384801976,0,[TC] -r-search-data-controller_1,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,1166,0,1,1,0,2,0
+1526384925152,0,GET-selectForProcessings_1,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 101: http://172.16.1.200:8080/DataDictionary/v2/rsearch/filterTerm/selectForProcessing/?evaluationWindow=${evaluationWindow}&expirationWindow=${expirationWindow},[TG] - r-search-data-controller-controller 1-1,text,false,,1167,0,1,1,0,0,0
+1526384925152,0,[TC] -r-search-data-controller_1,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,1167,0,1,1,0,1,0
+1526385089875,0,GET-selectForProcessings_1,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 100: http://172.16.1.200:8080/DataDictionary/v2/rsearch/filterTerm/selectForProcessing?evaluationWindow=${evaluationWindow}&expirationWindow=${expirationWindow},[TG] - r-search-data-controller-controller 1-1,text,false,,1166,0,1,1,0,0,0
+1526385089875,0,[TC] -r-search-data-controller_1,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,1166,0,1,1,0,1,0
+1526385823263,517,GET-selectForProcessings_TC-30,200,OK,[TG] - r-search-data-controller-controller 1-1,text,true,,412,317,1,1,516,0,249
+1526385823262,517,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,412,317,1,1,516,2,249
+1526385856658,521,GET-selectForProcessings_TC-30,200,OK,[TG] - r-search-data-controller-controller 1-1,text,false,"Value expected to be '0', but found '500'",412,317,1,1,521,0,254
+1526385856657,521,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,412,317,1,1,521,2,254
+1526386115071,528,POST-mergeTerms_TC-30,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - r-search-data-controller-controller 1-1,text,false,"Value expected to be '0', but found '500'",488,927,1,1,528,0,253
+1526386115070,528,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,488,927,1,1,528,39,253
+1526386284134,520,POST-mergeTerms_TC-30,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - r-search-data-controller-controller 1-1,text,false,"Value expected to be '0', but found '500'",488,927,1,1,520,0,250
+1526386284133,520,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,488,927,1,1,520,32,250
+1526386447892,532,POST-mergeTerms_TC-30,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - r-search-data-controller-controller 1-1,text,false,"Value expected to be '0', but found '500'",488,927,1,1,532,0,258
+1526386447891,532,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,488,927,1,1,532,37,258
+1526386499774,529,POST-mergeTerms_TC-30,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - r-search-data-controller-controller 1-1,text,false,"Value expected to be '0', but found '500'",488,927,1,1,529,0,259
+1526386499773,529,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,488,927,1,1,529,33,259
+1526386594299,519,POST-mergeTerms_TC-30,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - r-search-data-controller-controller 1-1,text,false,"Value expected to be '0', but found '500'",488,927,1,1,519,0,250
+1526386594298,519,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,488,927,1,1,519,24,250
+1526386802169,509,POST-updateRecommendedName_TC-30,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - r-search-data-controller-controller 1-1,text,false,"Value expected to be '0', but found '-20000'",522,963,1,1,509,0,249
+1526386802169,509,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,522,963,1,1,509,20,249
+1526387076187,514,GET-filterValuess_TC-30,404,Not Found,[TG] - r-search-data-controller-controller 1-1,text,false,,310,264,1,1,514,0,249
+1526387076186,514,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,310,264,1,1,514,2,249
+1526387763543,508,GET-filterValuess_TC-30,404,Not Found,[TG] - r-search-data-controller-controller 1-1,text,false,,310,264,1,1,508,0,251
+1526387763542,508,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,310,264,1,1,508,1,251
+1526387825090,505,GET-filterValuess_TC-30,404,Not Found,[TG] - r-search-data-controller-controller 1-1,text,false,,310,264,1,1,505,0,250
+1526387825090,505,[TC] -r-search-data-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - r-search-data-controller-controller 1-1,,false,,310,264,1,1,505,1,250
+1526387872547,510,GET-filterValuess_TC-30,200,OK,[TG] - r-search-data-controller-controller 1-1,text,true,,2765,261,1,1,509,0,249
+1526387872546,510,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,2765,261,1,1,509,1,249
+1526388081427,510,GET-log_TC-30,200,OK,[TG] - r-search-data-controller-controller 1-1,text,true,,3952,252,1,1,510,0,248
+1526388081427,510,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,3952,252,1,1,510,1,248
+1526388209800,510,GET-log_TC-30,200,OK,[TG] - r-search-data-controller-controller 1-1,text,true,,3951,252,1,1,510,0,250
+1526388209800,510,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,3951,252,1,1,510,0,250
+1526388435764,510,GET-log_TC-30,200,OK,[TG] - r-search-data-controller-controller 1-1,text,true,,350,317,1,1,510,0,251
+1526388435764,510,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,350,317,1,1,510,1,251
+1526388454203,512,GET-log_TC-30,200,OK,[TG] - r-search-data-controller-controller 1-1,text,true,,3952,294,1,1,512,0,248
+1526388454202,512,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,3952,294,1,1,512,2,248
+1526389151843,509,POST-logs_TC-30,200,OK,[TG] - r-search-data-controller-controller 1-1,text,true,,480,622,1,1,509,0,250
+1526389151842,509,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,480,622,1,1,509,2,250
+1526394154550,518,POST-logs_TC-30,200,OK,[TG] - r-search-data-controller-controller 1-1,text,true,,481,622,1,1,517,0,252
+1526394154548,518,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,481,622,1,1,517,3,252
+1526394286133,586,POST-logs_TC-30,200,OK,[TG] - r-search-data-controller-controller 1-1,text,true,,480,622,1,1,586,0,250
+1526394286132,586,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,480,622,1,1,586,2,250
+1526394499080,599,POST- reverseMapping_TC-30,200,OK,[TG] - r-search-data-controller-controller 1-1,text,true,,349,403,1,1,599,0,330
+1526394499079,599,[TC] -r-search-data-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - r-search-data-controller-controller 1-1,,true,,349,403,1,1,599,2,330

@@ -1,0 +1,5 @@
+description,inUse,name,testCaseId,expectedError
+string Timestamp Bin 4,false,string Timestamp Bin 4,TC-407,0
+string Timestamp Bin 4,true,string Timestamp Bin 5,TC-408,0
+string Timestamp Bin 6,true,,TC-409,500
+,,string Timestamp Bin 7,TC-410,0

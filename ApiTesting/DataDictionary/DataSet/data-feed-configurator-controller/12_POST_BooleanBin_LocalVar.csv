@@ -1,0 +1,2 @@
+description,name,testCaseId,expectedError
+test boolean bin,test boolean bin,TC-148,0

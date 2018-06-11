@@ -1,0 +1,3 @@
+﻿repoAlias,id,gitPath,testCaseId,readOnly
+damsl-test-stats,71,git@bitbucket.org:arefor/damsl-dev-stats.git,TC-24,True
+test77,72,git@bitbucket.org:arefor/damsl-dev-stats.git,TC-24,false

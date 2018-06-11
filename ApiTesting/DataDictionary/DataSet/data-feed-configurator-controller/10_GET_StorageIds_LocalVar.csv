@@ -1,0 +1,9 @@
+visibleOnly,classSetId,testCaseId,expectedError
+,,TC-25,0
+true,,TC-26,0
+false,,TC-340,0
+,1,TC-341,0
+,100,TC-342,0
+,test,TC-343,400
+true,1,TC-344,0
+false,1,TC-345,0

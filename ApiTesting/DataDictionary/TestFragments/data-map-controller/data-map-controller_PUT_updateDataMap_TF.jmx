@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="data-map-controller_PUT_updateDataMap_TF" enabled="true">
+      <stringProp name="TestPlan.comments">updateDataMap</stringProp>
+      <boolProp name="TestPlan.functional_mode">true</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] - PUT " enabled="false">
+        <stringProp name="TestPlan.comments">updateDataMap</stringProp>
+      </TestFragmentController>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PUT-updateDataMap_${testCaseId}" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;entityType&quot;: {&#xd;
+    &quot;description&quot;: &quot;${description}&quot;,&#xd;
+    &quot;id&quot;: ${id},&#xd;
+    &quot;name&quot;: &quot;${name}&quot;&#xd;
+  },&#xd;
+  &quot;id&quot;: ${id1},&#xd;
+  &quot;name&quot;: &quot;${name1}&quot;,&#xd;
+  &quot;subClasses&quot;: [&#xd;
+    {&#xd;
+      &quot;dataSources&quot;: [&#xd;
+        {&#xd;
+          &quot;id&quot;: ${id2},&#xd;
+          &quot;name&quot;: &quot;${name2}&quot;&#xd;
+        }&#xd;
+      ],&#xd;
+      &quot;dataType&quot;: {&#xd;
+        &quot;cat&quot;: &quot;${cat}&quot;,&#xd;
+        &quot;description&quot;: &quot;${description1}&quot;,&#xd;
+        &quot;hiddenIndicator&quot;: ${hiddenIndicator},&#xd;
+        &quot;id&quot;: ${id3},&#xd;
+        &quot;name&quot;: &quot;${name3}&quot;&#xd;
+      },&#xd;
+      &quot;id&quot;: ${id4},&#xd;
+      &quot;masterIndicator&quot;: ${masterIndicator},&#xd;
+      &quot;name&quot;: &quot;${name4}&quot;&#xd;
+    }&#xd;
+  ]&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${server_name}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/DataDictionary/v${Endpoint_Version}/dataMap</stringProp>
+          <stringProp name="HTTPSampler.method">PUT</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="TestPlan.comments">updateDataMap</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

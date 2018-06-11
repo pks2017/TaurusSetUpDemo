@@ -1,0 +1,7 @@
+﻿storageBinId,visible,ignoreHidden,expectedError,testCaseId
+1,TRUE,TRUE,TC-314,
+1,TRUE,FALSE,TC-315,
+1,FALSE,TRUE,TC-316,
+1,FALSE,FALSE,TC-317,
+99999999,TRUE,TRUE,TC-318,
+abc,TRUE,TRUE,TC-319,

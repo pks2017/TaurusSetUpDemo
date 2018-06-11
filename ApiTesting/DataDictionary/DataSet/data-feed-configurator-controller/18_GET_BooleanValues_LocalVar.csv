@@ -1,0 +1,4 @@
+booleanBinId,testCaseId,expectedError
+22,TC-168,0
+100,TC-169,0
+test,TC-170,400

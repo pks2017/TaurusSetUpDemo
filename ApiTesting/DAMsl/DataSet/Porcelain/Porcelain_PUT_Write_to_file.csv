@@ -1,0 +1,10 @@
+repoAlias,path,m,TestCaseId,expectedError
+khutest,new-dir223/new-test-file-khuPorce2234.txt,final commit ,TC-80,0
+khutest,,,TC-81,0
+khutest,new-dir223/new-test-file-khuPorce2234.txt,,TC-82,318
+khutest676767,new-dir223/new-test-file-khuPorce2234.txt,,TC-83,304
+khutest,new-dir223/new_sample12.txt,,TC-103,0
+khutest,new1-dir223/new-test-file-khuPorce2234.cvb,Test Data,TC-103,0
+khutest,*new-dir223/new-test-file-khuPorce2234.cvb,,TC-103,0
+khutest, @new1-dir223/new-test-file-khuPorce2234.cvb,,TC-103,0
+khutest, /new-dir223/new-test-file-khuPorce2234.cvb,,TC-103,0

@@ -1,0 +1,5 @@
+﻿storageFieldIds,ignoreHidden,expectedError,testCaseId
+1,TRUE,0,TC-278
+1,FALSE,0,TC-279
+99999999,TRUE,0,TC-280
+abc,,0,TC-281

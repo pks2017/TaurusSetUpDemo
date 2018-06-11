@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="DAMsl_Normal_Workflow" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="envName" elementType="Argument">
+            <stringProp name="Argument.name">envName</stringProp>
+            <stringProp name="Argument.value">${__P(envName,QA)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="name" elementType="Argument">
+            <stringProp name="Argument.name">name</stringProp>
+            <stringProp name="Argument.value">test-layouts_pks</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="id" elementType="Argument">
+            <stringProp name="Argument.name">id</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="remote" elementType="Argument">
+            <stringProp name="Argument.name">remote</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="condition" elementType="Argument">
+            <stringProp name="Argument.name">condition</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Global Data Set Config" enabled="true">
+        <stringProp name="delimiter">,</stringProp>
+        <stringProp name="fileEncoding"></stringProp>
+        <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/DataSet/Environment&quot;;,)}/GlobalVar_${envName}.csv</stringProp>
+        <boolProp name="ignoreFirstLine">false</boolProp>
+        <boolProp name="quotedData">false</boolProp>
+        <boolProp name="recycle">true</boolProp>
+        <stringProp name="shareMode">shareMode.all</stringProp>
+        <boolProp name="stopThread">false</boolProp>
+        <stringProp name="variableNames"></stringProp>
+      </CSVDataSet>
+      <hashTree/>
+      <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
+        <collectionProp name="CookieManager.cookies">
+          <elementProp name="c_unique_id" elementType="Cookie" testname="c_unique_id">
+            <stringProp name="Cookie.value">${user_key}</stringProp>
+            <stringProp name="Cookie.domain">${server_name}</stringProp>
+            <stringProp name="Cookie.path"></stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">true</boolProp>
+            <boolProp name="Cookie.domain_specified">true</boolProp>
+          </elementProp>
+          <elementProp name="appKey" elementType="Cookie" testname="appKey">
+            <stringProp name="Cookie.value">${app_key}</stringProp>
+            <stringProp name="Cookie.domain">${server_name}</stringProp>
+            <stringProp name="Cookie.path"></stringProp>
+            <boolProp name="Cookie.secure">false</boolProp>
+            <longProp name="Cookie.expires">0</longProp>
+            <boolProp name="Cookie.path_specified">true</boolProp>
+            <boolProp name="Cookie.domain_specified">true</boolProp>
+          </elementProp>
+        </collectionProp>
+        <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+      </CookieManager>
+      <hashTree/>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+        <collectionProp name="HeaderManager.headers">
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">x-gitfs-workspace</stringProp>
+            <stringProp name="Header.value">ewolf</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Content-Type</stringProp>
+            <stringProp name="Header.value">application/json</stringProp>
+          </elementProp>
+        </collectionProp>
+      </HeaderManager>
+      <hashTree/>
+      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="false">
+        <stringProp name="filename">C:\BitbucketRepo\jmeter\ApiTesting\DAMsl\DataSet\RepoMgmt\RepoMgmt_GET_Match_LocalVar.csv</stringProp>
+        <stringProp name="fileEncoding"></stringProp>
+        <stringProp name="variableNames">id,name,remote,testCaseId,expectedError</stringProp>
+        <boolProp name="ignoreFirstLine">true</boolProp>
+        <stringProp name="delimiter">,</stringProp>
+        <boolProp name="quotedData">false</boolProp>
+        <boolProp name="recycle">true</boolProp>
+        <boolProp name="stopThread">false</boolProp>
+        <stringProp name="shareMode">shareMode.all</stringProp>
+      </CSVDataSet>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="repoAlias" elementType="Argument">
+            <stringProp name="Argument.name">repoAlias</stringProp>
+            <stringProp name="Argument.value">${name}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="readOnly" elementType="Argument">
+            <stringProp name="Argument.name">readOnly</stringProp>
+            <stringProp name="Argument.value">false</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="notify" elementType="Argument">
+            <stringProp name="Argument.name">notify</stringProp>
+            <stringProp name="Argument.value">false</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="envBranch" elementType="Argument">
+            <stringProp name="Argument.name">envBranch</stringProp>
+            <stringProp name="Argument.value">true</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="remoteRepositoryPath" elementType="Argument">
+            <stringProp name="Argument.name">remoteRepositoryPath</stringProp>
+            <stringProp name="Argument.value">git@bitbucket.org:arefor/damsl-dev-layouts.git</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="ff1" elementType="Argument">
+            <stringProp name="Argument.name">ff1</stringProp>
+            <stringProp name="Argument.value">FF</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="strat1" elementType="Argument">
+            <stringProp name="Argument.name">strat1</stringProp>
+            <stringProp name="Argument.value">RESOLVE</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="rebase1" elementType="Argument">
+            <stringProp name="Argument.name">rebase1</stringProp>
+            <stringProp name="Argument.value">FALSE</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="[TG]-DAMsl_Normal_Workflow_Single_user" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+        </TransactionController>
+        <hashTree>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Get_Repos by repoAlias" enabled="true">
+            <stringProp name="TestPlan.comments">Verify if local repo exist for the given repo alias</stringProp>
+            <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/RepoMgmt/RepoMgmt_GET_Repo_TF.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Compliance Assertion1" enabled="false">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Utility&quot;;,)}/ComplianceAssertion.groovy</stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script"></stringProp>
+          </JSR223Assertion>
+          <hashTree/>
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Assertion- verify queried local repo found or not" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">import groovy.json.JsonSlurper;
+
+def failureMessage = &quot;&quot;;
+
+def successMessage = &quot;&quot;;
+// json variable
+def jResponse = null;
+
+//boolean set_assertion = true;
+def repoMatchName =vars.get(&quot;name&quot;);
+
+JsonSlurper JSON = new JsonSlurper ();
+
+def runCondition = 1;
+
+
+if (prev.getResponseCode().equals(&quot;200&quot;)) {
+	try 
+	{
+		jResponse =JSON.parseText(prev.getResponseDataAsString());
+		if ((jResponse.keySet().contains(&quot;diagnostics&quot;)) &amp;&amp; (jResponse.keySet().contains(&quot;data&quot;)))
+		{
+			if (jResponse.diagnostics.error.equals(0))
+			{
+				if (jResponse.data.equals(null))
+				{
+					log.info(&quot;\n\nCondition_Before: &quot; + ${condition});
+					vars.put(&quot;condition&quot;, runCondition);
+					successMessage +=&quot;The given repo name &apos;&quot; + ${name} + &quot;&apos; not found as local repo. Going to create the given local repo now.&quot;;
+					log.info(&quot;\n\nCondition_After: &quot; + ${condition});
+				}
+				else
+				{
+					if (repoMatchName != (jResponse.data.repoAlias))
+					{
+						failureMessage +=&quot;Invalid repoAlias data.&quot;
+					}
+					else
+					{
+						successMessage +=&quot;The given repo name &apos;&quot; + ${name} + &quot;&apos; exists as local repo. Now going to pull the latest from bitbucket to local repo.&quot;;
+					}
+				}
+			}
+			else
+			{
+				failureMessage += &quot;Verify Json response Error Code.&quot;;
+			}				
+		}
+		else
+		{
+			failureMessage += &quot;Respone data compliance issue.&quot;;
+		}
+	}
+	catch (Exception e)
+	{
+		failureMessage += &quot;Invalid JSON, error while parsing.\n&quot;;
+    		throw(e);
+    }	
+}
+else
+{
+	failureMessage += &quot;Expected &lt;response code&gt; [200] but we got instead [&quot; + prev.getResponseCode() + &quot;]\n\n&quot; ;
+}
+
+if (failureMessage?.trim()) 
+{
+	failureMessage += &quot;URL: &quot; + SampleResult.getURL() + &quot;\n\n&quot;;
+	failureMessage += &quot;JSON RESPONSE: &quot; + jsonResponse + &quot;\n\n&quot;;
+	failureMessage += &quot;REQUEST HEADERS: &quot; + SampleResult.getRequestHeaders() + &quot;\n\n&quot;;
+	AssertionResult.setFailureMessage(failureMessage);
+	AssertionResult.setFailure(true);
+}
+
+else 
+{
+	log.info(&quot;\n\n&quot;+successMessage);
+	prev.setResponseMessage(&apos;Passed: &apos; + successMessage);
+}</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223Assertion>
+          <hashTree/>
+          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Ctrl - Create new repo if given local Repo does not exist" enabled="true">
+            <stringProp name="IfController.condition">${__groovy(${condition},)}==1</stringProp>
+            <boolProp name="IfController.evaluateAll">false</boolProp>
+            <boolProp name="IfController.useExpression">true</boolProp>
+          </IfController>
+          <hashTree>
+            <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Post_Create_New_Repo" enabled="true">
+              <stringProp name="TestPlan.comments">Create new local repository</stringProp>
+              <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/RepoMgmt/RepoMgmt_POST_Repo_TF.jmx</stringProp>
+            </IncludeController>
+            <hashTree/>
+            <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Compliance Assertion2" enabled="true">
+              <stringProp name="scriptLanguage">groovy</stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Utility&quot;;,)}/ComplianceAssertion.groovy</stringProp>
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="script"></stringProp>
+            </JSR223Assertion>
+            <hashTree/>
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller - Assert further if response OK" enabled="true">
+              <stringProp name="IfController.condition">${__groovy(prev.getResponseCode().equals(&quot;200&quot;))}</stringProp>
+              <boolProp name="IfController.evaluateAll">false</boolProp>
+              <boolProp name="IfController.useExpression">true</boolProp>
+            </IfController>
+            <hashTree>
+              <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Assertion- verify new local repo are created" enabled="true">
+                <stringProp name="cacheKey">true</stringProp>
+                <stringProp name="filename"></stringProp>
+                <stringProp name="parameters"></stringProp>
+                <stringProp name="script">catch (Exception e)
+	{
+		failureMessage += &quot;Invalid JSON, error while parsing.\n&quot;;
+    		throw(e);
+    }import groovy.json.JsonSlurper;
+
+def failureMessage = &quot;&quot;;
+
+def successMessage = &quot;&quot;;
+
+// json variable
+def jResponse = null;
+
+//boolean set_assertion = true;
+def repoMatchName =vars.get(&quot;name&quot;);
+
+JsonSlurper JSON = new JsonSlurper ();
+try {
+	jResponse =JSON.parseText(prev.getResponseDataAsString());
+	if ((jResponse.keySet().contains(&quot;diagnostics&quot;)) &amp;&amp; ((jResponse.keySet().contains(&quot;data&quot;)))){
+		if (jResponse.diagnostics.error.equals(0)){
+			if (!jResponse.data.equals(null)){
+				if (repoMatchName == (jResponse.data.repoAlias)){
+					successMessage += &quot;Local repo is created for the given repo alias name &apos;&quot; + ${name} + &quot;&apos; Now going to pull the latest from bitbucket to this local repo.&quot;;										
+				}
+				else{
+					failureMessage +=&quot;Invalid repoAlias data.&quot;;
+				}
+			}
+			else{
+				successMessage += &quot;The given repo name &apos;&quot; + ${name} + &quot;&apos; not found as local repo. Going to create the given local repo now.&quot;;
+			}
+		}
+		else{
+			if (jResponse.diagnostics.error.equals(312)) {
+				log.info(&quot;\n\nWarning: Create New Repo API was called but found as Duplicate Repo that already exist.&quot;); 
+			}
+			else {
+				failureMessage +=&quot;Unknown response error code.&quot;;
+			}
+		}
+	}
+	else{
+		failureMessage +=&quot;Invalid response data.&quot;;
+	}
+}
+
+catch (Exception e) {
+		failureMessage += &quot;Invalid JSON, error while parsing.\n&quot;;
+    		throw(e);
+}
+
+if (failureMessage?.trim()) {
+	failureMessage += &quot;URL: &quot; + SampleResult.getURL() + &quot;\n\n&quot;;
+	failureMessage += &quot;JSON RESPONSE: &quot; + jsonResponse + &quot;\n\n&quot;;
+	failureMessage += &quot;REQUEST HEADERS: &quot; + SampleResult.getRequestHeaders() + &quot;\n\n&quot;;
+	AssertionResult.setFailureMessage(failureMessage);
+	AssertionResult.setFailure(true);
+}
+
+else {
+	log.info(&quot;\n\n&quot;+successMessage);
+	prev.setResponseMessage(&apos;Endpoint is working.&apos; + successMessage);
+}</stringProp>
+                <stringProp name="scriptLanguage">groovy</stringProp>
+              </JSR223Assertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Pull_Remote Repo to Local" enabled="true">
+            <stringProp name="TestPlan.comments">Pull latest from Bitbucket to local repo</stringProp>
+            <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/Plumbing/Plumbing_POST_Pull_TF.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Compliance Assertion3" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Utility&quot;;,)}/ComplianceAssertion.groovy</stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script"></stringProp>
+          </JSR223Assertion>
+          <hashTree/>
+          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller - Assert further if response OK" enabled="true">
+            <stringProp name="IfController.condition">${__groovy(prev.getResponseCode().equals(&quot;200&quot;))}</stringProp>
+            <boolProp name="IfController.evaluateAll">false</boolProp>
+            <boolProp name="IfController.useExpression">true</boolProp>
+          </IfController>
+          <hashTree>
+            <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Assertion- verify that latest from Bitbucket is pulled to local repo" enabled="true">
+              <stringProp name="cacheKey">true</stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="script">import groovy.json.JsonSlurper;
+
+def failureMessage = &quot;&quot;;
+
+def successMessage = &quot;&quot;;
+// json variable
+def jResponse = null;
+
+def repoMatchName =vars.get(&quot;name&quot;);
+
+JsonSlurper JSON = new JsonSlurper ();
+
+	try 
+	{
+		jResponse =JSON.parseText(prev.getResponseDataAsString());
+		if ((jResponse.keySet().contains(&quot;diagnostics&quot;)) &amp;&amp; (jResponse.keySet().contains(&quot;data&quot;)))
+		{
+			if (jResponse.diagnostics.error.equals(0))
+			{
+				successMessage += &quot;The local repository is updated with latest or it&apos;s already updated.&quot;;
+			}
+			else if (jResponse.diagnostics.error.equals(304))
+			{
+				failureMessage += &quot;Repository&quot; + ${repoAlias}+ &quot; not found or not defined&quot;;
+			}			
+			else
+			{
+				failureMessage += &quot;Unknown Json response Error Code.&quot;;
+			}				
+		}
+	}
+	catch (Exception e)
+	{
+		failureMessage += &quot;Invalid JSON, error while parsing.\n&quot;;
+    		throw(e);
+    }	
+
+if (failureMessage?.trim()) 
+{
+	failureMessage += &quot;URL: &quot; + SampleResult.getURL() + &quot;\n\n&quot;;
+	failureMessage += &quot;JSON RESPONSE: &quot; + jsonResponse + &quot;\n\n&quot;;
+	failureMessage += &quot;REQUEST HEADERS: &quot; + SampleResult.getRequestHeaders() + &quot;\n\n&quot;;
+	AssertionResult.setFailureMessage(failureMessage);
+	AssertionResult.setFailure(true);
+}
+else 
+{
+	log.info(&quot;\n\n&quot; + successMessage);
+	prev.setResponseMessage(&apos;Endpoint is working.&apos; + successMessage);
+}</stringProp>
+              <stringProp name="scriptLanguage">groovy</stringProp>
+            </JSR223Assertion>
+            <hashTree/>
+          </hashTree>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Get_Status of the Local Repo " enabled="false">
+            <stringProp name="TestPlan.comments">Get the Repo Status after Pulling latest from Bitbucket</stringProp>
+            <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/Plumbing/Plumbing_GET_Status_TF.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Assertion-verify the Repo Status" enabled="false">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script"></stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223Assertion>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Put_WriteContent_on_ExistingFile" enabled="false">
+            <stringProp name="TestPlan.comments">Update/Modify for commiting</stringProp>
+            <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/CRUD/CRUD_PUT_WriteContentsInFile_TF.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Assertion- verify that file is modified" enabled="false">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script"></stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223Assertion>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Post_Add the changed files to Stage" enabled="false">
+            <stringProp name="TestPlan.comments">add files in the stage list for commiting</stringProp>
+            <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/Plumbing/Plumbing_POST_Add_TF.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Assertion- verify changed file is Staged" enabled="false">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script"></stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223Assertion>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Post_Commit the changes" enabled="false">
+            <stringProp name="TestPlan.comments">commit the staged files</stringProp>
+            <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/Plumbing/Plumbing_POST_Commit_TF.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Assertion- verify staged files are commited" enabled="false">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script"></stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223Assertion>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Post_Push the commited files" enabled="false">
+            <stringProp name="TestPlan.comments">Push the commited files to Remote repository</stringProp>
+            <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/Plumbing/Plumbing_POST_Push_TF.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Assertion- verify that commited files are pushed to bit bucket" enabled="false">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script"></stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223Assertion>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - DELETE_Local_Repo_Once_Test_Finished" enabled="false">
+            <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/RepoMgmt/RepoMgmt_DELETE_Repo_TF.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="false">
+            <boolProp name="displayJMeterProperties">true</boolProp>
+            <boolProp name="displayJMeterVariables">true</boolProp>
+            <boolProp name="displaySystemProperties">false</boolProp>
+          </DebugSampler>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def environment = vars.get(&quot;envName&quot;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Reports&quot;;,)}/Result_${envName}_${__time(MM-dd-yyyy,)}.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

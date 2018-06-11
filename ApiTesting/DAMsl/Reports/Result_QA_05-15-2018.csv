@@ -1,0 +1,56 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,URL,SampleCount,ErrorCount,IdleTime
+1526389542235,0,Plumbing_POST - Add_CompleteURI_TC-92_01,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 98: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias1}?all=TRUE&force=FALSE&update=FALSE&path=pks-dir,[TG] - DAMSL_Plumbing_POST_Add 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias1}?all=TRUE&force=FALSE&update=FALSE&path=pks-dir
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias1}?all=TRUE&force=FALSE&update=FALSE&path=pks-dir,1,1,0
+1526389542278,0,Plumbing_POST - Add_with_allTC-92_08,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 98: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias2}?all=FALSE&force=FALSE&update=FALSE,[TG] - DAMSL_Plumbing_POST_Add 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias2}?all=FALSE&force=FALSE&update=FALSE
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias2}?all=FALSE&force=FALSE&update=FALSE,1,1,0
+1526389542281,0,Plumbing_POST - Add_with_path_TC-92_15,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 98: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias3}?force=FALSE&update=FALSE&path=pks-dir,[TG] - DAMSL_Plumbing_POST_Add 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias3}?force=FALSE&update=FALSE&path=pks-dir
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias3}?force=FALSE&update=FALSE&path=pks-dir,1,1,0
+1526389542284,0,Plumbing_POST - Add_only_allTC-92_22,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 98: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias4}?all=,[TG] - DAMSL_Plumbing_POST_Add 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias4}?all=
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias4}?all=,1,1,0
+1526389542288,0,Plumbing_POST - Add_only_path_TC-92_29,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 98: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias5}?path=,[TG] - DAMSL_Plumbing_POST_Add 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias5}?path=
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias5}?path=,1,1,0
+1526389542291,0,Plumbing_POST - Add_multiple_path_TC-92_36,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 98: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias6}?path=test-dir&path=text003.txt&path=new-dir/test_03.txt,[TG] - DAMSL_Plumbing_POST_Add 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias6}?path=test-dir&path=text003.txt&path=new-dir/test_03.txt
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/damsl/v1/rest/git-fs/add/${repoAlias6}?path=test-dir&path=text003.txt&path=new-dir/test_03.txt,1,1,0
+1526389542235,0,[TC] - Plumbing_ POST_Add,,"Number of samples in transaction : 6, number of failing samples : 6",[TG] - DAMSL_Plumbing_POST_Add 1-1,,false,,null,1,1,59

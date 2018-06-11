@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,grpThreads,allThreads,URL,Latency,SampleCount,ErrorCount
+1525936620528,1713,caller_POST_validate_TC-100,404,Not Found,[TG] -caller_POST_Validate 1-1,text,false,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/validate,1713,1,1
+1525936620528,1713,[TC] - caller_POST_validate_TC-100,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -caller_POST_Validate 1-1,,false,,1,1,null,1713,1,1
+1525939903278,513,caller_GET_List_Files_TC-100,404,Not Found,[TG] -caller 1-1,text,false,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/list,513,1,1
+1525939903277,513,[TC] - caller_GET_List_Files_TC-100,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -caller 1-1,,false,,1,1,null,513,1,1
+1525940013201,532,caller_GET_List_Files_TC-100,404,Not Found,[TG] -caller 1-1,text,false,,1,1,http://172.16.1.200:8080/Statistics/v4/rest/caller/list,532,1,1
+1525940013200,532,[TC] - caller_GET_List_TC-100,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -caller 1-1,,false,,1,1,null,532,1,1

@@ -1,0 +1,8 @@
+repoAlias,dryrun,ignored,TestCaseId
+test-layouts5,false,false,TC-120_01
+test-layouts5,true,false,TC-120_02
+test-layouts5,false,true,TC-120_03
+test-layouts5,true,true,TC-120_04
+test-layouts5,true,,TC-120_05
+test-layouts5,,true,TC-120_06
+test-layouts5,,,TC-120_07

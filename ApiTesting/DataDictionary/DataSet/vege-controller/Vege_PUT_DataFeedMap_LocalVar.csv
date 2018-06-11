@@ -1,0 +1,3 @@
+﻿attributeDensity,dataFeed_description,dataFeed_id,dataFeed_name,classSet_description,classSet_id,classSet_name,classSetTag_desc,classSetTag_id,classSetTag_name,expectedError,testCaseId
+0,dataFeed_description,1,dataFeed_name,classSet_description,1,classSet_name,classSetTag_desc,1,classSetTag_name,0,TC-180
+attributeDensity,dataFeed_description,dataFeed_id,dataFeed_name,classSet_description,classSet_id,classSet_name,classSetTag_desc,classSetTag_id,classSetTag_name,0,TC-182

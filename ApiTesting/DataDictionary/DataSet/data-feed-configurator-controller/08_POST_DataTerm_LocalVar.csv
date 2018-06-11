@@ -1,0 +1,5 @@
+dataTermType_description,dataTermType_id,dataTermType_name,dataTermType_solrType,dataTermType_sqlType,dataTermType_type,description,exchangeName,mappingAllowedIndicator,name,synonyms,testCaseId,expectedError
+string,10,string,string,string,string,test,test test,true,string,string,TC-20_01,-20000
+string,1000,string,string,string,string,test,test test,true,string,string,TC-20_02,-2291
+test,1,test,test,test,test,test,test test,true,test test,test,TC-20_03,0
+string,integer,string,string,string,string,test,test test,true,string string,string,TC-46,400

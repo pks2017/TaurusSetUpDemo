@@ -1,0 +1,5 @@
+repoAlias1,path1,m1,all1,TestCaseId_1,repoAlias2,path2,m2,TestCaseId_2,repoAlias3,m3,all3,TestCaseId_3
+test-layouts5,test-dir,testMsg,true,TC-127_01,test-layouts5,pks-dir/text-new.txt,pks_committing,TC-127_05,test-layouts5,pks is committing,false,TC-127_09
+test-layouts5,test-dir,testMsg,false,TC-127_02,test-layouts5,pks-dir,pks is committing dir,TC-127_06,test-layouts5,pks_committing,true,TC-127_10
+test-layouts5,,first,true,TC-127_03,test-layouts5,pks-dir/text-new-pks.txt,test_commiting,TC-127_07,test-layouts5,pks,true,TC-127_11
+test-layouts5,,,false,TC-127_04,test-layouts5,pks-dir/text-new-pks.txt,,TC-127_08,test-layouts5,,true,TC-127_12

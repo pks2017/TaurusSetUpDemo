@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Vege PUT DataFeedMap" enabled="true">
+      <stringProp name="TestPlan.comments">PUT /vegeModel/dataFeedMap</stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] - PUT DataFeedMap" enabled="true"/>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PUT DataFeedMap" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;dataFeed&quot;: {&#xd;
+    &quot;attributeDensity&quot;: ${attributeDensity},&#xd;
+    &quot;booleanBin&quot;: {&#xd;
+      &quot;description&quot;: &quot;${dataFeed_description}&quot;,&#xd;
+      &quot;id&quot;: ${dataFeed_id},&#xd;
+      &quot;name&quot;: &quot;${dataFeed_name}&quot;&#xd;
+    },&#xd;
+    &quot;classSetTag&quot;: {&#xd;
+      &quot;classSet&quot;: {&#xd;
+        &quot;dataClass&quot;: {&#xd;
+          &quot;description&quot;: &quot;${classSet_description}&quot;,&#xd;
+          &quot;id&quot;: ${classSet_id},&#xd;
+          &quot;name&quot;: &quot;${classSet_name}&quot;&#xd;
+        },&#xd;
+        &quot;description&quot;: &quot;${classSetTag_desc}&quot;,&#xd;
+        &quot;id&quot;: ${classSetTag_id},&#xd;
+        &quot;name&quot;: &quot;${classSetTag_name}&quot;,&#xd;
+        &quot;storageIds&quot;: [&#xd;
+          {&#xd;
+            &quot;classSetId&quot;: 0,&#xd;
+            &quot;description&quot;: &quot;string&quot;,&#xd;
+            &quot;hiddenIndicator&quot;: true,&#xd;
+            &quot;id&quot;: 0,&#xd;
+            &quot;masterIndicator&quot;: true,&#xd;
+            &quot;name&quot;: &quot;string&quot;,&#xd;
+            &quot;storageCategory&quot;: {&#xd;
+              &quot;cat&quot;: &quot;string&quot;,&#xd;
+              &quot;description&quot;: &quot;string&quot;,&#xd;
+              &quot;hiddenIndicator&quot;: true,&#xd;
+              &quot;id&quot;: 0,&#xd;
+              &quot;name&quot;: &quot;string&quot;&#xd;
+            }&#xd;
+          }&#xd;
+        ]&#xd;
+      },&#xd;
+      &quot;id&quot;: 0,&#xd;
+      &quot;masterIndicator&quot;: true,&#xd;
+      &quot;storageTag&quot;: {&#xd;
+        &quot;id&quot;: 0,&#xd;
+        &quot;multivalueIndicator&quot;: true,&#xd;
+        &quot;storageId&quot;: {&#xd;
+          &quot;classSetId&quot;: 0,&#xd;
+          &quot;description&quot;: &quot;string&quot;,&#xd;
+          &quot;hiddenIndicator&quot;: true,&#xd;
+          &quot;id&quot;: 0,&#xd;
+          &quot;masterIndicator&quot;: true,&#xd;
+          &quot;name&quot;: &quot;string&quot;,&#xd;
+          &quot;storageCategory&quot;: {&#xd;
+            &quot;cat&quot;: &quot;string&quot;,&#xd;
+            &quot;description&quot;: &quot;string&quot;,&#xd;
+            &quot;hiddenIndicator&quot;: true,&#xd;
+            &quot;id&quot;: 0,&#xd;
+            &quot;name&quot;: &quot;string&quot;&#xd;
+          }&#xd;
+        },&#xd;
+        &quot;storageStage&quot;: {&#xd;
+          &quot;description&quot;: &quot;string&quot;,&#xd;
+          &quot;hiddenIndicator&quot;: true,&#xd;
+          &quot;id&quot;: 0,&#xd;
+          &quot;name&quot;: &quot;string&quot;,&#xd;
+          &quot;stage&quot;: &quot;string&quot;,&#xd;
+          &quot;storageBin&quot;: {&#xd;
+            &quot;bin&quot;: &quot;string&quot;,&#xd;
+            &quot;description&quot;: &quot;string&quot;,&#xd;
+            &quot;id&quot;: 0,&#xd;
+            &quot;name&quot;: &quot;string&quot;&#xd;
+          }&#xd;
+        },&#xd;
+        &quot;tag&quot;: &quot;string&quot;&#xd;
+      }&#xd;
+    },&#xd;
+    &quot;cleanIndicator&quot;: true,&#xd;
+    &quot;confidenceLevel&quot;: 0,&#xd;
+    &quot;dataFeedBin&quot;: {&#xd;
+      &quot;description&quot;: &quot;string&quot;,&#xd;
+      &quot;id&quot;: 0,&#xd;
+      &quot;name&quot;: &quot;string&quot;&#xd;
+    },&#xd;
+    &quot;daysToExpire&quot;: 0,&#xd;
+    &quot;description&quot;: &quot;string&quot;,&#xd;
+    &quot;hashedDocIdIndicator&quot;: true,&#xd;
+    &quot;hashedModifierIndicator&quot;: true,&#xd;
+    &quot;hiddenIndicator&quot;: true,&#xd;
+    &quot;id&quot;: 0,&#xd;
+    &quot;ignoreUnknownFieldsIndicator&quot;: true,&#xd;
+    &quot;lastRunDate&quot;: &quot;string&quot;,&#xd;
+    &quot;lastRunStatus&quot;: &quot;string&quot;,&#xd;
+    &quot;lastUpdatedDate&quot;: &quot;2018-05-15T12:26:54.335Z&quot;,&#xd;
+    &quot;name&quot;: &quot;string&quot;,&#xd;
+    &quot;sequenceModifierIndicator&quot;: true,&#xd;
+    &quot;termCount&quot;: 0,&#xd;
+    &quot;timestampBin&quot;: {&#xd;
+      &quot;description&quot;: &quot;string&quot;,&#xd;
+      &quot;id&quot;: 0,&#xd;
+      &quot;inUse&quot;: true,&#xd;
+      &quot;name&quot;: &quot;string&quot;&#xd;
+    },&#xd;
+    &quot;uniqueGUIDsCount&quot;: 0&#xd;
+  },&#xd;
+  &quot;dataFeedMaps&quot;: {},&#xd;
+  &quot;dataFeedMapsList&quot;: [&#xd;
+    {&#xd;
+      &quot;dataFeedField&quot;: {&#xd;
+        &quot;dataFeed&quot;: {&#xd;
+          &quot;attributeDensity&quot;: 0,&#xd;
+          &quot;booleanBin&quot;: {&#xd;
+            &quot;description&quot;: &quot;string&quot;,&#xd;
+            &quot;id&quot;: 0,&#xd;
+            &quot;name&quot;: &quot;string&quot;&#xd;
+          },&#xd;
+          &quot;classSetTag&quot;: {&#xd;
+            &quot;classSet&quot;: {&#xd;
+              &quot;dataClass&quot;: {&#xd;
+                &quot;description&quot;: &quot;string&quot;,&#xd;
+                &quot;id&quot;: 0,&#xd;
+                &quot;name&quot;: &quot;string&quot;&#xd;
+              },&#xd;
+              &quot;description&quot;: &quot;string&quot;,&#xd;
+              &quot;id&quot;: 0,&#xd;
+              &quot;name&quot;: &quot;string&quot;,&#xd;
+              &quot;storageIds&quot;: [&#xd;
+                {&#xd;
+                  &quot;classSetId&quot;: 0,&#xd;
+                  &quot;description&quot;: &quot;string&quot;,&#xd;
+                  &quot;hiddenIndicator&quot;: true,&#xd;
+                  &quot;id&quot;: 0,&#xd;
+                  &quot;masterIndicator&quot;: true,&#xd;
+                  &quot;name&quot;: &quot;string&quot;,&#xd;
+                  &quot;storageCategory&quot;: {&#xd;
+                    &quot;cat&quot;: &quot;string&quot;,&#xd;
+                    &quot;description&quot;: &quot;string&quot;,&#xd;
+                    &quot;hiddenIndicator&quot;: true,&#xd;
+                    &quot;id&quot;: 0,&#xd;
+                    &quot;name&quot;: &quot;string&quot;&#xd;
+                  }&#xd;
+                }&#xd;
+              ]&#xd;
+            },&#xd;
+            &quot;id&quot;: 0,&#xd;
+            &quot;masterIndicator&quot;: true,&#xd;
+            &quot;storageTag&quot;: {&#xd;
+              &quot;id&quot;: 0,&#xd;
+              &quot;multivalueIndicator&quot;: true,&#xd;
+              &quot;storageId&quot;: {&#xd;
+                &quot;classSetId&quot;: 0,&#xd;
+                &quot;description&quot;: &quot;string&quot;,&#xd;
+                &quot;hiddenIndicator&quot;: true,&#xd;
+                &quot;id&quot;: 0,&#xd;
+                &quot;masterIndicator&quot;: true,&#xd;
+                &quot;name&quot;: &quot;string&quot;,&#xd;
+                &quot;storageCategory&quot;: {&#xd;
+                  &quot;cat&quot;: &quot;string&quot;,&#xd;
+                  &quot;description&quot;: &quot;string&quot;,&#xd;
+                  &quot;hiddenIndicator&quot;: true,&#xd;
+                  &quot;id&quot;: 0,&#xd;
+                  &quot;name&quot;: &quot;string&quot;&#xd;
+                }&#xd;
+              },&#xd;
+              &quot;storageStage&quot;: {&#xd;
+                &quot;description&quot;: &quot;string&quot;,&#xd;
+                &quot;hiddenIndicator&quot;: true,&#xd;
+                &quot;id&quot;: 0,&#xd;
+                &quot;name&quot;: &quot;string&quot;,&#xd;
+                &quot;stage&quot;: &quot;string&quot;,&#xd;
+                &quot;storageBin&quot;: {&#xd;
+                  &quot;bin&quot;: &quot;string&quot;,&#xd;
+                  &quot;description&quot;: &quot;string&quot;,&#xd;
+                  &quot;id&quot;: 0,&#xd;
+                  &quot;name&quot;: &quot;string&quot;&#xd;
+                }&#xd;
+              },&#xd;
+              &quot;tag&quot;: &quot;string&quot;&#xd;
+            }&#xd;
+          },&#xd;
+          &quot;cleanIndicator&quot;: true,&#xd;
+          &quot;confidenceLevel&quot;: 0,&#xd;
+          &quot;dataFeedBin&quot;: {&#xd;
+            &quot;description&quot;: &quot;string&quot;,&#xd;
+            &quot;id&quot;: 0,&#xd;
+            &quot;name&quot;: &quot;string&quot;&#xd;
+          },&#xd;
+          &quot;daysToExpire&quot;: 0,&#xd;
+          &quot;description&quot;: &quot;string&quot;,&#xd;
+          &quot;hashedDocIdIndicator&quot;: true,&#xd;
+          &quot;hashedModifierIndicator&quot;: true,&#xd;
+          &quot;hiddenIndicator&quot;: true,&#xd;
+          &quot;id&quot;: 0,&#xd;
+          &quot;ignoreUnknownFieldsIndicator&quot;: true,&#xd;
+          &quot;lastRunDate&quot;: &quot;string&quot;,&#xd;
+          &quot;lastRunStatus&quot;: &quot;string&quot;,&#xd;
+          &quot;lastUpdatedDate&quot;: &quot;2018-05-15T12:26:54.335Z&quot;,&#xd;
+          &quot;name&quot;: &quot;string&quot;,&#xd;
+          &quot;sequenceModifierIndicator&quot;: true,&#xd;
+          &quot;termCount&quot;: 0,&#xd;
+          &quot;timestampBin&quot;: {&#xd;
+            &quot;description&quot;: &quot;string&quot;,&#xd;
+            &quot;id&quot;: 0,&#xd;
+            &quot;inUse&quot;: true,&#xd;
+            &quot;name&quot;: &quot;string&quot;&#xd;
+          },&#xd;
+          &quot;uniqueGUIDsCount&quot;: 0&#xd;
+        },&#xd;
+        &quot;docIdIndicator&quot;: true,&#xd;
+        &quot;docIdSequence&quot;: 0,&#xd;
+        &quot;id&quot;: 0,&#xd;
+        &quot;ignoredIndicator&quot;: true,&#xd;
+        &quot;mandatoryIndicator&quot;: true,&#xd;
+        &quot;modifierIndicator&quot;: true,&#xd;
+        &quot;modifierSequence&quot;: 0,&#xd;
+        &quot;name&quot;: &quot;string&quot;,&#xd;
+        &quot;signatureIndicator&quot;: true,&#xd;
+        &quot;signatureSequence&quot;: 0&#xd;
+      },&#xd;
+      &quot;dataField&quot;: {&#xd;
+        &quot;classSet&quot;: {&#xd;
+          &quot;dataClass&quot;: {&#xd;
+            &quot;description&quot;: &quot;string&quot;,&#xd;
+            &quot;id&quot;: 0,&#xd;
+            &quot;name&quot;: &quot;string&quot;&#xd;
+          },&#xd;
+          &quot;description&quot;: &quot;string&quot;,&#xd;
+          &quot;id&quot;: 0,&#xd;
+          &quot;name&quot;: &quot;string&quot;,&#xd;
+          &quot;storageIds&quot;: [&#xd;
+            {&#xd;
+              &quot;classSetId&quot;: 0,&#xd;
+              &quot;description&quot;: &quot;string&quot;,&#xd;
+              &quot;hiddenIndicator&quot;: true,&#xd;
+              &quot;id&quot;: 0,&#xd;
+              &quot;masterIndicator&quot;: true,&#xd;
+              &quot;name&quot;: &quot;string&quot;,&#xd;
+              &quot;storageCategory&quot;: {&#xd;
+                &quot;cat&quot;: &quot;string&quot;,&#xd;
+                &quot;description&quot;: &quot;string&quot;,&#xd;
+                &quot;hiddenIndicator&quot;: true,&#xd;
+                &quot;id&quot;: 0,&#xd;
+                &quot;name&quot;: &quot;string&quot;&#xd;
+              }&#xd;
+            }&#xd;
+          ]&#xd;
+        },&#xd;
+        &quot;comparisonFunction&quot;: {&#xd;
+          &quot;functionName&quot;: &quot;string&quot;,&#xd;
+          &quot;id&quot;: 0,&#xd;
+          &quot;partitioningFunctionIndicator&quot;: true,&#xd;
+          &quot;similarity&quot;: 0,&#xd;
+          &quot;weight&quot;: 0&#xd;
+        },&#xd;
+        &quot;dataTerm&quot;: {&#xd;
+          &quot;dataTermType&quot;: {&#xd;
+            &quot;description&quot;: &quot;string&quot;,&#xd;
+            &quot;id&quot;: 0,&#xd;
+            &quot;name&quot;: &quot;string&quot;,&#xd;
+            &quot;solrType&quot;: &quot;string&quot;,&#xd;
+            &quot;sqlType&quot;: &quot;string&quot;,&#xd;
+            &quot;type&quot;: &quot;string&quot;&#xd;
+          },&#xd;
+          &quot;description&quot;: &quot;string&quot;,&#xd;
+          &quot;exchangeName&quot;: &quot;string&quot;,&#xd;
+          &quot;id&quot;: 0,&#xd;
+          &quot;mappingAllowedIndicator&quot;: true,&#xd;
+          &quot;name&quot;: &quot;string&quot;,&#xd;
+          &quot;synonyms&quot;: &quot;string&quot;&#xd;
+        },&#xd;
+        &quot;exchangeName&quot;: &quot;string&quot;,&#xd;
+        &quot;id&quot;: 0,&#xd;
+        &quot;partitioningFunction&quot;: {&#xd;
+          &quot;functionName&quot;: &quot;string&quot;,&#xd;
+          &quot;id&quot;: 0,&#xd;
+          &quot;partitioningFunctionIndicator&quot;: true,&#xd;
+          &quot;similarity&quot;: 0,&#xd;
+          &quot;weight&quot;: 0&#xd;
+        },&#xd;
+        &quot;storageFieldList&quot;: [&#xd;
+          {&#xd;
+            &quot;binSet&quot;: {&#xd;
+              &quot;description&quot;: &quot;string&quot;,&#xd;
+              &quot;id&quot;: 0,&#xd;
+              &quot;name&quot;: &quot;string&quot;,&#xd;
+              &quot;schemaName&quot;: &quot;string&quot;,&#xd;
+              &quot;storageBin&quot;: {&#xd;
+                &quot;bin&quot;: &quot;string&quot;,&#xd;
+                &quot;description&quot;: &quot;string&quot;,&#xd;
+                &quot;id&quot;: 0,&#xd;
+                &quot;name&quot;: &quot;string&quot;&#xd;
+              },&#xd;
+              &quot;tableName&quot;: &quot;string&quot;&#xd;
+            },&#xd;
+            &quot;dataField&quot;: {},&#xd;
+            &quot;id&quot;: 0,&#xd;
+            &quot;name&quot;: &quot;string&quot;,&#xd;
+            &quot;term&quot;: {&#xd;
+              &quot;dataTerm&quot;: {&#xd;
+                &quot;dataTermType&quot;: {&#xd;
+                  &quot;description&quot;: &quot;string&quot;,&#xd;
+                  &quot;id&quot;: 0,&#xd;
+                  &quot;name&quot;: &quot;string&quot;,&#xd;
+                  &quot;solrType&quot;: &quot;string&quot;,&#xd;
+                  &quot;sqlType&quot;: &quot;string&quot;,&#xd;
+                  &quot;type&quot;: &quot;string&quot;&#xd;
+                },&#xd;
+                &quot;description&quot;: &quot;string&quot;,&#xd;
+                &quot;exchangeName&quot;: &quot;string&quot;,&#xd;
+                &quot;id&quot;: 0,&#xd;
+                &quot;mappingAllowedIndicator&quot;: true,&#xd;
+                &quot;name&quot;: &quot;string&quot;,&#xd;
+                &quot;synonyms&quot;: &quot;string&quot;&#xd;
+              },&#xd;
+              &quot;id&quot;: 0,&#xd;
+              &quot;ignoredIndicator&quot;: true,&#xd;
+              &quot;mandatoryIndicator&quot;: true,&#xd;
+              &quot;name&quot;: &quot;string&quot;,&#xd;
+              &quot;recordSignatureFieldIndicator&quot;: true,&#xd;
+              &quot;recordSignatureFieldSequenceNumber&quot;: 0,&#xd;
+              &quot;storageBin&quot;: {&#xd;
+                &quot;bin&quot;: &quot;string&quot;,&#xd;
+                &quot;description&quot;: &quot;string&quot;,&#xd;
+                &quot;id&quot;: 0,&#xd;
+                &quot;name&quot;: &quot;string&quot;&#xd;
+              },&#xd;
+              &quot;storageField&quot;: {}&#xd;
+            }&#xd;
+          }&#xd;
+        ],&#xd;
+        &quot;storageId&quot;: {&#xd;
+          &quot;classSetId&quot;: 0,&#xd;
+          &quot;description&quot;: &quot;string&quot;,&#xd;
+          &quot;hiddenIndicator&quot;: true,&#xd;
+          &quot;id&quot;: 0,&#xd;
+          &quot;masterIndicator&quot;: true,&#xd;
+          &quot;name&quot;: &quot;string&quot;,&#xd;
+          &quot;storageCategory&quot;: {&#xd;
+            &quot;cat&quot;: &quot;string&quot;,&#xd;
+            &quot;description&quot;: &quot;string&quot;,&#xd;
+            &quot;hiddenIndicator&quot;: true,&#xd;
+            &quot;id&quot;: 0,&#xd;
+            &quot;name&quot;: &quot;string&quot;&#xd;
+          }&#xd;
+        }&#xd;
+      },&#xd;
+      &quot;id&quot;: 0&#xd;
+    }&#xd;
+  ]&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${server_name}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/DataDictionary/v${Endpoint_Version}/vegeModel/dataFeedMap</stringProp>
+          <stringProp name="HTTPSampler.method">PUT</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

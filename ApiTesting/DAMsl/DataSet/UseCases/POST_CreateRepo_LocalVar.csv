@@ -1,0 +1,3 @@
+﻿repoAlias,testCaseId,readOnly,remoteRepo
+damsl-test-stats,TC-12,false,damsl-dev-stats
+test77,TC-13,false,damsl-dev-stats

@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1527498047494,734,GET-classSetMeta_TC-308,200,OK,[TG] - data-map-controller 1-1,text,true,,4425,301,1,1,732,0,379
+1527498047441,734,[TC] - data-map-controller_TC-308,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-map-controller 1-1,,true,,4425,301,1,1,732,57,379
+1527500561270,571,GET-classSetStatus_TC-311,200,OK,[TG] - data-map-controller 1-1,text,true,,503,399,1,1,571,0,287
+1527500561270,571,[TC] -data-map-controller_TC-311,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-map-controller 1-1,,true,,503,399,1,1,571,1,287
+1527500893920,595,PUT-updateDataMap_TC-311,200,OK,[TG] - data-map-controller 1-1,text,true,,573,872,1,1,595,0,282
+1527500893919,595,[TC] -data-map-controller_TC-311,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-map-controller 1-1,,true,,573,872,1,1,595,6,282
+1527509693083,808,GET-dataFeedMapping_TC-308,200,OK,[TG] - data-map-controller 1-1,text,true,,1586,317,1,1,808,0,530
+1527509693082,808,[TC] - data-map-controller_TC-308,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-map-controller 1-1,,true,,1586,317,1,1,808,3,530
+1527512783300,586,PUT_updateDataFeedMapping-TC-311,200,OK,[TG] - data-map-controller 1-1,text,true,,1535,422,1,1,586,0,306
+1527512783299,586,[TC] -data-map-controller_TC-311,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-map-controller 1-1,,true,,1535,422,1,1,586,2,306
+1527513211100,563,PUT- updateDataMapField_TC-311,200,OK,[TG] - data-map-controller 1-1,text,true,,1498,436,1,1,562,0,281
+1527513211100,563,[TC] -data-map-controller_TC-311,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-map-controller 1-1,,true,,1498,436,1,1,562,4,281

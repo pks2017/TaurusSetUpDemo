@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="DFC_PUT_DataFeed_TF" enabled="true">
+      <stringProp name="TestPlan.comments">Update Data Feed</stringProp>
+      <boolProp name="TestPlan.functional_mode">true</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] - PUT Data Feed" enabled="false"/>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="PUT - Data Feed_${testCaseId}" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;id&quot;: &quot;${id}&quot;,&#xd;
+    &quot;name&quot;: &quot;${name}&quot;,&#xd;
+    &quot;description&quot;: &quot;${description}&quot;,&#xd;
+    &quot;cleanIndicator&quot;: &quot;${cleanIndicator}&quot;,&#xd;
+    &quot;hashedModifierIndicator&quot;: &quot;${hashedModifierIndicator}&quot;,&#xd;
+    &quot;hiddenIndicator&quot;: &quot;${hiddenIndicator}&quot;,&#xd;
+    &quot;ignoreUnknownFieldsIndicator&quot;: &quot;${ignoreUnknownFieldsIndicator}&quot;,&#xd;
+    &quot;sequenceModifierIndicator&quot;: &quot;${sequenceModifierIndicator}&quot;,&#xd;
+    &quot;confidenceLevel&quot;: &quot;${confidenceLevel}&quot;,&#xd;
+    &quot;lastRunDate&quot;: &quot;${lastRunDate}&quot;,&#xd;
+    &quot;lastRunStatus&quot;: &quot;${lastRunStatus}&quot;,&#xd;
+    &quot;uniqueGUIDsCount&quot;: &quot;${uniqueGUIDsCount}&quot;,&#xd;
+    &quot;daysToExpire&quot;: &quot;${daysToExpire}&quot;,&#xd;
+    &quot;hashedDocIdIndicator&quot;: &quot;${hashedDocIdIndicator}&quot;,&#xd;
+    &quot;classSetTag&quot;: {&#xd;
+      &quot;id&quot;: &quot;${idClassSetTag}&quot;,&#xd;
+      &quot;classSet&quot;: {&#xd;
+        &quot;id&quot;: &quot;${idClassSet}&quot;,&#xd;
+        &quot;name&quot;: &quot;${nameClassSet}&quot;&#xd;
+      },&#xd;
+      &quot;storageTag&quot;: {&#xd;
+        &quot;id&quot;: &quot;${idStorageTag}&quot;,&#xd;
+        &quot;storageId&quot;: {&#xd;
+          &quot;id&quot;: &quot;${idStorageId}&quot;,&#xd;
+          &quot;name&quot;: &quot;${nameStorageId}&quot;&#xd;
+        },&#xd;
+        &quot;storageStage&quot;: {&#xd;
+          &quot;id&quot;: &quot;${idStorageStage}&quot;,&#xd;
+          &quot;storageBin&quot;: {&#xd;
+            &quot;id&quot;: &quot;${idStorageBin}&quot;,&#xd;
+            &quot;bin&quot;: &quot;${binStorageBin}&quot;,&#xd;
+            &quot;name&quot;: &quot;${nameStorageBin}&quot;&#xd;
+          },&#xd;
+          &quot;stage&quot;: &quot;${stageStorageStage}&quot;,&#xd;
+          &quot;name&quot;: &quot;${nameStorageStage}&quot;,&#xd;
+          &quot;hiddenIndicator&quot;: &quot;${hiddenIndicatorStorageStage}&quot;&#xd;
+        },&#xd;
+        &quot;tag&quot;: &quot;${tagStorageStage}&quot;,&#xd;
+        &quot;multivalueIndicator&quot;: &quot;${multivalueIndicatorStorageStage}&quot;&#xd;
+      },&#xd;
+      &quot;masterIndicator&quot;: &quot;${storageTagMasterIndicator}&quot;&#xd;
+    },&#xd;
+    &quot;dataFeedBin&quot;: {&#xd;
+      &quot;id&quot;: &quot;${idDataFeedBin}&quot;,&#xd;
+      &quot;name&quot;: &quot;${nameDataFeedBin}&quot;&#xd;
+    },&#xd;
+    &quot;booleanBin&quot;: {&#xd;
+      &quot;id&quot;: &quot;${idBooleanBin}&quot;&#xd;
+    },&#xd;
+    &quot;timestampBin&quot;: {&#xd;
+      &quot;id&quot;: &quot;${idTimestampBin}&quot;,&#xd;
+      &quot;name&quot;: &quot;${nameTimestampBin}&quot;,&#xd;
+      &quot;inUse&quot;: &quot;${inUseTimestampBin}&quot;&#xd;
+    }&#xd;
+}&#xd;
+</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${server_name}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/DataDictionary/v${Endpoint_Version}/dataFeedConfigurator/dataFeed</stringProp>
+          <stringProp name="HTTPSampler.method">PUT</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="TestPlan.comments">Update Data Feed</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

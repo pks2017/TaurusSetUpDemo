@@ -1,0 +1,5 @@
+﻿dataFeedId,ignoreHidden,expectedError,testCaseId
+1,TRUE,0,TC-260
+1,FALSE,0,TC-261
+99999999,TRUE,0,TC-262
+abc,,0,TC-263

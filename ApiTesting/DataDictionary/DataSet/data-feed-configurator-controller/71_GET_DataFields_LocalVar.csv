@@ -1,0 +1,8 @@
+dataFeedId,storageId,testCaseId,expectedError
+,,TC-471,0
+641,,TC-472,0
+,130,TC-473,0
+641,130,TC-474,0
+test,,TC-475,500
+,test,TC-476,500
+641,1000,TC-474,0

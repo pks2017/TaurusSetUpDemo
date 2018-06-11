@@ -1,0 +1,13 @@
+repoAliasPut,pathPut,TestCaseIdPut
+test77,new-dir/new-test-file3.txt,TC-98_01
+test77,new-dir/new-test-file4.txt,TC-98_01
+test77,new-dir/Screen Shot 2017-11-23 at 10.36.42 AM.png,TC-98_01
+test77,porcelain/file1.txt,TC-98_01
+test77,sample.py,TC-98_01
+test77,README.md,TC-98_01
+damsl-test-stats,new-dir/new-test-file3.txt,TC-98_01
+damsl-test-stats,new-dir/new-test-file4.txt,TC-98_01
+damsl-test-stats,new-dir/Screen Shot 2017-11-23 at 10.36.42 AM.png,TC-98_01
+damsl-test-stats,porcelain/file1.txt,TC-98_01
+damsl-test-stats,sample.py,TC-98_01
+damsl-test-stats,README.md,TC-98_01
