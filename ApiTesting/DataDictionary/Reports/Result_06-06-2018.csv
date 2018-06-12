@@ -1,3 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1528305359998,1030,GET - Timestamp Bins_TC-406,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,2365,322,1,1,1029,0,618
-1528305359968,1030,[TC] - data-feed-configurator-controller_TC-406,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,2365,322,1,1,1029,201,618

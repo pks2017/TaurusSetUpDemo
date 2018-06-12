@@ -1,9 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1527243539331,701,GET-classSetMeta_TC-30,200,OK,[TG] -deduper-data-controlle 1-1,text,true,,262,322,1,1,700,0,330
-1527243539330,701,[TC] -deduper-data-controlle_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -deduper-data-controlle 1-1,,true,,262,322,1,1,700,3,330
-1527243632844,687,GET-classSetMeta_TC-308,200,OK,[TG] -deduper-data-controlle 1-1,text,true,,262,322,1,1,686,0,407
-1527243632843,687,[TC] -deduper-data-controlle_TC-308,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -deduper-data-controlle 1-1,,true,,262,322,1,1,686,2,407
-1527243899550,707,GET-classSetStatus_TC-30,200,OK,[TG] -deduper-data-controlle 1-1,text,true,,502,399,1,1,706,0,425
-1527243899549,707,[TC] -deduper-data-controlle_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -deduper-data-controlle 1-1,,true,,502,399,1,1,706,2,425
-1527243950860,549,GET-classSetStatus_TC-311,200,OK,[TG] -deduper-data-controlle 1-1,text,true,,502,399,1,1,548,0,268
-1527243950859,549,[TC] -deduper-data-controlle_TC-311,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -deduper-data-controlle 1-1,,true,,502,399,1,1,548,1,268
