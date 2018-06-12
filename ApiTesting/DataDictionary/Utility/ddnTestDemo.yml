@@ -88,6 +88,18 @@ modules:
       # Sets the destination directory for generated html pages.
       # This will be overridden by the command line option -o
       jmeter.reportgenerator.exporter.html.property.output_dir: /tmp/test-report
+      jmeter.save.saveservice.output_format: xml
+      jmeter.save.saveservice.bytes: false
+      jmeter.save.saveservice.label: false
+      jmeter.save.saveservice.latency: false
+      jmeter.save.saveservice.response_code: true
+      jmeter.save.saveservice.response_message: true
+      jmeter.save.saveservice.successful: true
+      jmeter.save.saveservice.thread_counts: true
+      jmeter.save.saveservice.thread_name: true
+      jmeter.save.saveservice.time: true
+      jmeter.save.saveservice.timestamp_format: ms
+      jmeter.save.saveservice.timestamp_format: yyyy/MM/dd HH:mm:ss
     gui: false
 execution:
 - scenario: 
