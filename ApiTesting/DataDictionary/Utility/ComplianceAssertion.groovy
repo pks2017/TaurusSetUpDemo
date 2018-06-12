@@ -20,19 +20,10 @@ if (!prev.getResponseCode().equals("200"))
 }
 
 //further validation if ResponseCode=200
-else
-{
-	try 
-	{
+else {
+	 try 
+	 {
 		jsonResponse = JSON.parseText(prev.getResponseDataAsString());		
-	}		
-    catch (Exception e)
-    {
-    	failureMessage += "Invalid JSON.\n";
-    	throw(e);
-    }
-	try 
-	{
 		if (!jsonResponse.keySet().equals(null))
 		{
 			//validate Response format if Diagnostics exist
@@ -50,34 +41,29 @@ else
 						{
 							failureMessage += "The json response structure is not as per compliance, Data or Success field is missing.\n\n";
 						}
-						else 
-						{
-							if (jsonResponse.keySet().contains("data") && jsonResponse.keySet().contains("success"))
-							{
+						else {
+							 if (jsonResponse.keySet().contains("data") && jsonResponse.keySet().contains("success"))
+							 {
 								failureMessage += "The json response structure is not as per compliance, Data and Success both field are present.\n\n";
-							}
-							else 
-							{
+							 }
+							 else {
 								successMessage += "The Response data looks as per compliance.";
 							}
 						}
 					}
 				}
-				else
-				{
+				else{
 					failureMessage += "Diagnostic data fields(i.e. error, message warnings, etc) are missing or null.\n\n";
 				}				
 			}
-			else
-			{
+			else{
 				failureMessage += "Diagnostics key not found in json response.\n\n";
 			}			
 		}
-		else
-		{
+		else{
 			failureMessage += "The json response is null or not as per compliance.\n\n";
 		}					
-	}
+	 }
 	catch (Exception ex)
 	{
 		failureMessage += ex.getMessage();
