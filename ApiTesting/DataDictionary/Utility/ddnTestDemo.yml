@@ -6,16 +6,13 @@ modules:
       includecontroller.prefix: C:/Users/psingh/.jenkins/workspace/TaurusDemo
     gui: false
 execution:
-- scenario: simple
-
-scenarios:
-  simple:
+- scenario: 
     script: C:/Users/psingh/.jenkins/workspace/TaurusDemo/ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/51_GET_TimestampBins_TC.jmx
-  simple:
+- scenario: 
     script: C:/Users/psingh/.jenkins/workspace/TaurusDemo/ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/52_POST_TimestampBin_TC.jmx
-  simple:
+- scenario: 
     script: C:/Users/psingh/.jenkins/workspace/TaurusDemo/ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
-  simple:
+- scenario: 
     script: C:/Users/psingh/.jenkins/workspace/TaurusDemo/ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/54_PUT_TimestampBin_TC.jmx
-  simple:
+- scenario: 
     script: C:/Users/psingh/.jenkins/workspace/TaurusDemo/ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/55_DELETE_TimestampBin_TC.jmx
