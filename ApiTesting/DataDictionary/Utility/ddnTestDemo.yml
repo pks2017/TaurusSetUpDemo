@@ -2,7 +2,7 @@ modules:
   jmeter:
     properties:
       log_level.jmeter: WARN
-      log_level.jmeter.threads: DEBUG
+      #log_level.jmeter.threads: DEBUG
       includecontroller.prefix: C:/Users/psingh/.jenkins/workspace/TaurusDemo
       # Sets the satisfaction threshold for the APDEX calculation (in milliseconds).
       jmeter.reportgenerator.apdex_satisfied_threshold: 1500
