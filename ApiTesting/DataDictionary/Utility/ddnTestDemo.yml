@@ -87,7 +87,7 @@ modules:
 
       # Sets the destination directory for generated html pages.
       # This will be overridden by the command line option -o
-      jmeter.reportgenerator.exporter.html.property.output_dir: /Reports/Results
+      jmeter.reportgenerator.exporter.html.property.output_dir: ApiTesting/DataDictionary/Reports/Results
       jmeter.save.saveservice.assertion_results: all
       jmeter.save.saveservice.output_format: xml
       jmeter.save.saveservice.bytes: false
