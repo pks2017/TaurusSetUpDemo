@@ -115,7 +115,7 @@
 </stringProp>
           </JSR223Assertion>
           <hashTree/>
-          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="false">
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
             <stringProp name="JSON_PATH">$.diagnostics.error</stringProp>
             <stringProp name="EXPECTED_VALUE">${expectedError}</stringProp>
             <boolProp name="JSONVALIDATION">true</boolProp>
