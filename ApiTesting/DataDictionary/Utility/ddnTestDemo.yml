@@ -20,7 +20,6 @@ modules:
       # Defines the overall granularity for over time graphs
       jmeter.reportgenerator.overall_granularity: 60000
 
-
       # Sets the destination directory for generated html pages.
       # This will be overridden by the command line option -o
       jmeter.reportgenerator.exporter.html.property.output_dir: ApiTesting/DataDictionary/Reports/Results
@@ -40,12 +39,16 @@ modules:
       jmeter.save.saveservice.timestamp_format: ms
       jmeter.save.saveservice.timestamp_format: yyyy/MM/dd HH:mm:ss
     gui: false
+scenarios:
+- simple:
+  - force-parent-sample: false
+  
 execution:
-- scenario: 
+- scenario: simple
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/51_GET_TimestampBins_TC.jmx
-- scenario: 
+- scenario: simple
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/52_POST_TimestampBin_TC.jmx
-- scenario: 
+- scenario: simple
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
-- scenario: 
+- scenario: simple
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/54_PUT_TimestampBin_TC.jmx

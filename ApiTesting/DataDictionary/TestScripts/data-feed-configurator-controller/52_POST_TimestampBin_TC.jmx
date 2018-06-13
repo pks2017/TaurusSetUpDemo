@@ -91,7 +91,7 @@
             <stringProp name="IncludeController.includepath">/ApiTesting/DataDictionary/TestFragments/data-feed-configurator-controller/52_POST_TimestampBin_TF.jmx</stringProp>
           </IncludeController>
           <hashTree/>
-          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="ComplianceAssertion" enabled="false">
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="ComplianceAssertion" enabled="true">
             <stringProp name="scriptLanguage">groovy</stringProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DataDictionary/Utility&quot;;,)}/ComplianceAssertion.groovy</stringProp>
