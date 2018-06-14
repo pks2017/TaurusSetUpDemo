@@ -50,7 +50,10 @@ execution:
 
 scenarios:
 - simple-1:
-    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/51_GET_TimestampBins_TC.jmx
+  - script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/51_GET_TimestampBins_TC.jmx
+    - modifications:
+      - transaction:
+        - force-parent-sample: false 
 
 #- simple-2:
 #  - script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/52_POST_TimestampBin_TC.jmx
