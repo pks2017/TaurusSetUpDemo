@@ -41,7 +41,7 @@ modules:
     gui: false
 
 execution:
-  scenario: simple-1
+- scenario: simple-1
 #- scenario: simple-2
 
 #- scenario: simple-3
@@ -49,7 +49,7 @@ execution:
 #- scenario: simple-4
 
 scenarios:
-- simple-1:
+  simple-1:
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/51_GET_TimestampBins_TC.jmx
     force-parent-sample: false
 #- simple-2:
