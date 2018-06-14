@@ -53,9 +53,9 @@ scenarios:
   simple-2:
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/52_POST_TimestampBin_TC.jmx
     force-parent-sample: false
- simple-3:
-   script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
-   force-parent-sample: false
- simple-4:
-   script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
-   force-parent-sample: false
+  simple-3:
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
+    force-parent-sample: false
+  simple-4:
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
+    force-parent-sample: false
