@@ -40,14 +40,25 @@ modules:
       jmeter.save.saveservice.timestamp_format: yyyy/MM/dd HH:mm:ss
     gui: false
 scenarios:
+- scenario: simple1
   - force-parent-sample: false
+  - script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/51_GET_TimestampBins_TC.jmx
+- scenario: simple2
+  - force-parent-sample: false
+  - script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/52_POST_TimestampBin_TC.jmx
+- scenario: simple3
+  - force-parent-sample: false
+  - script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
+- scenario: simple4
+  - force-parent-sample: false
+  - script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx    
   
 execution:
-- scenario: 
-    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/51_GET_TimestampBins_TC.jmx
-- scenario: 
-    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/52_POST_TimestampBin_TC.jmx
-- scenario: 
-    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
-- scenario: 
-    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/54_PUT_TimestampBin_TC.jmx
+- scenario: simple1
+    #script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/51_GET_TimestampBins_TC.jmx
+- scenario: simple2
+    #script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/52_POST_TimestampBin_TC.jmx
+- scenario: simple3
+    #script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
+- scenario: simple4
+    #script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/54_PUT_TimestampBin_TC.jmx
