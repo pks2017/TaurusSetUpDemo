@@ -41,7 +41,7 @@ modules:
     gui: false
 
 execution:
-  scenario: simple-1
+- scenario: simple-1
 #- scenario: simple-2
 
 #- scenario: simple-3
