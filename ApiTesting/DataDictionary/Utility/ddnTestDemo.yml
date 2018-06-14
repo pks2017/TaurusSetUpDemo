@@ -40,16 +40,16 @@ modules:
       jmeter.save.saveservice.timestamp_format: yyyy/MM/dd HH:mm:ss
     gui: false
 scenarios:
-- scenario: simple1
+- simple1:
   - force-parent-sample: false
   - script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/51_GET_TimestampBins_TC.jmx
-- scenario: simple2
+- simple2:
   - force-parent-sample: false
   - script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/52_POST_TimestampBin_TC.jmx
-- scenario: simple3
+- simple3:
   - force-parent-sample: false
   - script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
-- scenario: simple4
+- simple4:
   - force-parent-sample: false
   - script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx    
   
