@@ -44,6 +44,156 @@ modules:
 
 execution:
 - scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/01_GET_DataClasses_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/02_GET_ClassSets_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/03_GET_ClassSet_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/04_POST_ClassSet_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/05_GET_DataFeedBins_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/06_GET_DataTermTypes_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/07_GET_DataTerms_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/08_POST_DataTerm_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/09_PUT_DataTerm_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/10_GET_StorageIds_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/11_GET_StorageId_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/12_POST_BooleanBin_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/13_GET_BooleanBins_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/14_GET_BooleanBin_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/15_PUT_BooleanBin_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/16_POST_BooleanValue_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/17_GET_BooleanValue_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/18_GET_BooleanValues_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/19_POST_BooleanValue_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/20_DELETE_BooleanValue_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/21_DELETE_ClearMapping_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/22_GET_DataClass_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/23_POST_DataFeed_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/24_GET_DataFeed_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/25_PUT_DataFeed_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/26_DELETE_DataFeed_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/27_PUT_DataFeedDocIds_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/28_PUT_DataFeedModifiers_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/29_PUT_DataFeedSignature_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/30_GET_DataFeedBin_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/31_POST_DataFeedField_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/32_GET_DataFeedField_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/33_GET_DataFeedFields_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/34_PUT_DataFeedField_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/35_DELETE_DataFeedField_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/36_GET_DataFeedMaps_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/37_GET_DataFeeds_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/38_GET_DataTermType_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/39_GET_StorageBinSets_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/40_GET_StorageBinSet_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/41_GET_StorageBins_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/42_GET_StorageCategorys_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/43_GET_StorageFields_TC.jmx
+    force-parent-sample: false
+ - scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/44_POST_StorageId_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/45_GET_StorageStages_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/46_GET_StorageStage_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/47_GET_StorageTags_TC.jmx
+    force-parent-sample: false
+ - scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/48_POST_StorageTag_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/49_GET_StorageTag_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/50_PUT_StorageTag_TC.jmx
+    force-parent-sample: false
+- scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/51_GET_TimestampBins_TC.jmx
     force-parent-sample: false
 - scenario: 
@@ -53,5 +203,203 @@ execution:
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
     force-parent-sample: false
 - scenario: 
-    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/54_PUT_TimestampBin_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/55_DELETE_TimestampBin_TC.jmx
+    force-parent-sample: false
+ - scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/56_DELETE_Enricher_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/57_GET_Enricher_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/58_POST_Enricher_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/59_PUT_Enricher_TC.jmx
+    force-parent-sample: false
+ - scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/60_GET_Enrichers_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/61_DELETE_TimestampFormat_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/62_GET_TimestampFormat_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/63_POST_TimestampFormat_TC.jmx
+    force-parent-sample: false
+ - scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/64_PUT_TimestampFormat_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/65_GET_checkTimestampFormat_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/65_GET_TimestampFormatList_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/70_POST_DataField_TC.jmx
+    force-parent-sample: false
+ - scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/71_GET_DataFields_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/72_PUT_DataField_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/73_PUT_DataFeedMap_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/74_PUT_StorageId_TC.jmx
+    force-parent-sample: false
+ - scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/cerberus-data-controller/cerberus-data-controller_GET_dataFeedMetaAndMapping_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/cerberus-data-controller/cerberus-data-controller_PUT_dataFeedProcessingStatus_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-satistics-controller/data-feed-satistics-controller_GET_getDataFeedCounters_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-satistics-controller/data-feed-satistics-controller_GET_getDataFeedList_TC.jmx
+    force-parent-sample: false
+ - scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-satistics-controller/data-feed-satistics-controller_GET_updateDataFeedCounters_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-ingestor-data-controller/data-ingestor-data-controller_GET_getDataIngestorMeta_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-map-controller/data-map-controller_GET_getDataFeedMapping_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-map-controller/data-map-controller_GET_getDataMap_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-map-controller/data-map-controller_PUT_updateDataFeedMapping_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-map-controller/data-map-controller_PUT_updateDataMapField_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/data-map-controller/data-map-controller_PUT_updateDataMap_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/deduper-data-controller/deduper-data-controller_GET_classSetMeta_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/deduper-data-controller/deduper-data-controller_PUT_classSetstatus_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/hive-ddl-generator-controller/hive-ddl-generator-controller_GET_generate_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/request-samples-controller/request-samples-controller_GET_fileContents_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_GET_filterDefinitions_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_GET_filterValues.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_GET_log.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_GET_selectForProcessing_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_POST_log.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_POST_mergeTerms_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_POST_reverseMapping_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_POST_updateRecommendedName_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_ClassSets_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_ClassSet_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataClasses_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataClass_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataFeedFields_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataFeedMaps_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataFeeds_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataFeed_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataField-dataTermStorageFields_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataField-dataTerms_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataField-storageFields_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataFields_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataTerms_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageBinSet_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageBins_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageField-list_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageFields_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageIds_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageStages_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageStage_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageTags_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageTag_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_POST_DataFeed_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_PUT_DataFeedMap_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_PUT_DataFeed_modifiers_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_PUT_DataFeed_signature_TC.jmx
     force-parent-sample: false
