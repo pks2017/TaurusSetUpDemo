@@ -172,7 +172,7 @@ execution:
 - scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/43_GET_StorageFields_TC.jmx
     force-parent-sample: false
- - scenario: 
+- scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/44_POST_StorageId_TC.jmx
     force-parent-sample: false
 - scenario: 
@@ -184,7 +184,7 @@ execution:
 - scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/47_GET_StorageTags_TC.jmx
     force-parent-sample: false
- - scenario: 
+- scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/48_POST_StorageTag_TC.jmx
     force-parent-sample: false
 - scenario: 
@@ -208,7 +208,7 @@ execution:
 - scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/55_DELETE_TimestampBin_TC.jmx
     force-parent-sample: false
- - scenario: 
+- scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/56_DELETE_Enricher_TC.jmx
     force-parent-sample: false
 - scenario: 
@@ -220,7 +220,7 @@ execution:
 - scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/59_PUT_Enricher_TC.jmx
     force-parent-sample: false
- - scenario: 
+- scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/60_GET_Enrichers_TC.jmx
     force-parent-sample: false
 - scenario: 
@@ -232,7 +232,7 @@ execution:
 - scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/63_POST_TimestampFormat_TC.jmx
     force-parent-sample: false
- - scenario: 
+- scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/64_PUT_TimestampFormat_TC.jmx
     force-parent-sample: false
 - scenario: 
@@ -244,7 +244,7 @@ execution:
 - scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/70_POST_DataField_TC.jmx
     force-parent-sample: false
- - scenario: 
+- scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/71_GET_DataFields_TC.jmx
     force-parent-sample: false
 - scenario: 
@@ -256,7 +256,7 @@ execution:
 - scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/74_PUT_StorageId_TC.jmx
     force-parent-sample: false
- - scenario: 
+- scenario: 
     script: ApiTesting/DataDictionary/TestScripts/cerberus-data-controller/cerberus-data-controller_GET_dataFeedMetaAndMapping_TC.jmx
     force-parent-sample: false
 - scenario: 
@@ -268,7 +268,7 @@ execution:
 - scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-satistics-controller/data-feed-satistics-controller_GET_getDataFeedList_TC.jmx
     force-parent-sample: false
- - scenario: 
+- scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-satistics-controller/data-feed-satistics-controller_GET_updateDataFeedCounters_TC.jmx
     force-parent-sample: false
 - scenario: 
