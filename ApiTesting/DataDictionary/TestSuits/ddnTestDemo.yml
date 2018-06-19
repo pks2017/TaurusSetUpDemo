@@ -39,8 +39,8 @@ modules:
       jmeter.save.saveservice.timestamp_format: ms
       jmeter.save.saveservice.timestamp_format: yyyy/MM/dd HH:mm:ss
     gui: false
-#  local:
-#    sequential: true
+  local:
+    sequential: true
 
 execution:
 - scenario: 
