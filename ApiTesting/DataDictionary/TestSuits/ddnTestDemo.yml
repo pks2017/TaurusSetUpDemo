@@ -239,7 +239,7 @@ execution:
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/65_GET_checkTimestampFormat_TC.jmx
     force-parent-sample: false
 - scenario: 
-    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/65_GET_TimestampFormatList_TC.jmx
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/66_GET_TimestampFormatList_TC.jmx
     force-parent-sample: false
 - scenario: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/70_POST_DataField_TC.jmx

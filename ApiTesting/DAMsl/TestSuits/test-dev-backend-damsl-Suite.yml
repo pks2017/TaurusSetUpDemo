@@ -32,6 +32,9 @@ execution:
 - scenario: 
     script: ApiTesting/DAMsl/TestScripts/RepoMgmt/RepoMgmt_PUT_Repo.jmx
     force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DAMsl/TestScripts/RepoMgmt/RepoMgmt_DELETE_Repo_TC.jmx
+    force-parent-sample: false    
 - scenario:
     script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_GET_CommitHistory_TC.jmx
     force-parent-sample: false
