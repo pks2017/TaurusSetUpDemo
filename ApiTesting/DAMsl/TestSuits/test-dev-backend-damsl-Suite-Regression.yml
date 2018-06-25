@@ -1,0 +1,115 @@
+modules:
+  jmeter:
+    properties:
+      log_level.jmeter: WARN
+      log_level.jmeter.threads: DEBUG
+      includecontroller.prefix: /home/jenkins-slave/jenkins-slave/workspace/tests/test-dev-backend-damsl/
+      log_level.jmeter.protocol.http: DEBUG
+      jmeter.save.saveservice.bytes: true
+      jmeter.save.saveservice.label: true
+      jmeter.save.saveservice.latency: true
+      jmeter.save.saveservice.response_code: true
+      jmeter.save.saveservice.response_message: true
+      jmeter.save.saveservice.successful: true
+      jmeter.save.saveservice.thread_counts: true
+      jmeter.save.saveservice.thread_name: true
+      jmeter.save.saveservice.time: true
+      jmeter.save.saveservice.timestamp_format: ms
+      jmeter.save.saveservice.timestamp_format: yyyy/MM/dd HH:mm:ss
+    gui: false
+  local:
+    sequential: true
+execution:
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/RepoMgmt/RepoMgmt_GET_Repo_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DAMsl/TestScripts/RepoMgmt/RepoMgmt_GET_Repo_Match_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DAMsl/TestScripts/RepoMgmt/RepoMgmt_POST_Repo.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DAMsl/TestScripts/RepoMgmt/RepoMgmt_PUT_Repo.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_GET_CommitHistory_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_GET_FileContents_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_GET_Files_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_GET_ZipFiles_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_PATCH_RenameFile_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_POST_WriteContentsInFile_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_PUT_WriteContentsInFile_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_DELETE_DeleteFile_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_POST_Add_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_POST_Commit_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_POST_Push_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_GET_Diff_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_GET_Log_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_GET_Status_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_POST_FSCK_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_POST_GC_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_POST_Prune_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_POST_Pull_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_POST_Remove_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_PUT_Reset_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_DELETE_Clean_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Porcelain/Porcelain_GET_Contents_of_file_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Porcelain/Porcelain_GET_Gets_ZIP_of_files_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Porcelain/Porcelain_PUT_HardReset_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Porcelain/Porcelain_PUT_Write_to_file_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Porcelain/Porcelain_DELETE_Cleanup_repo_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/Porcelain/Porcelain_DELETE_Release_workspace_lock_TC.jmx
+    force-parent-sample: false

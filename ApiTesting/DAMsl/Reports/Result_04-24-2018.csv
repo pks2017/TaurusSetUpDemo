@@ -1,0 +1,29 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,grpThreads,allThreads,URL,Latency,SampleCount,ErrorCount
+1524559239912,2009,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-64,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=&refId=,610,1,0
+1524559239910,2009,[TC] - CRUD_TC-64,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,610,1,0
+1524559241930,1897,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-65,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=new-dir&refId=,562,1,0
+1524559241929,1897,[TC] - CRUD_TC-65,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,562,1,0
+1524559243830,287,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-66,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=&refId=29b9b81b335b2968289388d2d92ad5859605dc7d,287,1,0
+1524559243830,287,[TC] - CRUD_TC-66,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,287,1,0
+1524559244123,549,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-67,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=new-dir&refId=253cf8590ee6ef7c6703171485f22cd16fa1459a,549,1,0
+1524559244122,549,[TC] - CRUD_TC-67,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,549,1,0
+1524559244677,294,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-68,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test/zip?filter=&refId=,294,1,0
+1524559244676,294,[TC] - CRUD_TC-68,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,294,1,0
+1524559244973,277,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-71,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=new-dirr&refId=,277,1,0
+1524559244972,277,[TC] - CRUD_TC-71,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,277,1,0
+1524559245255,294,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-72,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=&refId=29b9b81b335b2968289388d2d92ad5859605dc7e,294,1,0
+1524559245255,294,[TC] - CRUD_TC-72,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,294,1,0
+1524561800513,1399,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-64,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=&refId=,593,1,0
+1524561800513,1399,[TC] - CRUD_TC-64,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,593,1,0
+1524561801920,819,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-65,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=new-dir&refId=,278,1,0
+1524561801919,819,[TC] - CRUD_TC-65,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,278,1,0
+1524561802744,554,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-66,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=&refId=29b9b81b335b2968289388d2d92ad5859605dc7d,554,1,0
+1524561802743,554,[TC] - CRUD_TC-66,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,554,1,0
+1524561803306,287,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-67,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=new-dir&refId=253cf8590ee6ef7c6703171485f22cd16fa1459a,287,1,0
+1524561803305,287,[TC] - CRUD_TC-67,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,287,1,0
+1524561803598,292,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-68,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test/zip?filter=&refId=,292,1,0
+1524561803597,292,[TC] - CRUD_TC-68,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,292,1,0
+1524561803892,285,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-71,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=new-dirr&refId=,285,1,0
+1524561803892,285,[TC] - CRUD_TC-71,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,285,1,0
+1524561804182,283,CRUD_GET - ZIP Files by repoAlias with/without optional parameters_TC-72,200,OK,[TG] - CRUD 1-1,text,true,,1,1,http://172.16.1.200:8080/damsl/v1/rest/git-fs/files/damsl-test-stats/zip?filter=&refId=29b9b81b335b2968289388d2d92ad5859605dc7e,283,1,0
+1524561804181,283,[TC] - CRUD_TC-72,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - CRUD 1-1,,true,,1,1,null,283,1,0

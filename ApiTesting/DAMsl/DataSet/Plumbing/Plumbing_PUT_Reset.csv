@@ -1,10 +1,8 @@
-repoAlias,dryrun,ignored,path,m,all,TestCaseId_del,TestCaseId
-test-layouts5,false,false,,,false,TC_Del_01,TC_01
-test-layouts5,true,false,,,true,TC_Del_02,_TC_02
-test-layouts5,false,true,test-dir,new-file1,true,TC_Del_03,TC_03
-test-layouts5,true,true,test-dir,new-file1,false,TC_Del_04,TC_04
-000,,,,,,TC_Del_05,TC_05
-,,,,,,TC_Del_06,TC_06
-
+repoAlias,path,type,TestCaseId,expectedError
+test-layouts5,wrong_path_val,Soft,TC-135_01,317
+test-layouts5,,Hard,TC-135_02,317
+test-layouts5,test-dir/file_001.txt,Hard,TC-135_03,317
+test-layouts5,test-dir,Hard,TC-135_04,0
+000_No_dir,test-dir,Hard,TC-135_05,304
 
 
