@@ -1,2 +1,2 @@
-testCaseId,expectedError
-TC-30,0
+dataFieldName,storageFieldName,tag,testCaseId,expectedError
+string,string,string,TC-30,0

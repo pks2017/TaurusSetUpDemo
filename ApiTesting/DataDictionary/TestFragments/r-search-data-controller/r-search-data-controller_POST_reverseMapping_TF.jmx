@@ -23,12 +23,12 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-  &quot;dataFieldName&quot;: &quot;string&quot;,&#xd;
+  &quot;dataFieldName&quot;: &quot;${dataFieldName}&quot;,&#xd;
   &quot;sST&quot;: [&#xd;
     &quot;string&quot;&#xd;
   ],&#xd;
-  &quot;storageFieldName&quot;: &quot;string&quot;,&#xd;
-  &quot;tag&quot;: &quot;string&quot;&#xd;
+  &quot;storageFieldName&quot;: &quot;${storageFieldName}&quot;,&#xd;
+  &quot;tag&quot;: &quot;${tag}&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>

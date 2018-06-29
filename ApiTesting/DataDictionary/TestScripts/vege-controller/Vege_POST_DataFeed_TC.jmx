@@ -77,7 +77,7 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <stringProp name="LoopController.loops">2</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
@@ -91,6 +91,15 @@
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
+          <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="false">
+            <stringProp name="maximumValue"></stringProp>
+            <stringProp name="minimumValue">1</stringProp>
+            <stringProp name="outputFormat">Automation_</stringProp>
+            <boolProp name="perThread">true</boolProp>
+            <stringProp name="randomSeed"></stringProp>
+            <stringProp name="variableName">dataFeedName</stringProp>
+          </RandomVariableConfig>
+          <hashTree/>
           <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC] - TC${testCaseId} - Vege_POST_DataFeed" enabled="true">
             <stringProp name="IncludeController.includepath">/ApiTesting/DataDictionary/TestFragments/vege-controller/Vege_POST_DataFeed_TF.jmx</stringProp>
           </IncludeController>

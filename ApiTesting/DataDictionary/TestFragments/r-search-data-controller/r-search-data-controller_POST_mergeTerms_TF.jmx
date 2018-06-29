@@ -37,13 +37,13 @@
         &quot;hiddenIndicator&quot;: ${hiddenIndicator},&#xd;
         &quot;id&quot;: ${id2},&#xd;
         &quot;masterIndicator&quot;: ${masterIndicator},&#xd;
-        &quot;name&quot;: &quot;${name3}&quot;,&#xd;
+        &quot;name&quot;: &quot;${name2}&quot;,&#xd;
         &quot;storageCategory&quot;: {&#xd;
           &quot;cat&quot;: &quot;${cat}&quot;,&#xd;
           &quot;description&quot;: &quot;${description3}&quot;,&#xd;
           &quot;hiddenIndicator&quot;: ${hiddenIndicator},&#xd;
           &quot;id&quot;: ${id3},&#xd;
-          &quot;name&quot;: &quot;${}&quot;&#xd;
+          &quot;name&quot;: &quot;${name3}&quot;&#xd;
         }&#xd;
       }&#xd;
     ]&#xd;

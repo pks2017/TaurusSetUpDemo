@@ -1,2 +1,4 @@
-testCaseId,expectedError
-TC-30,0
+description,id,name,description1,id1,name1,classSetId,description2,hiddenIndicator,id2,masterIndicator,name2,cat,description3,hiddenIndicator1,id3,name3,recommendedFilterName,term,testCaseId,expectedError
+string,2,Places,string,22,string,22,string,true,1,true,string,string,string,true,1,string,string,string,TC-206,0
+string,0,string,string,0,string,0,string,true,0,true,string,string,string,true,0,string,string,string,TC-208,0
+string,2,string,string,0,string,0,string,true,0,true,string,string,string,true,0,string,string,string,TC-210,0

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="r-search-data-controller_POST_updateRecommendedName_TF" enabled="true">
-      <stringProp name="TestPlan.comments">updateRecommendedName</stringProp>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="DFC_POST_configureStorage_TF" enabled="true">
+      <stringProp name="TestPlan.comments">configureStorage</stringProp>
       <boolProp name="TestPlan.functional_mode">true</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
@@ -12,9 +12,11 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] - POST updateRecommendedName" enabled="false"/>
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] - POST configureStorage" enabled="true">
+        <stringProp name="TestPlan.comments">configureStorage</stringProp>
+      </TestFragmentController>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST-updateRecommendedName_${testCaseId}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST - configureStorage_${testCaseId}" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -23,33 +25,50 @@
                 <stringProp name="Argument.value">{&#xd;
   &quot;classSet&quot;: {&#xd;
     &quot;dataClass&quot;: {&#xd;
-      &quot;description&quot;: &quot;${description}&quot;,&#xd;
-      &quot;id&quot;: ${id},&#xd;
-      &quot;name&quot;: &quot;${name}&quot;&#xd;
+      &quot;description&quot;: &quot;string&quot;,&#xd;
+      &quot;id&quot;: 2,&#xd;
+      &quot;name&quot;: &quot;Wilbur Ware Location Account&quot;&#xd;
     },&#xd;
-    &quot;description&quot;: &quot;${description1}&quot;,&#xd;
-    &quot;id&quot;: ${id1},&#xd;
-    &quot;name&quot;: &quot;${name1}&quot;,&#xd;
+    &quot;description&quot;: &quot;string&quot;,&#xd;
+    &quot;id&quot;: 23,&#xd;
+    &quot;name&quot;: &quot;string&quot;,&#xd;
     &quot;storageIds&quot;: [&#xd;
       {&#xd;
-        &quot;classSetId&quot;: ${classSetId},&#xd;
-        &quot;description&quot;: &quot;${description2}&quot;,&#xd;
-        &quot;hiddenIndicator&quot;: ${hiddenIndicator},&#xd;
-        &quot;id&quot;: ${id2},&#xd;
-        &quot;masterIndicator&quot;: ${masterIndicator},&#xd;
-        &quot;name&quot;: &quot;${name2}&quot;,&#xd;
+        &quot;classSetId&quot;: 23,&#xd;
+        &quot;description&quot;: &quot;string&quot;,&#xd;
+        &quot;hiddenIndicator&quot;: true,&#xd;
+        &quot;id&quot;: 23,&#xd;
+        &quot;masterIndicator&quot;: true,&#xd;
+        &quot;name&quot;: &quot;Wilbur Ware Location Account&quot;,&#xd;
         &quot;storageCategory&quot;: {&#xd;
-          &quot;cat&quot;: &quot;${cat}&quot;,&#xd;
-          &quot;description&quot;: &quot;${description3}&quot;,&#xd;
-          &quot;hiddenIndicator&quot;: ${hiddenIndicator1},&#xd;
-          &quot;id&quot;: ${id3},&#xd;
-          &quot;name&quot;: &quot;${name3}&quot;&#xd;
+          &quot;cat&quot;: &quot;string&quot;,&#xd;
+          &quot;description&quot;: &quot;string&quot;,&#xd;
+          &quot;hiddenIndicator&quot;: true,&#xd;
+          &quot;id&quot;: 1,&#xd;
+          &quot;name&quot;: &quot;Wilbur Ware Location Account&quot;&#xd;
         }&#xd;
       }&#xd;
     ]&#xd;
   },&#xd;
-  &quot;recommendedFilterName&quot;: &quot;${recommendedFilterName}&quot;,&#xd;
-  &quot;term&quot;: &quot;${term}&quot;&#xd;
+  &quot;errors&quot;: [&#xd;
+    &quot;string&quot;&#xd;
+  ],&#xd;
+  &quot;masterIndicator&quot;: true,&#xd;
+  &quot;storageId&quot;: {&#xd;
+    &quot;classSetId&quot;: 23,&#xd;
+    &quot;description&quot;: &quot;string&quot;,&#xd;
+    &quot;hiddenIndicator&quot;: true,&#xd;
+    &quot;id&quot;: 1,&#xd;
+    &quot;masterIndicator&quot;: true,&#xd;
+    &quot;name&quot;: &quot;string&quot;,&#xd;
+    &quot;storageCategory&quot;: {&#xd;
+      &quot;cat&quot;: &quot;string&quot;,&#xd;
+      &quot;description&quot;: &quot;string&quot;,&#xd;
+      &quot;hiddenIndicator&quot;: true,&#xd;
+      &quot;id&quot;: 1,&#xd;
+      &quot;name&quot;: &quot;string&quot;&#xd;
+    }&#xd;
+  }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -59,7 +78,7 @@
           <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/DataDictionary/v${Endpoint_Version}/rsearch/filterTerm/updateRecommendedName</stringProp>
+          <stringProp name="HTTPSampler.path">/DataDictionary/v${Endpoint_Version}/dataFeedConfigurator/configureStorage</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -68,7 +87,7 @@
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-          <stringProp name="TestPlan.comments">updateRecommendedName</stringProp>
+          <stringProp name="TestPlan.comments">configureStorage</stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
       </hashTree>

@@ -88,7 +88,7 @@
         </TransactionController>
         <hashTree>
           <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC] - r-search-data-controller  " enabled="true">
-            <stringProp name="IncludeController.includepath">/ApiTesting\DataDictionary/TestFragments/r-search-data-controller/r-search-data-controller_GET_filterDefinitions_TF.jmx</stringProp>
+            <stringProp name="IncludeController.includepath">/ApiTesting/DataDictionary/TestFragments/r-search-data-controller/r-search-data-controller_GET_filterDefinitions_TF.jmx</stringProp>
           </IncludeController>
           <hashTree/>
           <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="ComplianceAssertion" enabled="true">
