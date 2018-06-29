@@ -1,7 +1,7 @@
 repoAliasPatch,pathPatch,renamePathPatch,TestCaseIdPatch,expectedError
 test77,ShrikantC/test1100.txt,ShrikantC/test1.txt,TC-109_01,0
 test77,ShrikantC/test1100.txt,ShrikantC/test1.txt,TC-110,313
-test77,Shrikanttt/test111.txt,ShrikantC/test1.txt,TC-111,313
+test77,Shrikanttt/test111.txt,ShrikantC/test111.txt,TC-111,313
 test77,Shrikanttt/test111.txt,ShrikantNewPath/test1.txt,TC-112,313
 damsl-test-stats,new-dir/new-test-file3.txt,porcelain/new-test-file33.txt,TC-113,311
 damsl-test,new-dir/new-test-file3.txt,porcelain/new-test-file33.txt,TC-114,304
