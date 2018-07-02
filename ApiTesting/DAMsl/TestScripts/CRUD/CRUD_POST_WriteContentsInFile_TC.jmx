@@ -10,7 +10,12 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="body" elementType="Argument">
             <stringProp name="Argument.name">body</stringProp>
-            <stringProp name="Argument.value">this is test file to be written</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="random" elementType="Argument">
+            <stringProp name="Argument.name">random</stringProp>
+            <stringProp name="Argument.value">${__Random(1,99999)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -83,7 +88,7 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <stringProp name="LoopController.loops">6</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
@@ -97,6 +102,22 @@
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">def random_num = vars.get(&quot;random&quot;);
+
+def random_body = &quot;random_Test_Porcelain_PUT_write_commit_push-&quot;;
+
+def post_body = random_body+random_num;
+
+vars.put(&quot;body&quot;, post_body);
+
+//log.info(&quot;\n\n Body:&quot;+ &quot;post_body&quot;);</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
           <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC] - Writes the BODY contents to the new file" enabled="true">
             <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/CRUD/CRUD_POST_WriteContentsInFile_TF.jmx</stringProp>
           </IncludeController>

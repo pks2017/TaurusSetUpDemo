@@ -7,7 +7,18 @@
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-        <collectionProp name="Arguments.arguments"/>
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="body" elementType="Argument">
+            <stringProp name="Argument.name">body</stringProp>
+            <stringProp name="Argument.value"></stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="random" elementType="Argument">
+            <stringProp name="Argument.name">random</stringProp>
+            <stringProp name="Argument.value">${__Random(1,99999)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
@@ -91,6 +102,22 @@
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">def random_num = vars.get(&quot;random&quot;);
+
+def random_body = &quot;random_Test_Porcelain_PUT_write_commit_push-&quot;;
+
+def post_body = random_body+random_num;
+
+vars.put(&quot;body&quot;, post_body);
+
+//log.info(&quot;\n\n Body:&quot;+ &quot;post_body&quot;);</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
           <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC] - Writes the BODY contents to the new file" enabled="true">
             <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/CRUD/CRUD_PUT_WriteContentsInFile_TF.jmx</stringProp>
           </IncludeController>
