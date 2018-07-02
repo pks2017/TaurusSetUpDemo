@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="DAMsl_Normal_Workflow" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="DAMsl_Normal_Workflow_File-Update" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
@@ -144,6 +144,30 @@
         </collectionProp>
       </Arguments>
       <hashTree/>
+      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="setUp Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </SetupThreadGroup>
+      <hashTree>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Post_Create_New_Repo" enabled="true">
+          <stringProp name="TestPlan.comments">Create new local repository</stringProp>
+          <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/RepoMgmt/RepoMgmt_POST_Repo_TF.jmx</stringProp>
+        </IncludeController>
+        <hashTree/>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Get_Repos by repoAlias" enabled="true">
+          <stringProp name="TestPlan.comments">Verify if local repo exist for the given repo alias</stringProp>
+          <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/RepoMgmt/RepoMgmt_GET_Repo_TF.jmx</stringProp>
+        </IncludeController>
+        <hashTree/>
+      </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="[TG]-DAMsl_Normal_Workflow_Single_user" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -157,16 +181,11 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="[TC] - DAMsl_Normal_Workflow_SingleUser_HappyPath" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="[TC] - DAMsl_Normal_Workflow_SingleUser_File-Update_HappyPath" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Get_Repos by repoAlias" enabled="true">
-            <stringProp name="TestPlan.comments">Verify if local repo exist for the given repo alias</stringProp>
-            <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/RepoMgmt/RepoMgmt_GET_Repo_TF.jmx</stringProp>
-          </IncludeController>
-          <hashTree/>
           <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Compliance Assertion1" enabled="false">
             <stringProp name="scriptLanguage">groovy</stringProp>
             <stringProp name="parameters"></stringProp>
@@ -175,7 +194,7 @@
             <stringProp name="script"></stringProp>
           </JSR223Assertion>
           <hashTree/>
-          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Assertion- verify queried local repo found or not" enabled="true">
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Assertion- verify queried local repo found or not" enabled="false">
             <stringProp name="cacheKey">true</stringProp>
             <stringProp name="filename"></stringProp>
             <stringProp name="parameters"></stringProp>
@@ -260,104 +279,6 @@ else
             <stringProp name="scriptLanguage">groovy</stringProp>
           </JSR223Assertion>
           <hashTree/>
-          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Ctrl - Create new repo if given local Repo does not exist" enabled="true">
-            <stringProp name="IfController.condition">${__groovy(${condition},)}==1</stringProp>
-            <boolProp name="IfController.evaluateAll">false</boolProp>
-            <boolProp name="IfController.useExpression">true</boolProp>
-          </IfController>
-          <hashTree>
-            <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Post_Create_New_Repo" enabled="true">
-              <stringProp name="TestPlan.comments">Create new local repository</stringProp>
-              <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/RepoMgmt/RepoMgmt_POST_Repo_TF.jmx</stringProp>
-            </IncludeController>
-            <hashTree/>
-            <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Compliance Assertion2" enabled="true">
-              <stringProp name="scriptLanguage">groovy</stringProp>
-              <stringProp name="parameters"></stringProp>
-              <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Utility&quot;;,)}/ComplianceAssertion.groovy</stringProp>
-              <stringProp name="cacheKey">true</stringProp>
-              <stringProp name="script"></stringProp>
-            </JSR223Assertion>
-            <hashTree/>
-            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller - Assert further if response OK" enabled="true">
-              <stringProp name="IfController.condition">${__groovy(prev.getResponseCode().equals(&quot;200&quot;))}</stringProp>
-              <boolProp name="IfController.evaluateAll">false</boolProp>
-              <boolProp name="IfController.useExpression">true</boolProp>
-            </IfController>
-            <hashTree>
-              <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="Assertion- verify new local repo are created" enabled="true">
-                <stringProp name="cacheKey">true</stringProp>
-                <stringProp name="filename"></stringProp>
-                <stringProp name="parameters"></stringProp>
-                <stringProp name="script">catch (Exception e)
-	{
-		failureMessage += &quot;Invalid JSON, error while parsing.\n&quot;;
-    		throw(e);
-    }import groovy.json.JsonSlurper;
-
-def failureMessage = &quot;&quot;;
-
-def successMessage = &quot;&quot;;
-
-// json variable
-def jResponse = null;
-
-//boolean set_assertion = true;
-def repoMatchName =vars.get(&quot;name&quot;);
-
-JsonSlurper JSON = new JsonSlurper ();
-try {
-	jResponse =JSON.parseText(prev.getResponseDataAsString());
-	if ((jResponse.keySet().contains(&quot;diagnostics&quot;)) &amp;&amp; ((jResponse.keySet().contains(&quot;data&quot;)))){
-		if (jResponse.diagnostics.error.equals(0)){
-			if (!jResponse.data.equals(null)){
-				if (repoMatchName == (jResponse.data.repoAlias)){
-					successMessage += &quot;Local repo is created for the given repo alias name &apos;&quot; + ${name} + &quot;&apos; Now going to pull the latest from bitbucket to this local repo.&quot;;										
-				}
-				else{
-					failureMessage +=&quot;Invalid repoAlias data.&quot;;
-				}
-			}
-			else{
-				successMessage += &quot;The given repo name &apos;&quot; + ${name} + &quot;&apos; not found as local repo. Going to create the given local repo now.&quot;;
-			}
-		}
-		else{
-			if (jResponse.diagnostics.error.equals(312)) {
-				log.info(&quot;\n\nWarning: Create New Repo API was called but found as Duplicate Repo that already exist.&quot;); 
-			}
-			else {
-				failureMessage +=&quot;Unknown response error code.&quot;;
-			}
-		}
-	}
-	else{
-		failureMessage +=&quot;Invalid response data.&quot;;
-	}
-}
-
-catch (Exception e) {
-		failureMessage += &quot;Invalid JSON, error while parsing.\n&quot;;
-    		throw(e);
-}
-
-if (failureMessage?.trim()) {
-	failureMessage += &quot;URL: &quot; + SampleResult.getURL() + &quot;\n\n&quot;;
-	failureMessage += &quot;JSON RESPONSE: &quot; + jsonResponse + &quot;\n\n&quot;;
-	failureMessage += &quot;REQUEST HEADERS: &quot; + SampleResult.getRequestHeaders() + &quot;\n\n&quot;;
-	AssertionResult.setFailureMessage(failureMessage);
-	AssertionResult.setFailure(true);
-}
-
-else {
-	log.info(&quot;\n\n&quot;+successMessage);
-	prev.setResponseMessage(&apos;Endpoint is working.&apos; + successMessage);
-}</stringProp>
-                <stringProp name="scriptLanguage">groovy</stringProp>
-              </JSR223Assertion>
-              <hashTree/>
-            </hashTree>
-          </hashTree>
           <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="IC - Pull_Remote Repo to Local" enabled="true">
             <stringProp name="TestPlan.comments">Pull latest from Bitbucket to local repo</stringProp>
             <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/Plumbing/Plumbing_POST_Pull_TF.jmx</stringProp>
@@ -548,6 +469,19 @@ else
         </ResultCollector>
         <hashTree/>
       </hashTree>
+      <PostThreadGroup guiclass="PostThreadGroupGui" testclass="PostThreadGroup" testname="tearDown Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </PostThreadGroup>
+      <hashTree/>
     </hashTree>
   </hashTree>
 </jmeterTestPlan>

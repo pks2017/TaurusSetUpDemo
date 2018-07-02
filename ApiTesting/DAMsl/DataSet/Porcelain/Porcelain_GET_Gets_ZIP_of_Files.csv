@@ -1,7 +1,7 @@
 repoAlias,filter,refId,TestCaseId,expectedError
-khutestNew,,,TC-55,0
+khutestNew,,,TC-55,NA
 khutestNew,0,0,TC-56,309
-khutestNew,new-dir,,TC-57,0
-khutestNew,,30bff5e34c5ba93aca513db7197139d954a3a6a6,TC-59,0
+khutestNew,new-dir,,TC-57,NA
+khutestNew,,30bff5e34c5ba93aca513db7197139d954a3a6a6,TC-59,NA
 khutestNew,,30bff5e34c5ba93aca513db7197139d954a3a6a61,TC-60,309
 khutest2345,,,TC-73,304

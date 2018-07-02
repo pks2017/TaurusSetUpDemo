@@ -91,7 +91,7 @@
           <stringProp name="TestPlan.comments">Adds a file to the index for future commit</stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Plumbing_POST - Add_with_all${TestCaseId2}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Plumbing_POST - Add_with_all${TestCaseId2}" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="all" elementType="HTTPArgument">

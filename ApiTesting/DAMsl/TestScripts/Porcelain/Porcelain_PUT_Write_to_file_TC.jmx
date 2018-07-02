@@ -86,21 +86,60 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
+        <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="false">
+          <stringProp name="maximumValue">999999</stringProp>
+          <stringProp name="minimumValue">000001</stringProp>
+          <stringProp name="outputFormat">Test_Porcelain_PUT_write_commit_push-</stringProp>
+          <boolProp name="perThread">true</boolProp>
+          <stringProp name="randomSeed"></stringProp>
+          <stringProp name="variableName">random_var</stringProp>
+        </RandomVariableConfig>
+        <hashTree/>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="random" elementType="Argument">
+              <stringProp name="Argument.name">random</stringProp>
+              <stringProp name="Argument.value">${__Random(1,99999)}</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="post_body" elementType="Argument">
+              <stringProp name="Argument.name">post_body</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="[TC] - Porcelain - PUT_Write_to_file_${TestCaseId}" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
+          <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">def random_num = vars.get(&quot;random&quot;);
+
+def random_body = &quot;random_Test_Porcelain_PUT_write_commit_push-&quot;;
+
+def body = random_body+random_num;
+
+vars.put(&quot;post_body&quot;, body);
+
+//log.info(&quot;\n\n Body:&quot;+ &quot;post_body&quot;);</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223PreProcessor>
+          <hashTree/>
           <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC]- Porcelain_PUT_Write_to_file" enabled="true">
             <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/Porcelain/Porcelain_PUT_Write_to_file_TF.jmx</stringProp>
           </IncludeController>
           <hashTree/>
-        </hashTree>
-        <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="ComplianceAssertion" enabled="true">
-          <stringProp name="cacheKey">true</stringProp>
-          <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Utility&quot;;,)}/ComplianceAssertion.groovy</stringProp>
-          <stringProp name="parameters"></stringProp>
-          <stringProp name="script">/*
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="ComplianceAssertion" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Utility&quot;;,)}/ComplianceAssertion.groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">/*
  *Compliance Assertion File Path Script
  ${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting\\\DAMsl\\\Utility&quot;;,)}\ComplianceAssertion.groovy
  *
@@ -116,18 +155,19 @@
  * File path for writing Result Tree data
  * ${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting\\\DAMsl\\\Reports&quot;;,)}\Result_${__time(MM-dd-yyyy,)}.csv
  */</stringProp>
-          <stringProp name="scriptLanguage">groovy</stringProp>
-        </JSR223Assertion>
-        <hashTree/>
-        <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
-          <stringProp name="JSON_PATH">$.diagnostics.error</stringProp>
-          <stringProp name="EXPECTED_VALUE">${expectedError}</stringProp>
-          <boolProp name="JSONVALIDATION">true</boolProp>
-          <boolProp name="EXPECT_NULL">false</boolProp>
-          <boolProp name="INVERT">true</boolProp>
-          <boolProp name="ISREGEX">true</boolProp>
-        </JSONPathAssertion>
-        <hashTree/>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223Assertion>
+          <hashTree/>
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+            <stringProp name="JSON_PATH">$.diagnostics.error</stringProp>
+            <stringProp name="EXPECTED_VALUE">${expectedError}</stringProp>
+            <boolProp name="JSONVALIDATION">true</boolProp>
+            <boolProp name="EXPECT_NULL">false</boolProp>
+            <boolProp name="INVERT">false</boolProp>
+            <boolProp name="ISREGEX">true</boolProp>
+          </JSONPathAssertion>
+          <hashTree/>
+        </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>

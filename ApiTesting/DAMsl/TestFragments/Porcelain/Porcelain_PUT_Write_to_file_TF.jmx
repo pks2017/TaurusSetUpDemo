@@ -12,18 +12,19 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="Porcelain_PUT_Writes_to_file" enabled="false">
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="Porcelain_PUT_Writes_to_file" enabled="true">
         <stringProp name="TestPlan.comments">Performs a hard reset on the specified file path</stringProp>
       </TestFragmentController>
       <hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Porcelain_PUT_Writes_to_file__${TestCaseId}" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">This is thre test data to write in file...</stringProp>
+                <stringProp name="Argument.value">${post_body}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name"></stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>

@@ -1,5 +1,5 @@
 repoAlias,path,TestCaseId,expectedError
 khutestNew,new-dir223/new-test-file-khuPorce2234.txt,TC-63,0
 khutestNew44478,new-dir22/new-test-file-khuPorce123.txt,TC-104,304
-khutestNew,new-dir223/new-test-file-khuPorce2234.txt,TC-105,318
+khutestNew,new-dir223/new-test-file-khuPorce2234.txt,TC-105,317
 khutestNew44478,new-dir22999/new-test-file-khuPorce123.txt,TC-106,304

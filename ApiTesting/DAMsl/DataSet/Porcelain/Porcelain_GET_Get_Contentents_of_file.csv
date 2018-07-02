@@ -1,6 +1,6 @@
 repoAlias,path,refId,TestCaseId,expectedError
-khutestNew,new-dir223/new-test-file-khuPorce2234.txt,,TC-93,0
-khutestNew,new44-dir223/new-test-file-khuPorce2234.txt,f4dd3bc0ec99a4b6251675cd71ebebe64fdee39a,TC-94,0
+khutestNew,new-dir223/new-test-file-khuPorce2234.txt,,TC-93,NA
+khutestNew,new44-dir223/new-test-file-khuPorce2234.txt,f4dd3bc0ec99a4b6251675cd71ebebe64fdee39a,TC-94,NA
 khutestNew,new-dir223/new-test-file-khuPorce2234.txt,a22c907db1982e5dc8f0b0d38ccbd2ac339a6a4212,TC-95,314
 khutestNew,new-dir223/new-test-file-khuPorce2234.txt,2,TC-95,314
 khutestNew,new-dir223/new-test-file-khuPorce2234.txt,a,TC-95,314

@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Porcelain_DELETE_Release_workspace_lock_TC" enabled="true">
-      <stringProp name="TestPlan.comments">Forces the release of the workspace lock. Requires sys admin privileges</stringProp>
-      <boolProp name="TestPlan.functional_mode">true</boolProp>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Porcelain_GET_Contents_of_File_TC" enabled="true">
+      <stringProp name="TestPlan.comments">Gets the contents of the file at &lt;path&gt; after it has pulled the latest from the remote repository</stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-        <collectionProp name="Arguments.arguments"/>
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="x-gitfs-workspace" elementType="Argument">
+            <stringProp name="Argument.name">x-gitfs-workspace</stringProp>
+            <stringProp name="Argument.value">ewolf</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="content-type" elementType="Argument">
+            <stringProp name="Argument.name">content-type</stringProp>
+            <stringProp name="Argument.value">text/plain</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
@@ -25,7 +36,7 @@
       </CSVDataSet>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Local Data Set Config" enabled="true">
-        <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/DataSet/Porcelain&quot;;,)}/Porcelain_DELETE_Release_workspace_lock.csv</stringProp>
+        <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/DataSet/Porcelain&quot;;,)}/Porcelain_GET_Get_Contentents_of_file.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -63,8 +74,8 @@
       <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="DAMSL Header Manager" enabled="true">
         <collectionProp name="HeaderManager.headers">
           <elementProp name="" elementType="Header">
-            <stringProp name="Header.name">Content-Type</stringProp>
-            <stringProp name="Header.value">text/plain</stringProp>
+            <stringProp name="Header.name">x-gitfs-workspace</stringProp>
+            <stringProp name="Header.value">${x-gitfs-workspace}</stringProp>
           </elementProp>
         </collectionProp>
       </HeaderManager>
@@ -73,7 +84,7 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">3</stringProp>
+          <stringProp name="LoopController.loops">7</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
@@ -82,20 +93,21 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="[TC] - Porcelain_DELETE_Release_workspace_lock_${TestCaseId}" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="[TC] - Porcelain - GET_Contents_of_File_${TestCaseId}" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC]- Porcelain_DELETE_Realese_workspce_lock" enabled="true">
-            <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/Porcelain/Porcelain_DELETE_Release_workspace_lock_TF.jmx</stringProp>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC]- Porcelain_GET_Contents_of_File" enabled="true">
+            <stringProp name="IncludeController.includepath">/ApiTesting/DAMsl/TestFragments/Porcelain/Porcelain_GET_File_Content_TF.jmx</stringProp>
           </IncludeController>
           <hashTree/>
-          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="ComplianceAssertion" enabled="true">
-            <stringProp name="cacheKey">true</stringProp>
-            <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Utility&quot;;,)}/ComplianceAssertion.groovy</stringProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="script">/*
+        </hashTree>
+        <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="ComplianceAssertion" enabled="true">
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Utility&quot;;,)}/ComplianceAssertionZip_New.groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">/*
  *Compliance Assertion File Path Script
  ${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting\\\DAMsl\\\Utility&quot;;,)}\ComplianceAssertion.groovy
  *
@@ -111,19 +123,18 @@
  * File path for writing Result Tree data
  * ${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting\\\DAMsl\\\Reports&quot;;,)}\Result_${__time(MM-dd-yyyy,)}.csv
  */</stringProp>
-            <stringProp name="scriptLanguage">groovy</stringProp>
-          </JSR223Assertion>
-          <hashTree/>
-          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
-            <stringProp name="JSON_PATH">$.diagnostics.error</stringProp>
-            <stringProp name="EXPECTED_VALUE">${expectedError}</stringProp>
-            <boolProp name="JSONVALIDATION">true</boolProp>
-            <boolProp name="EXPECT_NULL">false</boolProp>
-            <boolProp name="INVERT">false</boolProp>
-            <boolProp name="ISREGEX">true</boolProp>
-          </JSONPathAssertion>
-          <hashTree/>
-        </hashTree>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223Assertion>
+        <hashTree/>
+        <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="false">
+          <stringProp name="JSON_PATH">$.diagnostics.error</stringProp>
+          <stringProp name="EXPECTED_VALUE">${expectedError}</stringProp>
+          <boolProp name="JSONVALIDATION">true</boolProp>
+          <boolProp name="EXPECT_NULL">false</boolProp>
+          <boolProp name="INVERT">false</boolProp>
+          <boolProp name="ISREGEX">false</boolProp>
+        </JSONPathAssertion>
+        <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>

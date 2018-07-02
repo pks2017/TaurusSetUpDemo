@@ -92,9 +92,9 @@
           </IncludeController>
           <hashTree/>
         </hashTree>
-        <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="ComplianceAssertionZip" enabled="false">
+        <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="ComplianceAssertionZip" enabled="true">
           <stringProp name="cacheKey">true</stringProp>
-          <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Utility&quot;;,)}/ComplianceAssertionZip.groovy</stringProp>
+          <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Utility&quot;;,)}/ComplianceAssertionZip_New.groovy</stringProp>
           <stringProp name="parameters"></stringProp>
           <stringProp name="script">/*
  *Compliance Assertion File Path Script
@@ -115,13 +115,13 @@
           <stringProp name="scriptLanguage">groovy</stringProp>
         </JSR223Assertion>
         <hashTree/>
-        <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+        <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="false">
           <stringProp name="JSON_PATH">$.diagnostics.error</stringProp>
           <stringProp name="EXPECTED_VALUE">${expectedError}</stringProp>
           <boolProp name="JSONVALIDATION">true</boolProp>
           <boolProp name="EXPECT_NULL">false</boolProp>
-          <boolProp name="INVERT">true</boolProp>
-          <boolProp name="ISREGEX">false</boolProp>
+          <boolProp name="INVERT">false</boolProp>
+          <boolProp name="ISREGEX">true</boolProp>
         </JSONPathAssertion>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">

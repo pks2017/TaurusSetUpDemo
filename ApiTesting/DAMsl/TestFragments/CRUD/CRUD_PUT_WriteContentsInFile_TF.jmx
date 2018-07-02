@@ -12,7 +12,7 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] - PUT_Writes the BODY contents to the file" enabled="false"/>
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] - PUT_Writes the BODY contents to the file" enabled="true"/>
       <hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="CRUD_PUT-Writes the BODY contents to the file_${TestCaseIdPut}" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>

@@ -32,6 +32,9 @@ execution:
 - scenario: 
     script: ApiTesting/DAMsl/TestScripts/RepoMgmt/RepoMgmt_PUT_Repo.jmx
     force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DAMsl/TestScripts/RepoMgmt/RepoMgmt_DELETE_Repo_TC.jmx
+    force-parent-sample: false    
 - scenario:
     script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_GET_CommitHistory_TC.jmx
     force-parent-sample: false
@@ -45,13 +48,13 @@ execution:
     script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_GET_ZipFiles_TC.jmx
     force-parent-sample: false
 - scenario:
-    script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_PATCH_RenameFile_TC.jmx
-    force-parent-sample: false
-- scenario:
     script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_POST_WriteContentsInFile_TC.jmx
     force-parent-sample: false
 - scenario:
     script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_PUT_WriteContentsInFile_TC.jmx
+    force-parent-sample: false
+- scenario:
+    script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_PATCH_RenameFile_TC.jmx
     force-parent-sample: false
 - scenario:
     script: ApiTesting/DAMsl/TestScripts/CRUD/CRUD_DELETE_DeleteFile_TC.jmx
@@ -96,8 +99,8 @@ execution:
     script: ApiTesting/DAMsl/TestScripts/Plumbing/Plumbing_DELETE_Clean_TC.jmx
     force-parent-sample: false
 - scenario:
-    script: ApiTesting/DAMsl/TestScripts/Porcelain/Porcelain_GET_Contents_of_file_TC.jmx
-    force-parent-sample: false
+    script: ApiTesting/DAMsl/TestScripts/Porcelain/Porcelain_GET_File_Content_TC.jmx
+    force-parent-sample: false    
 - scenario:
     script: ApiTesting/DAMsl/TestScripts/Porcelain/Porcelain_GET_Gets_ZIP_of_files_TC.jmx
     force-parent-sample: false
