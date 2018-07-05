@@ -1,0 +1,5 @@
+statisticId,statisticName,expectedError,testCaseId
+2,,0,TC-571
+,LAM - Sub Industry (PB),0,TC-572
+test,,0,TC-573
+,,0,TC-574

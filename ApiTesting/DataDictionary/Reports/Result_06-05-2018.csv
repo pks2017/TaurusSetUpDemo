@@ -1,0 +1,304 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1528197124990,0,DELETE - TimestampFormat_44,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 143: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=1,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=1
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1175,0,1,1,0,0,0
+1528197124989,0,[TC] - data-feed-configurator-controller_44,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1175,0,1,1,0,41,0
+1528197400252,0,DELETE - TimestampFormat_44,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 143: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=1,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=1
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1175,0,1,1,0,0,0
+1528197400251,0,[TC] - data-feed-configurator-controller_44,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1175,0,1,1,0,21,0
+1528197480458,0,DELETE - TimestampFormat_${testCaseId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 143: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=${id},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=${id}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1179,0,1,1,0,0,0
+1528197480458,0,[TC] - data-feed-configurator-controller_${testCaseId},,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1179,0,1,1,0,14,0
+1528197556010,0,DELETE - TimestampFormat_${testCaseId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 143: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=${id},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=${id}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1179,0,1,1,0,0,0
+1528197556010,0,[TC] - data-feed-configurator-controller_${testCaseId},,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1179,0,1,1,0,24,0
+1528197686224,0,DELETE - TimestampFormat_${testCaseId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 143: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=${id},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=${id}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1179,0,1,1,0,0,0
+1528197686223,0,[TC] - data-feed-configurator-controller_${testCaseId},,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1179,0,1,1,0,19,0
+1528198045536,0,DELETE - TimestampFormat_${testCaseId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 143: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=${id},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=${timestampBinId}&id=${id}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1179,0,1,1,0,0,0
+1528198045536,0,[TC] - data-feed-configurator-controller_${testCaseId},,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1179,0,1,1,0,19,0
+1528198567056,593,DELETE - TimestampFormat_TC-426,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '0', but found '500'",442,369,1,1,593,0,329
+1528198567056,593,[TC] - data-feed-configurator-controller_TC-426,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,442,369,1,1,593,34,329
+1528198613138,519,DELETE - TimestampFormat_TC-426,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '0', but found '500'",443,369,1,1,519,0,253
+1528198613137,519,[TC] - data-feed-configurator-controller_TC-426,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,443,369,1,1,519,29,253
+1528198613686,264,DELETE - TimestampFormat_TC-427,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '0', but found '500'",442,374,1,1,264,0,0
+1528198613685,264,[TC] - data-feed-configurator-controller_TC-427,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,442,374,1,1,264,3,0
+1528198613952,264,DELETE - TimestampFormat_TC-431,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '0', but found '500'",446,373,1,1,263,0,0
+1528198613952,264,[TC] - data-feed-configurator-controller_TC-431,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,446,373,1,1,263,2,0
+1528198614219,264,DELETE - TimestampFormat_TC-433,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '0', but found '500'",446,379,1,1,264,0,0
+1528198614219,264,[TC] - data-feed-configurator-controller_TC-433,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,446,379,1,1,264,2,0
+1528198636451,521,DELETE - TimestampFormat_TC-426,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,442,369,1,1,521,0,253
+1528198636450,521,[TC] - data-feed-configurator-controller_TC-426,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,442,369,1,1,521,2,253
+1528198636973,264,DELETE - TimestampFormat_TC-427,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,442,374,1,1,264,0,0
+1528198636973,264,[TC] - data-feed-configurator-controller_TC-427,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,442,374,1,1,264,1,0
+1528198637239,264,DELETE - TimestampFormat_TC-431,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,446,373,1,1,264,0,0
+1528198637238,264,[TC] - data-feed-configurator-controller_TC-431,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,446,373,1,1,264,1,0
+1528198637505,275,DELETE - TimestampFormat_TC-433,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,447,379,1,1,275,0,0
+1528198637504,275,[TC] - data-feed-configurator-controller_TC-433,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,447,379,1,1,275,1,0
+1528198983364,604,GET - TimestampFormatr_TC-436,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,427,347,1,1,603,0,335
+1528198983364,604,[TC] - data-feed-configurator-controller_TC-436,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,427,347,1,1,603,21,335
+1528199102374,590,GET - TimestampFormatr_TC-436,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,426,347,1,1,590,0,328
+1528199102373,590,[TC] - data-feed-configurator-controller_TC-436,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,426,347,1,1,590,20,328
+1528199102984,262,GET - TimestampFormatr_TC-437,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,352,350,1,1,262,0,0
+1528199102983,262,[TC] - data-feed-configurator-controller_TC-437,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,352,350,1,1,262,4,0
+1528199103251,261,GET - TimestampFormatr_TC-438,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,352,349,1,1,260,0,0
+1528199103250,261,[TC] - data-feed-configurator-controller_TC-438,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,352,349,1,1,260,3,0
+1528199103516,0,GET - TimestampFormatr_TC-439,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 146: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=1432 &id=4232,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?timestampBinId=1432 &id=4232
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1166,0,1,1,0,0,0
+1528199103515,0,[TC] - data-feed-configurator-controller_TC-439,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1166,0,1,1,0,6,0
+1528199198095,599,GET - TimestampFormatr_TC-436,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,426,347,1,1,599,0,334
+1528199198094,599,[TC] - data-feed-configurator-controller_TC-436,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,426,347,1,1,599,22,334
+1528199198717,264,GET - TimestampFormatr_TC-437,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,352,350,1,1,263,0,0
+1528199198716,264,[TC] - data-feed-configurator-controller_TC-437,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,352,350,1,1,263,3,0
+1528199198983,264,GET - TimestampFormatr_TC-438,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,352,349,1,1,263,0,0
+1528199198983,264,[TC] - data-feed-configurator-controller_TC-438,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,352,349,1,1,263,4,0
+1528199199252,264,GET - TimestampFormatr_TC-439,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,352,352,1,1,264,0,0
+1528199199251,264,[TC] - data-feed-configurator-controller_TC-439,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,352,352,1,1,264,3,0
+1528199805544,588,POST - TimestampFormat_TC-436,404,Not Found,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [404]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormats
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 169
+Host: internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",322,516,1,1,588,0,333
+1528199805543,588,[TC] - data-feed-configurator-controller_TC-436,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,322,516,1,1,588,22,333
+1528199806155,251,POST - TimestampFormat_TC-436,404,Not Found,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [404]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormats
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 169
+Host: internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",322,516,1,1,251,0,0
+1528199806154,251,[TC] - data-feed-configurator-controller_TC-436,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,322,516,1,1,251,2,0
+1528199806408,251,POST - TimestampFormat_TC-436,404,Not Found,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [404]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormats
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 169
+Host: internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",322,516,1,1,251,0,0
+1528199806408,251,[TC] - data-feed-configurator-controller_TC-436,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,322,516,1,1,251,1,0
+1528199806661,251,POST - TimestampFormat_TC-436,404,Not Found,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [404]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormats
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 169
+Host: internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",322,516,1,1,251,0,0
+1528199806660,251,[TC] - data-feed-configurator-controller_TC-436,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,322,516,1,1,251,2,0
+1528199902441,570,POST - TimestampFormat_TC-436,404,Not Found,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [404]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormats
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 169
+Host: internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",322,516,1,1,570,0,319
+1528199902440,570,[TC] - data-feed-configurator-controller_TC-436,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,322,516,1,1,570,20,319
+1528199975322,515,POST - TimestampFormat_TC-436,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '0', but found '500'",493,515,1,1,515,0,252
+1528199975322,515,[TC] - data-feed-configurator-controller_TC-436,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,493,515,1,1,515,17,252
+1528200137327,522,POST - TimestampFormat_TC-443,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,757,515,1,1,522,0,253
+1528200137326,522,[TC] - data-feed-configurator-controller_TC-443,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,757,515,1,1,522,20,253
+1528200137869,263,POST - TimestampFormat_TC-444,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '0', but found '500'",493,515,1,1,263,0,0
+1528200137869,263,[TC] - data-feed-configurator-controller_TC-444,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,493,515,1,1,263,1,0
+1528201027319,644,PUT - TimestampFormat_TC-436,404,Not Found,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [404]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormats
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 169
+Host: internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",322,515,1,1,644,0,389
+1528201027318,644,[TC] - data-feed-configurator-controller_TC-436,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,322,515,1,1,644,18,389
+1528201146791,511,PUT - TimestampFormat_TC-445,404,Not Found,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [404]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormats
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 171
+Host: internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",322,517,1,1,511,0,255
+1528201146791,511,[TC] - data-feed-configurator-controller_TC-445,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,322,517,1,1,511,19,255
+1528201200960,661,PUT - TimestampFormat_TC-445,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '0', but found '500'",493,516,1,1,661,0,396
+1528201200959,661,[TC] - data-feed-configurator-controller_TC-445,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,493,516,1,1,661,21,396
+1528201273430,6364,PUT - TimestampFormat_TC-445,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '0', but found '500'",493,516,1,1,6364,0,4491
+1528201273429,6364,[TC] - data-feed-configurator-controller_TC-445,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,493,516,1,1,6364,20,4491
+1528201338468,597,PUT - TimestampFormat_TC-445,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,836,515,1,1,596,0,330
+1528201338467,597,[TC] - data-feed-configurator-controller_TC-445,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,836,515,1,1,596,17,330
+1528201385317,524,PUT - TimestampFormat_TC-445,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,836,515,1,1,523,0,249
+1528201385317,524,[TC] - data-feed-configurator-controller_TC-445,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,836,515,1,1,523,18,249
+1528201385860,263,PUT - TimestampFormat_TC-446,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '0', but found '500'",443,514,1,1,262,0,0
+1528201385859,263,[TC] - data-feed-configurator-controller_TC-446,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,443,514,1,1,262,2,0
+1528201711164,0,GET - TimestampFormatrcheck_TC-447,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 135: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?format=${format},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?format=${format}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1154,0,1,1,0,0,0
+1528201711164,0,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1154,0,1,1,0,23,0
+1528201727512,635,GET - TimestampFormatrcheck_TC-447,200,OK,[TG] - data-feed-configurator-controller 1-1,,false,javax.script.ScriptException: java.lang.IllegalArgumentException: Text must not be null or empty,209,333,1,1,635,0,382
+1528201727512,635,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,209,333,1,1,635,19,382
+1528201867264,644,GET - TimestampFormatrcheck_TC-447,200,OK,[TG] - data-feed-configurator-controller 1-1,,false,javax.script.ScriptException: java.lang.IllegalArgumentException: Text must not be null or empty,209,333,1,1,644,0,388
+1528201867263,644,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,209,333,1,1,644,17,388
+1528201933022,643,GET - TimestampFormatrcheck_TC-447,200,OK,[TG] - data-feed-configurator-controller 1-1,,false,javax.script.ScriptException: java.lang.IllegalArgumentException: Text must not be null or empty,209,333,1,1,643,0,389
+1528201933022,643,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,209,333,1,1,643,17,389
+1528202138835,646,GET - TimestampFormatrcheck_TC-447,200,OK,[TG] - data-feed-configurator-controller 1-1,,false,javax.script.ScriptException: java.lang.IllegalArgumentException: Text must not be null or empty,209,333,1,1,646,0,391
+1528202138834,646,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,209,333,1,1,646,23,391
+1528202209817,0,GET - TimestampFormatrcheck_TC-447,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 144: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?format=dd/MM/yyyy h:m a,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat?format=dd/MM/yyyy h:m a
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1161,0,1,1,0,0,0
+1528202209817,0,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1161,0,1,1,0,22,0
+1528202315084,577,GET - TimestampFormatrcheck_TC-447,200,OK,[TG] - data-feed-configurator-controller 1-1,,false,javax.script.ScriptException: java.lang.IllegalArgumentException: Text must not be null or empty,209,333,1,1,577,0,324
+1528202315084,577,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,209,333,1,1,577,26,324
+1528202374529,503,GET - TimestampFormatrcheck_TC-447,200,OK,[TG] - data-feed-configurator-controller 1-1,,true,,209,333,1,1,503,0,252
+1528202374528,503,[TC] - data-feed-configurator-controller_TC-447,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,209,333,1,1,503,2,252
+1528202523069,686,GET - TimestampFormatrcheck_TC-447,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,367,339,1,1,685,0,428
+1528202523068,686,[TC] - data-feed-configurator-controller_TC-447,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,367,339,1,1,685,2,428
+1528202614917,0,GET - TimestampFormatrcheck_TC-447,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 150: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/MM/yyyy h:m a,[TG] - data-feed-configurator-controller 1-1,text,false,,1167,0,1,1,0,0,0
+1528202614917,0,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1167,0,1,1,0,2,0
+1528202614919,0,GET - TimestampFormatrcheck_TC-448,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 152: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/MMmm/yyyy h:m a1221sds,[TG] - data-feed-configurator-controller 1-1,text,false,,1176,0,1,1,0,0,0
+1528202614919,0,[TC] - data-feed-configurator-controller_TC-448,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1176,0,1,1,0,1,0
+1528202662838,0,GET - TimestampFormatrcheck_TC-447,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 150: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/MM/yyyy h:m a,[TG] - data-feed-configurator-controller 1-1,text,false,,1167,0,1,1,0,0,0
+1528202662837,0,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1167,0,1,1,0,2,0
+1528202662840,0,GET - TimestampFormatrcheck_TC-448,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 152: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/MMmm/yyyy h:m a1221sds,[TG] - data-feed-configurator-controller 1-1,text,false,,1176,0,1,1,0,0,0
+1528202662840,0,[TC] - data-feed-configurator-controller_TC-448,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1176,0,1,1,0,0,0
+1528202750956,645,GET - TimestampFormatrcheck_TC-447,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,367,339,1,1,645,0,387
+1528202750955,645,[TC] - data-feed-configurator-controller_TC-447,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,367,339,1,1,645,2,387
+1528202751603,0,GET - TimestampFormatrcheck_TC-448,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 152: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/MMmm/yyyy h:m a1221sds,[TG] - data-feed-configurator-controller 1-1,text,false,,1176,0,1,1,0,0,0
+1528202751603,0,[TC] - data-feed-configurator-controller_TC-448,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1176,0,1,1,0,0,0
+1528202807387,0,GET - TimestampFormatrcheck_TC-447,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 150: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/MM/yyyy h:m a,[TG] - data-feed-configurator-controller 1-1,text,false,,1167,0,1,1,0,0,0
+1528202807386,0,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1167,0,1,1,0,2,0
+1528202807389,0,GET - TimestampFormatrcheck_TC-448,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 152: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/MMmm/yyyy h:m a1221sds,[TG] - data-feed-configurator-controller 1-1,text,false,,1176,0,1,1,0,0,0
+1528202807389,0,[TC] - data-feed-configurator-controller_TC-448,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1176,0,1,1,0,0,0
+1528202904672,0,GET - TimestampFormatrcheck_TC-447,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 150: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/mm/yyyy h:m a,[TG] - data-feed-configurator-controller 1-1,text,false,,1167,0,1,1,0,0,0
+1528202904671,0,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1167,0,1,1,0,2,0
+1528202904673,0,GET - TimestampFormatrcheck_TC-448,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 152: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/MMmm/yyyy h:m a1221sds,[TG] - data-feed-configurator-controller 1-1,text,false,,1176,0,1,1,0,0,0
+1528202904673,0,[TC] - data-feed-configurator-controller_TC-448,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1176,0,1,1,0,1,0
+1528202986507,0,GET - TimestampFormatrcheck_TC-447,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 150: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/mm/yyyy h:m a',[TG] - data-feed-configurator-controller 1-1,text,false,,1168,0,1,1,0,0,0
+1528202986506,0,[TC] - data-feed-configurator-controller_TC-447,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1168,0,1,1,0,1,0
+1528202986508,0,GET - TimestampFormatrcheck_TC-448,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 152: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/MMmm/yyyy h:m a1221sds,[TG] - data-feed-configurator-controller 1-1,text,false,,1176,0,1,1,0,0,0
+1528202986508,0,[TC] - data-feed-configurator-controller_TC-448,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1176,0,1,1,0,0,0
+1528203033673,504,GET - TimestampFormatrcheck_TC-447,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,385,364,1,1,503,0,250
+1528203033672,504,[TC] - data-feed-configurator-controller_TC-447,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,385,364,1,1,503,1,250
+1528203034178,0,GET - TimestampFormatrcheck_TC-448,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 152: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/MMmm/yyyy h:m a1221sds,[TG] - data-feed-configurator-controller 1-1,text,false,,1176,0,1,1,0,0,0
+1528203034178,0,[TC] - data-feed-configurator-controller_TC-448,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1176,0,1,1,0,0,0
+1528203082145,650,GET - TimestampFormatrcheck_TC-447,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,385,364,1,1,649,0,394
+1528203082145,650,[TC] - data-feed-configurator-controller_TC-447,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,385,364,1,1,649,0,394
+1528203082796,258,GET - TimestampFormatrcheck_TC-448,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,436,373,1,1,256,0,0
+1528203082796,258,[TC] - data-feed-configurator-controller_TC-448,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,436,373,1,1,256,0,0
+1528203143273,573,GET - TimestampFormatrcheck_TC-447,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,385,364,1,1,572,0,320
+1528203143273,573,[TC] - data-feed-configurator-controller_TC-447,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,385,364,1,1,572,1,320
+1528203143847,0,GET - TimestampFormatrcheck_TC-448,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 152: http://internal-c0000deb-cx-batch-242855355.us-east-1.elb.amazonaws.com/DataDictionary/v2/dataFeedConfigurator/timestampFormat/check?format=dd/MMmm/yyyy h:m a1221sds,[TG] - data-feed-configurator-controller 1-1,text,false,,1176,0,1,1,0,0,0
+1528203143847,0,[TC] - data-feed-configurator-controller_TC-448,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1176,0,1,1,0,1,0
+1528203345177,520,GET - TimestampFormatList_TC-436,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,835,342,1,1,520,0,260
+1528203345177,520,[TC] - data-feed-configurator-controller_TC-436,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,835,342,1,1,520,0,260
+1528203345698,258,GET - TimestampFormatList_TC-436,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,835,342,1,1,258,0,0
+1528203345698,258,[TC] - data-feed-configurator-controller_TC-436,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,835,342,1,1,258,0,0
+1528203508427,585,GET - TimestampFormatList_TC-449,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,835,342,1,1,585,0,325
+1528203508427,585,[TC] - data-feed-configurator-controller_TC-449,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,835,342,1,1,585,1,325
+1528203509013,262,GET - TimestampFormatList_TC-451,200,OK,[TG] - data-feed-configurator-controller 1-1,text,true,,350,349,1,1,262,0,0
+1528203509013,262,[TC] - data-feed-configurator-controller_TC-451,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,350,349,1,1,262,0,0

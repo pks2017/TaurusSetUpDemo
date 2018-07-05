@@ -2,10 +2,10 @@ storageBinId,visible,testCaseId,expectedError
 ,,TC-360,0
 3,,TC-361,0
 100,,TC-362,0
-test,,TC-363,400
 ,true,TC-364,0
 ,false,TC-365,0
 1,true,TC-366,0
 1,false,TC-367,0
 100,true,TC-368,0
 100,false,TC-369,0
+test,,TC-363,400

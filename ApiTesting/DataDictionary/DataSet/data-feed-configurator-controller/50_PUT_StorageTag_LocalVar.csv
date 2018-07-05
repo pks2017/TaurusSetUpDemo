@@ -1,4 +1,4 @@
 id,idStorageId,idStorageStage,tag,multivalueIndicator,testCaseId,expectedError
 1,1,1,AR1,true,TC-389,0
-100,22,1,AR22,false,TC-390,304
+100,22,1,AR22,false,TC-390,500
 test,22,1,AR22,false,TC-391,400

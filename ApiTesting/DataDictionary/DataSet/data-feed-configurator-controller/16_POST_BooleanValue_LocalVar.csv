@@ -1,4 +1,4 @@
 description,id,name,falseValue,priority,trueValue,testCaseId,expectedError
 Test Boolean Value description,22,Test Boolean Value name,3,1,5,TC-162,0
-Test Boolean Value description,100,Test Boolean Value name,3,1,5,TC-163,304
+Test Boolean Value description,100,Test Boolean Value name,3,1,5,TC-163,500
 Test Boolean Value description,21,Test Boolean Value name,false,1,true,TC-164,400

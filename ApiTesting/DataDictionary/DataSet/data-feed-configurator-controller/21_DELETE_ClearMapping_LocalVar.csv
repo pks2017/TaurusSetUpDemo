@@ -1,4 +1,4 @@
 dataFeedId,testCaseId,expectedError
-1,TC-185,0
-100,TC-186,314
+1,TC-185,100
+100,TC-186,100
 test,TC-191,400

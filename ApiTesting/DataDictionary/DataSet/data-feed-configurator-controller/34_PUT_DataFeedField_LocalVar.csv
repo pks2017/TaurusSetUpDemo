@@ -1,9 +1,9 @@
 id,dataFeedId,name,mandatoryIndicator,ignoredIndicator,signatureIndicator,modifierIndicator,docIdIndicator,testCaseId,expectedError
+500,149,Test updated,,,,,,TC-461,500
 336,149,Test updated,,,,,,TC-455,0
 336,149,,false,,,,,TC-456,0
 336,149,,,false,,,,TC-457,0
 336,149,,,,false,,,TC-458,0
 336,149,,,,,false,,TC-459,0
 336,149,,,,,,false,TC-460,0
-500,149,Test updated,,,,,,TC-461,314
-test,149,Test updated,,,,,,TC-462,500
+test,149,Test updated,,,,,,TC-462,400

@@ -1,0 +1,5 @@
+name,description,dimension1,dimension2,expectedError,testCaseId
+TestMart,Test mart,Dim1,Dim2,0,TC-549
+,Test mart,Dim1,Dim2,0,TC-550
+TestMart,,Dim1,Dim3,0,TC-551
+TestMart,Test mart,,,0,TC-552

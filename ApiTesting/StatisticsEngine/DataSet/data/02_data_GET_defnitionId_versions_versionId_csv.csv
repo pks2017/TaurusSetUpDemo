@@ -1,0 +1,7 @@
+definitionId,versionId,download,expectedError,testCaseId
+21,21,TRUE,0,TC-517
+21,21,FALSE,0,TC-518
+0,21,TRUE,0,TC-519
+21,0,TRUE,0,TC-520
+0,0,FALSE,0,TC-521
+test,test,FALSE,404,TC-522

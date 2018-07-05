@@ -1,0 +1,247 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1530778331071,16,POST - Storage Tag_TC-383,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: dev-api-prod.r4cloud.com,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.UnknownHostException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/storageTag
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+
+
+",2136,0,1,1,0,0,15
+1530778331071,16,[TC] - data-feed-configurator-controller_TC-383,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,2136,0,1,1,0,39,15
+1530778331126,1,POST - Storage Tag_TC-384,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: dev-api-prod.r4cloud.com,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.UnknownHostException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/storageTag
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+
+
+",1940,0,1,1,0,0,1
+1530778331126,1,[TC] - data-feed-configurator-controller_TC-384,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1940,0,1,1,0,1,1
+1530778331129,0,POST - Storage Tag_TC-385,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: dev-api-prod.r4cloud.com,[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.UnknownHostException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/storageTag
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+
+
+",1940,0,1,1,0,0,0
+1530778331128,0,[TC] - data-feed-configurator-controller_TC-385,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,1940,0,1,1,0,2,0
+1530778390287,885,POST - Storage Tag_TC-383,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '0', but found '500'",504,1015,1,1,885,0,529
+1530778390286,885,[TC] - data-feed-configurator-controller_TC-383,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,504,1015,1,1,885,20,529
+1530778391191,341,POST - Storage Tag_TC-384,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,504,1015,1,1,341,0,0
+1530778391191,341,[TC] - data-feed-configurator-controller_TC-384,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,504,1015,1,1,341,2,0
+1530778391534,256,POST - Storage Tag_TC-385,200,OK,[TG] - data-feed-configurator-controller 1-1,,false,javax.script.ScriptException: java.lang.IllegalArgumentException: Text must not be null or empty,213,1018,1,1,256,0,0
+1530778391534,256,[TC] - data-feed-configurator-controller_TC-385,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,213,1018,1,1,256,2,0
+1530784544670,833,POST - DataEnricher_TC-468,200,OK,[TG] - data-feed-configurator-controller 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/enricher
+
+JSON RESPONSE: [id:180, activeIndicator:false, priority:1, ruleName:com.r4cloud.cerberus.enricher.rule.EnrichCerberusTestRule, ruleDescription:Cerberus Test 121 rule, ruleTypeCode:Java, ruleContents:rules, ownerId:DATA_DCTNRY, version:1, dataFeed:[id:121], valid:true, errorsAsString:]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 316
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",634,615,1,1,833,0,502
+1530784544668,833,[TC] - data-feed-configurator-controller_TC-468,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,634,615,1,1,833,33,502
+1530784545534,337,POST - DataEnricher_TC-469,200,OK,[TG] - data-feed-configurator-controller 1-1,text,false,"javax.script.ScriptException: groovy.lang.MissingMethodException: No signature of method: java.util.ArrayList.keySet() is applicable for argument types: () values: []
+Possible solutions: toSet(), toSet(), set(int, java.lang.Object), set(int, java.lang.Object), get(int), get(int)",406,620,1,1,337,0,0
+1530784545534,337,[TC] - data-feed-configurator-controller_TC-469,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,406,620,1,1,337,43,0
+1530784545914,769,POST - DataEnricher_TC-470,200,OK,[TG] - data-feed-configurator-controller 1-1,,false,javax.script.ScriptException: java.lang.IllegalArgumentException: Text must not be null or empty,213,619,1,1,769,0,0
+1530784545914,769,[TC] - data-feed-configurator-controller_TC-470,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,213,619,1,1,769,2,0
+1530784910020,847,POST - Data Field_TC-463,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,545,411,1,1,846,0,505
+1530784910020,847,[TC] - data-feed-configurator-controller_TC-463,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - data-feed-configurator-controller 1-1,,true,,545,411,1,1,846,24,505
+1530784910891,335,POST - Data Field_TC-464,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '500', but found '0'",568,413,1,1,335,0,0
+1530784910891,335,[TC] - data-feed-configurator-controller_TC-464,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,568,413,1,1,335,2,0
+1530784911229,332,POST - Data Field_TC-465,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '500', but found '0'",568,412,1,1,332,0,0
+1530784911229,332,[TC] - data-feed-configurator-controller_TC-465,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,568,412,1,1,332,2,0
+1530784911564,332,POST - Data Field_TC-466,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Value expected to be '500', but found '0'",568,412,1,1,332,0,0
+1530784911564,332,[TC] - data-feed-configurator-controller_TC-466,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,568,412,1,1,332,3,0
+1530784911900,254,POST - Data Field_TC-467,200,OK,[TG] - data-feed-configurator-controller 1-1,,false,javax.script.ScriptException: java.lang.IllegalArgumentException: Text must not be null or empty,213,413,1,1,254,0,0
+1530784911900,254,[TC] - data-feed-configurator-controller_TC-467,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - data-feed-configurator-controller 1-1,,false,,213,413,1,1,254,5,0
+1530785429779,868,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,726,382,1,1,868,0,515
+1530785430661,337,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""name"" : ""Test Data Feed Field 10""/",722,306,1,1,335,0,0
+1530785431001,342,Update Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""error"" : 0/",509,572,1,1,342,0,0
+1530785431346,344,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""name"" : ""Test Data Feed Field 10 Updated""/",722,306,1,1,344,0,0
+1530785431691,1246,Delete Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,574,309,1,1,1246,0,0
+1530785432939,1682,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,399,306,1,1,1682,0,252
+1530785735472,849,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,398,382,1,1,848,0,503
+1530785736350,0,Get Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530785736352,253,Update Data Feed Field,200,OK,[TG] - data-feed-configurator-controller 1-1,,false,javax.script.ScriptException: java.lang.IllegalArgumentException: Text must not be null or empty,213,567,1,1,253,0,0
+1530785736611,0,Get Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530785736615,0,Delete Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530785736618,0,Get Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530785759293,587,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,398,382,1,1,587,0,251
+1530785759908,0,Get Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530785759910,255,Update Data Feed Field,200,OK,[TG] - data-feed-configurator-controller 1-1,,false,javax.script.ScriptException: java.lang.IllegalArgumentException: Text must not be null or empty,213,567,1,1,255,0,0
+1530785760169,0,Get Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530785760172,0,Delete Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530785760176,0,Get Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530785823491,839,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,398,382,1,1,839,0,504
+1530785824360,0,Get Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530785824365,257,Update Data Feed Field,200,OK,[TG] - data-feed-configurator-controller 1-1,,false,javax.script.ScriptException: java.lang.IllegalArgumentException: Text must not be null or empty,213,567,1,1,257,0,0
+1530785824629,0,Get Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530785824631,0,Delete Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530785824634,0,Get Data Feed Field,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 89: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1},[TG] - data-feed-configurator-controller 1-1,text,false,"Expected <response code> [200] but we got instead [Non HTTP response code: java.net.URISyntaxException]
+
+URL: http://dev-api-prod.r4cloud.com/DataDictionary/v2/dataFeedConfigurator/dataFeedField?id=${dataFeedFieldId_1}
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: 
+
+",1118,0,1,1,0,0,0
+1530786109962,861,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,6876,383,1,1,861,0,508
+1530786110855,328,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""name"" : ""StringId""/",661,308,1,1,328,0,0
+1530786111184,332,Update Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""error"" : 0/",509,550,1,1,332,0,0
+1530786111517,329,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""name"" : ""StringId""/",661,308,1,1,329,0,0
+1530786111849,328,Delete Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,574,311,1,1,328,0,0
+1530786112181,583,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,399,308,1,1,583,0,251
+1530786213852,836,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,6609,383,1,1,835,0,504
+1530786214705,329,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""name"" : ""Test Data Feed Field 10""/",646,308,1,1,329,0,0
+1530786215036,337,Update Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,670,577,1,1,337,0,0
+1530786215374,325,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,671,308,1,1,325,0,0
+1530786215702,339,Delete Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,574,311,1,1,339,0,0
+1530786216044,583,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,399,308,1,1,583,0,251
+1530786347373,867,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,6357,383,1,1,867,0,504
+1530786348266,338,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""name"" : ""Test Data Feed Field 10""/",645,307,1,1,338,0,0
+1530786348606,333,Update Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""error"" : 0/",509,576,1,1,332,0,0
+1530786348941,335,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""name"" : ""Test Data Feed Field 10 updated..""/",645,307,1,1,335,0,0
+1530786349278,334,Delete Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,574,310,1,1,334,0,0
+1530786349613,580,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,399,307,1,1,579,0,250
+1530786429953,887,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,4777,383,1,1,887,0,518
+1530786430856,343,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,661,308,1,1,343,0,0
+1530786431203,335,Update Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,670,577,1,1,335,0,0
+1530786431539,333,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,671,308,1,1,333,0,0
+1530786431876,332,Delete Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,574,311,1,1,332,0,0
+1530786432209,613,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,399,308,1,1,609,0,260
+1530786877674,902,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,4783,389,1,1,902,0,531
+1530786878593,332,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""name"" : ""Test Data Feed Field 10""/",667,308,1,1,332,0,0
+1530786878927,332,Update Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""error"" : 0/",509,577,1,1,332,0,0
+1530786879261,330,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""name"" : ""Test Data Feed Field 10 updated..""/",667,308,1,1,330,0,0
+1530786879593,331,Delete Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,574,311,1,1,331,0,0
+1530786879926,586,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,399,308,1,1,586,0,252
+1530786952749,844,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,4782,389,1,1,844,0,507
+1530786953614,332,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""name"" : ""Test Data Feed Field_Test Data Feed Field_36895007""/",667,308,1,1,332,0,0
+1530786953948,333,Update Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""error"" : 0/",509,577,1,1,333,0,0
+1530786954283,332,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,false,"Test failed: text expected to contain /""name"" : ""Test Data Feed Field 10 updated..""/",667,308,1,1,332,0,0
+1530786954616,353,Delete Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,574,311,1,1,353,0,0
+1530786954970,580,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,399,308,1,1,580,0,251
+1530787073577,850,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,4782,389,1,1,850,0,503
+1530787074448,332,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,667,308,1,1,332,0,0
+1530787074781,330,Update Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,676,583,1,1,330,0,0
+1530787075112,331,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,677,308,1,1,331,0,0
+1530787075444,333,Delete Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,574,311,1,1,332,0,0
+1530787075778,578,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,399,308,1,1,578,0,250
+1530787102461,586,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,4781,388,1,1,586,0,250
+1530787103064,329,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,666,308,1,1,329,0,0
+1530787103395,329,Update Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,675,582,1,1,329,0,0
+1530787103726,331,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,676,308,1,1,331,0,0
+1530787104059,335,Delete Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,574,311,1,1,335,0,0
+1530787104396,328,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,399,308,1,1,328,0,0
+1530787158920,848,Create Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,4782,389,1,1,847,0,516
+1530787159787,334,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,667,308,1,1,334,0,0
+1530787160122,332,Update Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,676,583,1,1,332,0,0
+1530787160455,335,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,677,308,1,1,335,0,0
+1530787160791,374,Delete Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,574,311,1,1,374,0,0
+1530787161166,588,Get Data Feed Field,200,Endpoint is working and returned a result.The Response data looks as per compliance.,[TG] - data-feed-configurator-controller 1-1,text,true,,399,308,1,1,588,0,257

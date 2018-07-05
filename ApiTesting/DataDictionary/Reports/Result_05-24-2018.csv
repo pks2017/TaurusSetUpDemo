@@ -1,0 +1,26 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1527150516984,1221,GET - file Contents_TC-30,200,OK,[TG] - request-samples-controller 1-1,text,false,"javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<!DOCTYPE html>
+^",36131,255,1,1,719,0,328
+1527150516937,1221,[TC] -request-samples-controller_TC-30,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - request-samples-controller 1-1,,false,,36131,255,1,1,719,202,328
+1527153588144,1099,GET - file Contents_TC-30,200,OK,[TG] - request-samples-controller 1-1,text,true,,36131,255,1,1,578,0,261
+1527153588143,1099,[TC] -request-samples-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - request-samples-controller 1-1,,true,,36131,255,1,1,578,2,261
+1527154510926,26205,GET - generate_TC-30,200,OK,[TG] - request-samples-controller 1-1,text,true,,524709,248,1,1,23492,0,330
+1527154510874,26205,[TC] -hive-ddl-generator-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - request-samples-controller 1-1,,true,,524709,248,1,1,23492,59,330
+1527154721718,25483,GET - generate_TC-30,200,OK,[TG] - request-samples-controller 1-1,text,true,,524709,248,1,1,23331,0,256
+1527154721717,25483,[TC] -hive-ddl-generator-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - request-samples-controller 1-1,,true,,524709,248,1,1,23331,4,256
+1527161774184,33463,GET - generate_TC-30,200,OK,[TG] -deduper-data-controlle 1-1,text,true,,524709,248,1,1,25481,0,260
+1527161774184,33463,[TC] -deduper-data-controlle_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -deduper-data-controlle 1-1,,true,,524709,248,1,1,25481,2,260
+1527162060245,2017,GET - generate_TC-30,200,OK,[TG] -deduper-data-controlle 1-1,text,true,,76251,295,1,1,983,0,277
+1527162060244,2017,[TC] -deduper-data-controlle_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -deduper-data-controlle 1-1,,true,,76251,295,1,1,983,2,277
+1527162155131,550,GET-classSetMeta_TC-30,200,OK,[TG] -deduper-data-controlle 1-1,text,true,,262,322,1,1,549,0,273
+1527162155131,550,[TC] -deduper-data-controlle_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -deduper-data-controlle 1-1,,true,,262,322,1,1,549,1,273
+1527162960751,2276,GET - generate_TC-30,200,OK,[TG] - request-samples-controller 1-1,text,true,,76149,295,1,1,973,0,291
+1527162960751,2276,[TC] -hive-ddl-generator-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - request-samples-controller 1-1,,true,,76149,295,1,1,973,3,291
+1527163069483,2329,GET - generate_TC-30,200,OK,[TG] - request-samples-controller 1-1,text,true,,76772,295,1,1,953,0,277
+1527163069483,2329,[TC] -hive-ddl-generator-controller_TC-30,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] - request-samples-controller 1-1,,true,,76772,295,1,1,953,3,277

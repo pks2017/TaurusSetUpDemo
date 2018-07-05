@@ -3,7 +3,7 @@ modules:
     properties:
       log_level.jmeter: WARN
       #log_level.jmeter.threads: DEBUG
-      includecontroller.prefix: /home/jenkins-slave/jenkins-slave/workspace/tests/test-newdev-datadictionary
+      includecontroller.prefix: /home/jenkins-slave/workspace/tests/test-newdev-datadictionary
       # Sets the satisfaction threshold for the APDEX calculation (in milliseconds).
       jmeter.reportgenerator.apdex_satisfied_threshold: 2500
 
@@ -412,3 +412,31 @@ execution:
 - scenario: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_PUT_DataFeed_signature_TC.jmx
     force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/1_BooleanBin_UC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/2_BooleanValue_UC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/3_ClassSet_UC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/4_DataFeed_UC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/5_DataFeedField_UC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/6_DataField_UC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/7_DataTerm_UC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/8_StorageId_UC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/9_TimestampBin_UC.jmx
+    force-parent-sample: false
+          
