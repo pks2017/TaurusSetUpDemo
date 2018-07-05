@@ -3,7 +3,7 @@ modules:
     properties:
       log_level.jmeter: WARN
       log_level.jmeter.threads: DEBUG
-      includecontroller.prefix: /home/jenkins-slave/workspace/tests/test-dev-backend-damsl
+      includecontroller.prefix: C:/Users/psingh/.jenkins/workspace/JmeterDemoLocal
       log_level.jmeter.protocol.http: DEBUG
       jmeter.save.saveservice.bytes: true
       jmeter.save.saveservice.label: true
