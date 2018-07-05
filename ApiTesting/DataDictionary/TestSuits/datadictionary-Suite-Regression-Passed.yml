@@ -65,7 +65,7 @@ execution:
 #- scenario: simple-20
 #- scenario: simple-21
 #- scenario: simple-22
-- scenario: simple-23
+#- scenario: simple-23
 - scenario: simple-24
 - scenario: simple-25
 - scenario: simple-26
