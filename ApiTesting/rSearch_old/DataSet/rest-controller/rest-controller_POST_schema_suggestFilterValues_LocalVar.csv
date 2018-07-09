@@ -1,0 +1,4 @@
+schema,appKey,classSetId,classSetIds,filter,limit,matchType,qualifier,tag,userKey,value,debug,TestCaseId,expectedError
+dobie,APP_KEY,24,24,State,100,regex,string,n,5CF1A15B4EB656F0E0530100007FDACD,Geo,true,TC-590,0
+dobie,APP_KEY,2.41231E+11,2.41231E+11,State121,100322,regex,string,n,5CF1A15B4EB656F0E0530100007FDACD,Geo121,true,TC-591,0
+dobie,APP_KEY,24,24,State,100,regex,string,n,5CF1A15B4EB656F0E0530100007FDACD,Geo,false,TC-592,0

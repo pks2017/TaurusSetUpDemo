@@ -1,0 +1,13 @@
+ Volume in drive C is Windows
+ Volume Serial Number is F2C8-2CE0
+
+ Directory of C:\BitbucketRepo\ApiTesting\rSearch\TestScripts\system-controller
+
+09-07-2018  16:52    <DIR>          .
+09-07-2018  16:52    <DIR>          ..
+09-07-2018  16:52                 0 dirFileList.txt
+06-07-2018  13:43            10,870 system-controller_GET_schemaCanary_TC.jmx
+06-07-2018  13:43            10,962 system-controller_GET_schemaProperties_TC.jmx
+06-07-2018  13:43            10,863 system-controller_GET_systemBuild_TC.jmx
+               4 File(s)         32,695 bytes
+               2 Dir(s)  442,375,901,184 bytes free

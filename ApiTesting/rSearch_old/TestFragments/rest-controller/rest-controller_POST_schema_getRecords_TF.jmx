@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="rest-controller_POST_schema_getRecords_TF" enabled="true">
+      <stringProp name="TestPlan.comments">getRecords</stringProp>
+      <boolProp name="TestPlan.functional_mode">true</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] -POST_schema_getRecords" enabled="false">
+        <stringProp name="TestPlan.comments">getRecords</stringProp>
+      </TestFragmentController>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="rest-controller_POST_schema_getRecordss_${TestCaseId}" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;appKey&quot;: &quot;${appKey}&quot;,&#xd;
+  &quot;collections&quot;: [&#xd;
+    {&#xd;
+      &quot;distinct&quot;: [&#xd;
+        &quot;${distinct}&quot;&#xd;
+      ],&#xd;
+      &quot;facetFields&quot;: [&#xd;
+        &quot;${facetFields}&quot;&#xd;
+      ],&#xd;
+      &quot;facetLimit&quot;: ${facetLimit},&#xd;
+      &quot;field&quot;: [&#xd;
+        &quot;${field}&quot;&#xd;
+      ],&#xd;
+      &quot;filter&quot;: [&#xd;
+        {&#xd;
+          &quot;field&quot;: &quot;${field1}&quot;,&#xd;
+          &quot;value&quot;: [&#xd;
+            &quot;${value}&quot;&#xd;
+          ]&#xd;
+        }&#xd;
+      ],&#xd;
+      &quot;highlightField&quot;: &quot;${highlightField}&quot;,&#xd;
+      &quot;name&quot;: &quot;${name}&quot;,&#xd;
+      &quot;orderBy&quot;: [&#xd;
+        {&#xd;
+          &quot;field&quot;: &quot;${field2}&quot;,&#xd;
+          &quot;order&quot;: &quot;${order}&quot;&#xd;
+        }&#xd;
+      ],&#xd;
+      &quot;page&quot;: {&#xd;
+        &quot;pageNumber&quot;: ${pageNumber},&#xd;
+        &quot;pageSize&quot;: ${pageSize},&#xd;
+        &quot;totalPages&quot;: ${totalPages},&#xd;
+        &quot;totalRecords&quot;: ${totalRecords}&#xd;
+      },&#xd;
+      &quot;quickFilter&quot;: &quot;${quickFilter}&quot;,&#xd;
+      &quot;sST&quot;: &quot;${sST}&quot;,&#xd;
+      &quot;snippetSize&quot;: ${snippetSize1},&#xd;
+      &quot;termVectorSize&quot;: ${termVectorSize}&#xd;
+    }&#xd;
+  ],&#xd;
+  &quot;filter&quot;: [&#xd;
+    {&#xd;
+      &quot;field&quot;: &quot;${field3}&quot;,&#xd;
+      &quot;value&quot;: [&#xd;
+        &quot;${value}&quot;&#xd;
+      ]&#xd;
+    }&#xd;
+  ],&#xd;
+  &quot;groupByGUID&quot;: ${groupByGUID},&#xd;
+  &quot;quickFilter&quot;: &quot;${quickFilter}&quot;,&#xd;
+  &quot;userKey&quot;: &quot;${userKey}&quot;&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${server_name}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/rSearch/${schema}/getRecords?debug=${debug}</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="TestPlan.comments">getRecords</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

@@ -1,0 +1,4 @@
+schema,appKey,distinct,facetFields,facetLimit,field,field1,value,highlightField,name,field2,order,pageNumber,pageSize,totalPages,totalRecords,quickFilter,sST,snippetSize1,termVectorSize,field3,value,groupByGUID,quickFilter,userKey,debug,TestCaseId,expectedError
+dobie,APP_KEY,string,string,0,string,string,string,string,City,string,string,1,1,1,1,string,AH52,1,1,string,string,false,string,5CF1A15B4EB656F0E0530100007FDACD,true,TC-586,0
+dobie,string,string,string,0,string,string,string,string,City,string,string,0,0,0,0,string,AH52,0,0,string,string,false,string,5CF1A15B4EB656F0E0530100007FDACD,true,TC-587,0
+dobie,APP_KEY,string,string,0,string,string,string,string,City,string,string,1,1,1,1,string,AH52,1,1,string,string,false,string,5CF1A15B4EB656F0E0530100007FDACD,false,TC-588,0

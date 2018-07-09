@@ -1,0 +1,3 @@
+schema,scoreFirst,TestCaseId,expectedError
+dobie,false,TC-576,0
+dobie12312 ,true,TC-577,0
