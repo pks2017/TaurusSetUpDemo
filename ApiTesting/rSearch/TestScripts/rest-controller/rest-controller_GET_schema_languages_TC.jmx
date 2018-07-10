@@ -92,7 +92,7 @@
         </TransactionController>
         <hashTree>
           <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC] - rest-controller_Get_schema_languages" enabled="true">
-            <stringProp name="IncludeController.includepath">/ApiTesting/rSearch/TestFragments/rest-Controller/rest-controller_GET_schema_languages_TF.jmx</stringProp>
+            <stringProp name="IncludeController.includepath">/ApiTesting/rSearch/TestFragments/rest-controller/rest-controller_GET_schema_languages_TF.jmx</stringProp>
           </IncludeController>
           <hashTree/>
           <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="ComplianceAssertion" enabled="false">
