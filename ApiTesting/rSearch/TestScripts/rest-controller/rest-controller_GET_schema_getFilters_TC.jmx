@@ -52,7 +52,7 @@
           </elementProp>
         </collectionProp>
         <boolProp name="CookieManager.clearEachIteration">false</boolProp>
-      </CookieManager>
+      <stringProp name="CookieManager.implementation">org.apache.jmeter.protocol.http.control.HC4CookieHandler</stringProp></CookieManager>
       <hashTree/>
       <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="rSearch Header Manager" enabled="true">
         <collectionProp name="HeaderManager.headers">
