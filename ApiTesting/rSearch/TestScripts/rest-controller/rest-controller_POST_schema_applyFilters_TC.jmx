@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="rest-controller_POST_schema_applyFilters_TC" enabled="true">
       <stringProp name="TestPlan.comments">applyFilters</stringProp>
-      <boolProp name="TestPlan.functional_mode">true</boolProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
@@ -15,19 +15,19 @@
           </elementProp>
         </collectionProp>
       </elementProp>
-      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+      <stringProp name="TestPlan.user_define_classpath"/>
     </TestPlan>
     <hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Gloabal Data Set Config" enabled="true">
         <stringProp name="delimiter">,</stringProp>
-        <stringProp name="fileEncoding"></stringProp>
-        <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/rSearch/DataSet&quot;;,)}/GlobalVar.csv</stringProp>
+        <stringProp name="fileEncoding"/>
+        <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split('ApiTesting'); def globalDataFilePath = baseDirHome[0]+"ApiTesting/rSearch/DataSet";,)}/GlobalVar.csv</stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
         <stringProp name="shareMode">shareMode.all</stringProp>
         <boolProp name="stopThread">false</boolProp>
-        <stringProp name="variableNames"></stringProp>
+        <stringProp name="variableNames"/>
       </CSVDataSet>
       <hashTree/>
       <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="rSearch Cookie Manager" enabled="true">
@@ -35,7 +35,7 @@
           <elementProp name="c_unique_id" elementType="Cookie" testname="c_unique_id">
             <stringProp name="Cookie.value">${user_key}</stringProp>
             <stringProp name="Cookie.domain">${server_name}</stringProp>
-            <stringProp name="Cookie.path"></stringProp>
+            <stringProp name="Cookie.path"/>
             <boolProp name="Cookie.secure">false</boolProp>
             <longProp name="Cookie.expires">0</longProp>
             <boolProp name="Cookie.path_specified">true</boolProp>
@@ -44,7 +44,7 @@
           <elementProp name="appKey" elementType="Cookie" testname="appKey">
             <stringProp name="Cookie.value">${app_key}</stringProp>
             <stringProp name="Cookie.domain">${server_name}</stringProp>
-            <stringProp name="Cookie.path"></stringProp>
+            <stringProp name="Cookie.path"/>
             <boolProp name="Cookie.secure">false</boolProp>
             <longProp name="Cookie.expires">0</longProp>
             <boolProp name="Cookie.path_specified">true</boolProp>
@@ -52,7 +52,7 @@
           </elementProp>
         </collectionProp>
         <boolProp name="CookieManager.clearEachIteration">false</boolProp>
-      <stringProp name="CookieManager.implementation">org.apache.jmeter.protocol.http.control.HC4CookieHandler</stringProp></CookieManager>
+      <stringProp name="CookieManager.implementation">org.apache.jmeter.protocol.http.control.HC4CookieHandler</stringProp><stringProp name="CookieManager.implementation">org.apache.jmeter.protocol.http.control.HC4CookieHandler</stringProp></CookieManager>
       <hashTree/>
       <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="rSearch Header Manager" enabled="true">
         <collectionProp name="HeaderManager.headers">
@@ -68,9 +68,9 @@
       </HeaderManager>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Local Data Set Config" enabled="true">
-        <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/rSearch/DataSet&quot;;,)}/rest-controller/rest-controller_POST_schema_applyFilters_LocalVar.csv</stringProp>
-        <stringProp name="fileEncoding"></stringProp>
-        <stringProp name="variableNames"></stringProp>
+        <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split('ApiTesting'); def globalDataFilePath = baseDirHome[0]+"ApiTesting/rSearch/DataSet";,)}/rest-controller/rest-controller_POST_schema_applyFilters_LocalVar.csv</stringProp>
+        <stringProp name="fileEncoding"/>
+        <stringProp name="variableNames"/>
         <boolProp name="ignoreFirstLine">true</boolProp>
         <stringProp name="delimiter">,</stringProp>
         <boolProp name="quotedData">false</boolProp>
@@ -88,8 +88,8 @@
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
-        <stringProp name="ThreadGroup.delay"></stringProp>
+        <stringProp name="ThreadGroup.duration"/>
+        <stringProp name="ThreadGroup.delay"/>
         <stringProp name="TestPlan.comments">applyFilters</stringProp>
       </ThreadGroup>
       <hashTree>
@@ -104,24 +104,24 @@
           <hashTree/>
           <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="ComplianceAssertion" enabled="false">
             <stringProp name="scriptLanguage">groovy</stringProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DAMsl/Utility&quot;;,)}/ComplianceAssertion.groovy</stringProp>
+            <stringProp name="parameters"/>
+            <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split('ApiTesting'); def globalDataFilePath = baseDirHome[0]+"ApiTesting/DAMsl/Utility";,)}/ComplianceAssertion.groovy</stringProp>
             <stringProp name="cacheKey">true</stringProp>
             <stringProp name="script">/*
  *Compliance Assertion File Path Script
- ${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting\\\DAMsl\\\Utility&quot;;,)}\ComplianceAssertion.groovy
+ ${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split('ApiTesting'); def globalDataFilePath = baseDirHome[0]+"ApiTesting\\\DAMsl\\\Utility";,)}\ComplianceAssertion.groovy
  *
  */
 
 /*
  * Loocal CSV Data File Path Script
- * ${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting\\\DAMsl\\\DataSet&quot;;,)}\CRUD_LocalVar.csv
+ * ${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split('ApiTesting'); def globalDataFilePath = baseDirHome[0]+"ApiTesting\\\DAMsl\\\DataSet";,)}\CRUD_LocalVar.csv
  */
 
 
 /*
  * File path for writing Result Tree data
- * ${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting\\\DAMsl\\\Reports&quot;;,)}\Result_${__time(MM-dd-yyyy,)}.csv
+ * ${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split('ApiTesting'); def globalDataFilePath = baseDirHome[0]+"ApiTesting\\\DAMsl\\\Reports";,)}\Result_${__time(MM-dd-yyyy,)}.csv
  */
 </stringProp>
           </JSR223Assertion>
@@ -168,9 +168,9 @@
             <sampleCount>true</sampleCount>
           </value>
         </objProp>
-        <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/StatisticsEngine/Reports&quot;;,)}/Result_${__time(MM-dd-yyyy,)}.csv</stringProp>
+        <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split('ApiTesting'); def globalDataFilePath = baseDirHome[0]+"ApiTesting/StatisticsEngine/Reports";,)}/Result_${__time(MM-dd-yyyy,)}.csv</stringProp>
       </ResultCollector>
       <hashTree/>
-    </hashTree>
+    <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="KPI Writer"><stringProp name="filename">C:\Users\psingh\.jenkins\workspace\rSearch-Local\2018-07-13_20-16-59.435468\kpi-3.jtl</stringProp><objProp><name>saveConfig</name><value class="SampleSaveConfiguration"><assertions>false</assertions><samplerData>false</samplerData><threadCounts>true</threadCounts><timestamp>true</timestamp><fieldNames>true</fieldNames><responseData>false</responseData><message>true</message><responseDataOnError>false</responseDataOnError><code>true</code><threadName>true</threadName><responseHeaders>false</responseHeaders><xml>false</xml><url>false</url><requestHeaders>false</requestHeaders><bytes>true</bytes><hostname>true</hostname><label>true</label><encoding>false</encoding><subresults>false</subresults><latency>true</latency><saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage><dataType>false</dataType><time>true</time><connectTime>true</connectTime><success>true</success></value></objProp></ResultCollector><hashTree/><ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Errors Writer"><stringProp name="filename">C:\Users\psingh\.jenkins\workspace\rSearch-Local\2018-07-13_20-16-59.435468\error-3.jtl</stringProp><objProp><name>saveConfig</name><value class="SampleSaveConfiguration"><assertions>true</assertions><samplerData>false</samplerData><threadCounts>true</threadCounts><timestamp>true</timestamp><fieldNames>true</fieldNames><responseData>false</responseData><message>true</message><responseDataOnError>true</responseDataOnError><code>true</code><threadName>true</threadName><responseHeaders>true</responseHeaders><xml>true</xml><url>true</url><requestHeaders>true</requestHeaders><bytes>true</bytes><time>true</time><label>true</label><subresults>true</subresults><latency>true</latency><saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage><dataType>true</dataType><encoding>true</encoding><success>true</success></value></objProp><boolProp name="ResultCollector.error_logging">true</boolProp></ResultCollector><hashTree/></hashTree>
   </hashTree>
 </jmeterTestPlan>
