@@ -10,7 +10,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="loops" elementType="Argument">
             <stringProp name="Argument.name">loops</stringProp>
-            <stringProp name="Argument.value">${__P(loopCount,7)}</stringProp>
+            <stringProp name="Argument.value">${__P(loopCount,8)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>

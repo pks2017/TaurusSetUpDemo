@@ -1,8 +1,9 @@
 repoAliasDelete,pathDelete,TestCaseIdDelete,expectedError
-test77,Shrikanttt/test111.txt,TC-115_01,0
-test77,Shrikanttt/test111.txt,TC-116,313
+test77,ShrikantC/test1100.txt,TC-115_01,0
+test77,ShrikantC/test1100.txt,TC-116,313
 damsl-test-stats,porcelain/file1.txt,TC-117,311
 damsl-test,porcelain/file1.txt,TC-118,304
-test77,Shrikant/test1.txt,TC-115_02,0
-test77,Shrikant/test100.txt,TC-115_03,0
-test77,ShrikantC/test1100.txt,TC-115_04,0
+test77,Shrikant/test100.txt,TC-115_02,0
+test77,Shrikant/test1.txt,TC-115_03,0
+test77,ShrikantC/test111.txt,TC-115_04,0
+test77,Shrikanttt/test111.txt,TC-115_05,0

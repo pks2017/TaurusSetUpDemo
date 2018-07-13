@@ -113,8 +113,11 @@
             <stringProp name="parameters"></stringProp>
             <stringProp name="script">def random_num = vars.get(&quot;random&quot;);
 
+//def new_num = random_num + vars.getIteration();
+
 def random_body = &quot;random_Test_Porcelain_PUT_write_commit_push-&quot;;
 
+//def body = random_body+new_num;
 def body = random_body+random_num;
 
 vars.put(&quot;post_body&quot;, body);
