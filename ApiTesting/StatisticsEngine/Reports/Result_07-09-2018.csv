@@ -1,0 +1,379 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,grpThreads,allThreads,URL,Latency,SampleCount,ErrorCount
+1531137613965,843,rest-controller_POST_schema_suggestFilterValues_TC-590,200,OK,[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=true
+
+JSON RESPONSE: [values:[GEORGIA]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 256
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=true,830,1,1
+1531137613964,843,[TC] - rest-controller_POST_schema_suggestFilterValues_TC-590,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,,false,,1,1,null,830,1,1
+1531137614866,274,rest-controller_POST_schema_suggestFilterValues_TC-591,400,Bad Request,[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,text,false,"Expected <response code> [200] but we got instead [400]
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=true
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 283
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=true,274,1,1
+1531137614866,274,[TC] - rest-controller_POST_schema_suggestFilterValues_TC-591,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,,false,,1,1,null,274,1,1
+1531137615142,311,rest-controller_POST_schema_suggestFilterValues_TC-592,200,OK,[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=false
+
+JSON RESPONSE: [values:[GEORGIA]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 256
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=false,299,1,1
+1531137615141,311,[TC] - rest-controller_POST_schema_suggestFilterValues_TC-592,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,,false,,1,1,null,299,1,1
+1531137718821,830,rest-controller_POST_schema_getRecordss_TC-586,200,OK,[TG] -rest-controller_POST_schema_getRecords 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true
+
+JSON RESPONSE: [debug:[name:root, totalTime:1, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:[[name:SecurityComponent, totalTime:0, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:null], [name:GetRecordsComponent, totalTime:1, remoteTime:null, parallel:true, solrQuery:null, exception:null, filters:null, subEntries:[[name:City, totalTime:1, remoteTime:null, parallel:null, solrQuery:null, exception:[cause:null, stackTrace:[[methodName:valueOf, fileName:Enum.java, lineNumber:238, className:java.lang.Enum, nativeMethod:false], [methodName:valueOf, fileName:SolrQuery.java, lineNumber:47, className:org.apache.solr.client.solrj.SolrQuery$ORDER, nativeMethod:false], [methodName:<init>, fileName:SolrQuery.java, lineNumber:1120, className:org.apache.solr.client.solrj.SolrQuery$SortClause, nativeMethod:false], [methodName:lambda$getSorts$33, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:accept, fileName:ReferencePipeline.java, lineNumber:193, className:java.util.stream.ReferencePipeline$3$1, nativeMethod:false], [methodName:forEachRemaining, fileName:ArrayList.java, lineNumber:1382, className:java.util.ArrayList$ArrayListSpliterator, nativeMethod:false], [methodName:copyInto, fileName:AbstractPipeline.java, lineNumber:481, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:wrapAndCopyInto, fileName:AbstractPipeline.java, lineNumber:471, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluate, fileName:AbstractPipeline.java, lineNumber:545, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluateToArrayNode, fileName:AbstractPipeline.java, lineNumber:260, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:toArray, fileName:ReferencePipeline.java, lineNumber:438, className:java.util.stream.ReferencePipeline, nativeMethod:false], [methodName:getSorts, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:getRecordsTaxonomy, fileName:SimpleRecordDao.java, lineNumber:222, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:84, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:41, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doStepInternal, fileName:ParallelComponent.java, lineNumber:73, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:lambda$null$12, fileName:ParallelComponent.java, lineNumber:49, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:run, fileName:CompletableFuture.java, lineNumber:1590, className:java.util.concurrent.CompletableFuture$AsyncSupply, nativeMethod:false], [methodName:runWorker, fileName:ThreadPoolExecutor.java, lineNumber:1149, className:java.util.concurrent.ThreadPoolExecutor, nativeMethod:false], [methodName:run, fileName:ThreadPoolExecutor.java, lineNumber:624, className:java.util.concurrent.ThreadPoolExecutor$Worker, nativeMethod:false], [methodName:run, fileName:Thread.java, lineNumber:748, className:java.lang.Thread, nativeMethod:false]], localizedMessage:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, message:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, suppressed:[]], filters:null, subEntries:null]]]]], records:[], termVector:[:], distinct:[:]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 990
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true,818,1,1
+1531137718820,830,[TC] - rest-controller_POST_schema_getRecords_TC-586,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_getRecords 1-1,,false,,1,1,null,818,1,1
+1531137719669,289,rest-controller_POST_schema_getRecordss_TC-587,200,OK,[TG] -rest-controller_POST_schema_getRecords 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true
+
+JSON RESPONSE: [debug:[name:root, totalTime:1, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:[[name:SecurityComponent, totalTime:0, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:null], [name:GetRecordsComponent, totalTime:1, remoteTime:null, parallel:true, solrQuery:null, exception:null, filters:null, subEntries:[[name:City, totalTime:1, remoteTime:null, parallel:null, solrQuery:null, exception:[cause:null, stackTrace:[[methodName:valueOf, fileName:Enum.java, lineNumber:238, className:java.lang.Enum, nativeMethod:false], [methodName:valueOf, fileName:SolrQuery.java, lineNumber:47, className:org.apache.solr.client.solrj.SolrQuery$ORDER, nativeMethod:false], [methodName:<init>, fileName:SolrQuery.java, lineNumber:1120, className:org.apache.solr.client.solrj.SolrQuery$SortClause, nativeMethod:false], [methodName:lambda$getSorts$33, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:accept, fileName:ReferencePipeline.java, lineNumber:193, className:java.util.stream.ReferencePipeline$3$1, nativeMethod:false], [methodName:forEachRemaining, fileName:ArrayList.java, lineNumber:1382, className:java.util.ArrayList$ArrayListSpliterator, nativeMethod:false], [methodName:copyInto, fileName:AbstractPipeline.java, lineNumber:481, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:wrapAndCopyInto, fileName:AbstractPipeline.java, lineNumber:471, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluate, fileName:AbstractPipeline.java, lineNumber:545, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluateToArrayNode, fileName:AbstractPipeline.java, lineNumber:260, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:toArray, fileName:ReferencePipeline.java, lineNumber:438, className:java.util.stream.ReferencePipeline, nativeMethod:false], [methodName:getSorts, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:getRecordsTaxonomy, fileName:SimpleRecordDao.java, lineNumber:222, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:84, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:41, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doStepInternal, fileName:ParallelComponent.java, lineNumber:73, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:lambda$null$12, fileName:ParallelComponent.java, lineNumber:49, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:run, fileName:CompletableFuture.java, lineNumber:1590, className:java.util.concurrent.CompletableFuture$AsyncSupply, nativeMethod:false], [methodName:runWorker, fileName:ThreadPoolExecutor.java, lineNumber:1149, className:java.util.concurrent.ThreadPoolExecutor, nativeMethod:false], [methodName:run, fileName:ThreadPoolExecutor.java, lineNumber:624, className:java.util.concurrent.ThreadPoolExecutor$Worker, nativeMethod:false], [methodName:run, fileName:Thread.java, lineNumber:748, className:java.lang.Thread, nativeMethod:false]], localizedMessage:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, message:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, suppressed:[]], filters:null, subEntries:null]]]]], records:[], termVector:[:], distinct:[:]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 989
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true,273,1,1
+1531137719669,289,[TC] - rest-controller_POST_schema_getRecords_TC-587,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_getRecords 1-1,,false,,1,1,null,273,1,1
+1531137719960,284,rest-controller_POST_schema_getRecordss_TC-588,200,OK,[TG] -rest-controller_POST_schema_getRecords 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=false
+
+JSON RESPONSE: [records:[], termVector:[:], distinct:[:]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 990
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=false,274,1,1
+1531137719960,284,[TC] - rest-controller_POST_schema_getRecords_TC-588,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_getRecords 1-1,,false,,1,1,null,274,1,1
+1531137773191,844,rest-controller_POST_schema_applyFilters_TC-578,200,OK,[TG] -rest-controller_POST_schema_applyFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/applyFilters?debug=true,831,1,0
+1531137773191,844,[TC] - rest-controller_POST_schema_applyFilters_TC-578,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_POST_schema_applyFilters 1-1,,true,,1,1,null,831,1,0
+1531137774039,348,rest-controller_POST_schema_applyFilters_TC-584,500,Internal Server Error,[TG] -rest-controller_POST_schema_applyFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/applyFilters?debug=true,348,1,1
+1531137774038,348,[TC] - rest-controller_POST_schema_applyFilters_TC-584,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_applyFilters 1-1,,false,,1,1,null,348,1,1
+1531137774390,315,rest-controller_POST_schema_applyFilters_TC-585,200,OK,[TG] -rest-controller_POST_schema_applyFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/applyFilters?debug=false,303,1,0
+1531137774389,315,[TC] - rest-controller_POST_schema_applyFilters_TC-585,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_POST_schema_applyFilters 1-1,,true,,1,1,null,303,1,0
+1531137838900,0,rest-controller_POST_schema_suggestFilterValues_${TestCaseId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 73: http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=${debug},[TG] -rest-controller_GET_schema_recalculateTerms 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=${debug},0,1,1
+1531137838899,0,[TC] - rest-controller_GET_schema_recalculateTerms_${TestCaseId},,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,false,,1,1,null,0,1,1
+1531138513185,0,rest-controller_GET_schema_recalculateTerms_${TestCaseId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 75: http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},[TG] -rest-controller_GET_schema_recalculateTerms 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},0,1,1
+1531138513184,0,[TC] - rest-controller_GET_schema_recalculateTerms_${TestCaseId},,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,false,,1,1,null,0,1,1
+1531138551700,0,rest-controller_GET_schema_recalculateTerms_${TestCaseId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 75: http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},[TG] -rest-controller_GET_schema_recalculateTerms 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},0,1,1
+1531138551700,0,[TC] - rest-controller_GET_schema_recalculateTerms_${TestCaseId},,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,false,,1,1,null,0,1,1
+1531138557275,0,rest-controller_GET_schema_recalculateTerms_${TestCaseId},Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 75: http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},[TG] -rest-controller_GET_schema_recalculateTerms 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},0,1,1
+1531138557275,0,[TC] - rest-controller_GET_schema_recalculateTerms_${TestCaseId},,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,false,,1,1,null,0,1,1
+1531138766008,0,rest-controller_GET_schema_recalculateTerms_TC-553,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 75: http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},[TG] -rest-controller_GET_schema_recalculateTerms 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},0,1,1
+1531138766008,0,[TC] - rest-controller_GET_schema_recalculateTerms_TC-553,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,false,,1,1,null,0,1,1
+1531138844294,0,rest-controller_GET_schema_recalculateTerms_TC-553,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 75: http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},[TG] -rest-controller_GET_schema_recalculateTerms 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},0,1,1
+1531138844294,0,[TC] - rest-controller_GET_schema_recalculateTerms_TC-553,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,false,,1,1,null,0,1,1
+1531138908047,0,rest-controller_GET_schema_recalculateTerms_TC-553,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 75: http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},[TG] -rest-controller_GET_schema_recalculateTerms 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=${debug},0,1,1
+1531138908046,0,[TC] - rest-controller_GET_schema_recalculateTerms_TC-553,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,false,,1,1,null,0,1,1
+1531138994055,807,rest-controller_GET_schema_recalculateTerms_TC-553,200,OK,[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=true,807,1,0
+1531138994054,807,[TC] - rest-controller_GET_schema_recalculateTerms_TC-553,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,true,,1,1,null,807,1,0
+1531139044341,810,rest-controller_GET_schema_recalculateTerms_TC-553,200,OK,[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=true,810,1,0
+1531139044340,810,[TC] - rest-controller_GET_schema_recalculateTerms_TC-553,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,true,,1,1,null,810,1,0
+1531139078838,805,rest-controller_GET_schema_languages_${TestCaseId},200,OK,[TG] -rest-controller_GET_schema_languages 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/languages,793,1,0
+1531139078838,805,[TC] - rest-controller_GET_schema_languages_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_languages 1-1,,true,,1,1,null,793,1,0
+1531139148862,811,rest-controller_GET_schema_getFilters_${TestCaseId},200,OK,[TG] -rest-controller_GET_schema_getFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getFilters?bCS=24,799,1,0
+1531139148862,811,[TC] - rest-controller_GET_schema_getFilters_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_getFilters 1-1,,true,,1,1,null,799,1,0
+1531139561142,860,rest-controller_GET_schema_getFilters_${TestCaseId},200,OK,[TG] -rest-controller_GET_schema_getFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getFilters?bCS=24,849,1,0
+1531139561141,861,[TC] - rest-controller_GET_schema_getFilters_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_getFilters 1-1,,true,,1,1,null,849,1,0
+1531139589020,543,rest-controller_GET_schema_getFilters_TC-565,200,OK,[TG] -rest-controller_GET_schema_getFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getFilters?bCS=24,532,1,0
+1531139589020,543,[TC] - rest-controller_GET_schema_getFilters_TC-565,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_getFilters 1-1,,true,,1,1,null,532,1,0
+1531139601619,539,rest-controller_GET_schema_getFilters_TC-565,200,OK,[TG] -rest-controller_GET_schema_getFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getFilters?bCS=24,527,1,0
+1531139601618,539,[TC] - rest-controller_GET_schema_getFilters_TC-565,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_getFilters 1-1,,true,,1,1,null,527,1,0
+1531139602160,487,rest-controller_GET_schema_getFilters_TC-566,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/getFilters?bCS=24,487,1,1
+1531139602159,487,[TC] - rest-controller_GET_schema_getFilters_TC-566,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,487,1,1
+1531139602649,286,rest-controller_GET_schema_getFilters_TC-567,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getFilters?bCS=9898998999,286,1,1
+1531139602649,286,[TC] - rest-controller_GET_schema_getFilters_TC-567,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,286,1,1
+1531139602937,384,rest-controller_GET_schema_getFilters_TC-568,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/getFilters?bCS=9898998999,384,1,1
+1531139602937,384,[TC] - rest-controller_GET_schema_getFilters_TC-568,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,384,1,1
+1531139844009,803,rest-controller_GET_schema_languages_TC-565,200,OK,[TG] -rest-controller_GET_schema_languages 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/languages,794,1,0
+1531139844009,803,[TC] - rest-controller_GET_schema_languages_TC-565,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_languages 1-1,,true,,1,1,null,794,1,0
+1531139867186,578,rest-controller_GET_schema_languages_TC-565,200,OK,[TG] -rest-controller_GET_schema_languages 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/languages,568,1,0
+1531139867185,578,[TC] - rest-controller_GET_schema_languages_TC-565,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_languages 1-1,,true,,1,1,null,568,1,0
+1531139886301,544,rest-controller_GET_schema_languages_TC-565,200,OK,[TG] -rest-controller_GET_schema_languages 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/languages,526,1,0
+1531139886300,544,[TC] - rest-controller_GET_schema_languages_TC-565,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_languages 1-1,,true,,1,1,null,526,1,0
+1531139886846,527,rest-controller_GET_schema_languages_TC-566,500,Internal Server Error,[TG] -rest-controller_GET_schema_languages 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/languages,527,1,1
+1531139886845,527,[TC] - rest-controller_GET_schema_languages_TC-566,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_languages 1-1,,false,,1,1,null,527,1,1
+1531140162356,809,rest-controller_GET_schema_recalculateTerms_TC-576,200,OK,[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=false,809,1,0
+1531140162355,809,[TC] - rest-controller_GET_schema_recalculateTerms_TC-576,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,true,,1,1,null,809,1,0
+1531140176234,545,rest-controller_GET_schema_recalculateTerms_TC-576,200,OK,[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=false,545,1,0
+1531140176234,545,[TC] - rest-controller_GET_schema_recalculateTerms_TC-576,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,true,,1,1,null,545,1,0
+1531140176780,480,rest-controller_GET_schema_recalculateTerms_TC-577,500,Internal Server Error,[TG] -rest-controller_GET_schema_recalculateTerms 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312%20/recalculateTerms?scoreFirst=true,480,1,1
+1531140176779,480,[TC] - rest-controller_GET_schema_recalculateTerms_TC-577,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,false,,1,1,null,480,1,1
+1531140255517,860,rest-controller_POST_schema_applyFilters_TC-578,200,OK,[TG] -rest-controller_POST_schema_applyFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/applyFilters?debug=true,846,1,0
+1531140255516,860,[TC] - rest-controller_POST_schema_applyFilters_TC-578,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_POST_schema_applyFilters 1-1,,true,,1,1,null,846,1,0
+1531140256379,344,rest-controller_POST_schema_applyFilters_TC-584,500,Internal Server Error,[TG] -rest-controller_POST_schema_applyFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/applyFilters?debug=true,344,1,1
+1531140256378,344,[TC] - rest-controller_POST_schema_applyFilters_TC-584,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_applyFilters 1-1,,false,,1,1,null,344,1,1
+1531140256724,308,rest-controller_POST_schema_applyFilters_TC-585,200,OK,[TG] -rest-controller_POST_schema_applyFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/applyFilters?debug=false,295,1,0
+1531140256724,308,[TC] - rest-controller_POST_schema_applyFilters_TC-585,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_POST_schema_applyFilters 1-1,,true,,1,1,null,295,1,0
+1531140282201,544,rest-controller_POST_schema_getRecordss_TC-586,200,OK,[TG] -rest-controller_POST_schema_getRecords 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true
+
+JSON RESPONSE: [debug:[name:root, totalTime:1, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:[[name:SecurityComponent, totalTime:0, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:null], [name:GetRecordsComponent, totalTime:1, remoteTime:null, parallel:true, solrQuery:null, exception:null, filters:null, subEntries:[[name:City, totalTime:1, remoteTime:null, parallel:null, solrQuery:null, exception:[cause:null, stackTrace:[[methodName:valueOf, fileName:Enum.java, lineNumber:238, className:java.lang.Enum, nativeMethod:false], [methodName:valueOf, fileName:SolrQuery.java, lineNumber:47, className:org.apache.solr.client.solrj.SolrQuery$ORDER, nativeMethod:false], [methodName:<init>, fileName:SolrQuery.java, lineNumber:1120, className:org.apache.solr.client.solrj.SolrQuery$SortClause, nativeMethod:false], [methodName:lambda$getSorts$33, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:accept, fileName:ReferencePipeline.java, lineNumber:193, className:java.util.stream.ReferencePipeline$3$1, nativeMethod:false], [methodName:forEachRemaining, fileName:ArrayList.java, lineNumber:1382, className:java.util.ArrayList$ArrayListSpliterator, nativeMethod:false], [methodName:copyInto, fileName:AbstractPipeline.java, lineNumber:481, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:wrapAndCopyInto, fileName:AbstractPipeline.java, lineNumber:471, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluate, fileName:AbstractPipeline.java, lineNumber:545, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluateToArrayNode, fileName:AbstractPipeline.java, lineNumber:260, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:toArray, fileName:ReferencePipeline.java, lineNumber:438, className:java.util.stream.ReferencePipeline, nativeMethod:false], [methodName:getSorts, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:getRecordsTaxonomy, fileName:SimpleRecordDao.java, lineNumber:222, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:84, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:41, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doStepInternal, fileName:ParallelComponent.java, lineNumber:73, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:lambda$null$12, fileName:ParallelComponent.java, lineNumber:49, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:run, fileName:CompletableFuture.java, lineNumber:1590, className:java.util.concurrent.CompletableFuture$AsyncSupply, nativeMethod:false], [methodName:runWorker, fileName:ThreadPoolExecutor.java, lineNumber:1149, className:java.util.concurrent.ThreadPoolExecutor, nativeMethod:false], [methodName:run, fileName:ThreadPoolExecutor.java, lineNumber:624, className:java.util.concurrent.ThreadPoolExecutor$Worker, nativeMethod:false], [methodName:run, fileName:Thread.java, lineNumber:748, className:java.lang.Thread, nativeMethod:false]], localizedMessage:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, message:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, suppressed:[]], filters:null, subEntries:null]]]]], records:[], termVector:[:], distinct:[:]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 990
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true,531,1,1
+1531140282201,544,[TC] - rest-controller_POST_schema_getRecords_TC-586,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_getRecords 1-1,,false,,1,1,null,531,1,1
+1531140282786,280,rest-controller_POST_schema_getRecordss_TC-587,200,OK,[TG] -rest-controller_POST_schema_getRecords 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true
+
+JSON RESPONSE: [debug:[name:root, totalTime:1, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:[[name:SecurityComponent, totalTime:0, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:null], [name:GetRecordsComponent, totalTime:1, remoteTime:null, parallel:true, solrQuery:null, exception:null, filters:null, subEntries:[[name:City, totalTime:1, remoteTime:null, parallel:null, solrQuery:null, exception:[cause:null, stackTrace:[[methodName:valueOf, fileName:Enum.java, lineNumber:238, className:java.lang.Enum, nativeMethod:false], [methodName:valueOf, fileName:SolrQuery.java, lineNumber:47, className:org.apache.solr.client.solrj.SolrQuery$ORDER, nativeMethod:false], [methodName:<init>, fileName:SolrQuery.java, lineNumber:1120, className:org.apache.solr.client.solrj.SolrQuery$SortClause, nativeMethod:false], [methodName:lambda$getSorts$33, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:accept, fileName:ReferencePipeline.java, lineNumber:193, className:java.util.stream.ReferencePipeline$3$1, nativeMethod:false], [methodName:forEachRemaining, fileName:ArrayList.java, lineNumber:1382, className:java.util.ArrayList$ArrayListSpliterator, nativeMethod:false], [methodName:copyInto, fileName:AbstractPipeline.java, lineNumber:481, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:wrapAndCopyInto, fileName:AbstractPipeline.java, lineNumber:471, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluate, fileName:AbstractPipeline.java, lineNumber:545, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluateToArrayNode, fileName:AbstractPipeline.java, lineNumber:260, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:toArray, fileName:ReferencePipeline.java, lineNumber:438, className:java.util.stream.ReferencePipeline, nativeMethod:false], [methodName:getSorts, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:getRecordsTaxonomy, fileName:SimpleRecordDao.java, lineNumber:222, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:84, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:41, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doStepInternal, fileName:ParallelComponent.java, lineNumber:73, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:lambda$null$12, fileName:ParallelComponent.java, lineNumber:49, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:run, fileName:CompletableFuture.java, lineNumber:1590, className:java.util.concurrent.CompletableFuture$AsyncSupply, nativeMethod:false], [methodName:runWorker, fileName:ThreadPoolExecutor.java, lineNumber:1149, className:java.util.concurrent.ThreadPoolExecutor, nativeMethod:false], [methodName:run, fileName:ThreadPoolExecutor.java, lineNumber:624, className:java.util.concurrent.ThreadPoolExecutor$Worker, nativeMethod:false], [methodName:run, fileName:Thread.java, lineNumber:748, className:java.lang.Thread, nativeMethod:false]], localizedMessage:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, message:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, suppressed:[]], filters:null, subEntries:null]]]]], records:[], termVector:[:], distinct:[:]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 989
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true,267,1,1
+1531140282786,280,[TC] - rest-controller_POST_schema_getRecords_TC-587,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_getRecords 1-1,,false,,1,1,null,267,1,1
+1531140283068,279,rest-controller_POST_schema_getRecordss_TC-588,200,OK,[TG] -rest-controller_POST_schema_getRecords 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=false
+
+JSON RESPONSE: [records:[], termVector:[:], distinct:[:]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 990
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=false,269,1,1
+1531140283068,279,[TC] - rest-controller_POST_schema_getRecords_TC-588,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_getRecords 1-1,,false,,1,1,null,269,1,1
+1531140798673,937,system-controller_GET_schemaCanary_${TestCaseId},200,OK,[TG] -system-controller_GET_schemaCanary 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/canary?schema=dobie,937,1,0
+1531140798673,937,[TC] - system-controller_GET_schemaCanary_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaCanary 1-1,,true,,1,1,null,937,1,0
+1531140952578,1459,system-controller_GET_schemaProperties_${TestCaseId},200,OK,[TG] -system-controller_GET_schemaProperties 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/properties?schema=dobie,932,1,0
+1531140952578,1459,[TC] - system-controller_GET_schemaProperties_${TestCaseId},200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaProperties 1-1,,true,,1,1,null,932,1,0
+1531141150555,933,system-controller_GET_schemaCanary_TC-553,200,OK,[TG] -system-controller_GET_schemaCanary 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/canary?schema=dobie,932,1,0
+1531141150555,933,[TC] - system-controller_GET_schemaCanary_TC-553,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaCanary 1-1,,true,,1,1,null,932,1,0
+1531141200133,1195,"system-controller_GET_schemaProperties_""	CT-553""",200,OK,[TG] -system-controller_GET_schemaProperties 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/properties?schema=dobie,665,1,0
+1531141200133,1195,"[TC] - system-controller_GET_schemaProperties_""	CT-553""",200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaProperties 1-1,,true,,1,1,null,665,1,0
+1531141309215,1446,system-controller_GET_schemaProperties_TC-563,200,OK,[TG] -system-controller_GET_schemaProperties 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/properties?schema=dobie,922,1,0
+1531141309214,1446,[TC] - system-controller_GET_schemaProperties_TC-563,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaProperties 1-1,,true,,1,1,null,922,1,0
+1531141320281,1184,system-controller_GET_schemaProperties_TC-563,200,OK,[TG] -system-controller_GET_schemaProperties 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/properties?schema=dobie,659,1,0
+1531141320281,1184,[TC] - system-controller_GET_schemaProperties_TC-563,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaProperties 1-1,,true,,1,1,null,659,1,0
+1531141321469,383,system-controller_GET_schemaProperties_TC-564,500,Internal Server Error,[TG] -system-controller_GET_schemaProperties 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/properties?schema=dobie12312,383,1,1
+1531141321469,383,[TC] - system-controller_GET_schemaProperties_TC-564,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -system-controller_GET_schemaProperties 1-1,,false,,1,1,null,383,1,1
+1531141353720,930,system-controller_GET_schemaCanary_TC-553,200,OK,[TG] -system-controller_GET_schemaCanary 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/canary?schema=dobie,929,1,0
+1531141353720,930,[TC] - system-controller_GET_schemaCanary_TC-553,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaCanary 1-1,,true,,1,1,null,929,1,0
+1531141426784,957,system-controller_GET_schemaCanary_TC-557,200,OK,[TG] -system-controller_GET_schemaCanary 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/canary?schema=dobie,956,1,0
+1531141426784,957,[TC] - system-controller_GET_schemaCanary_TC-557,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaCanary 1-1,,true,,1,1,null,956,1,0
+1531141427745,382,system-controller_GET_schemaCanary_TC-562,500,Internal Server Error,[TG] -system-controller_GET_schemaCanary 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/canary?schema=dobie12312,382,1,1
+1531141427744,382,[TC] - system-controller_GET_schemaCanary_TC-562,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -system-controller_GET_schemaCanary 1-1,,false,,1,1,null,382,1,1
+1531141463584,829,system-controller_GET_sytemBuild_TC-553,200,OK,[TG] -system-controller_GET_systemBuild 1-1,,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/systemBuild,828,1,0
+1531141463583,829,[TC] - system-controller_GET_systemBuild_TC-553,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_systemBuild 1-1,,true,,1,1,null,828,1,0
+1531141492649,1171,system-controller_GET_schemaProperties_TC-563,200,OK,[TG] -system-controller_GET_schemaProperties 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/properties?schema=dobie,649,1,0
+1531141492649,1171,[TC] - system-controller_GET_schemaProperties_TC-563,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaProperties 1-1,,true,,1,1,null,649,1,0
+1531141493823,395,system-controller_GET_schemaProperties_TC-564,500,Internal Server Error,[TG] -system-controller_GET_schemaProperties 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/properties?schema=dobie12312,395,1,1
+1531141493823,395,[TC] - system-controller_GET_schemaProperties_TC-564,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -system-controller_GET_schemaProperties 1-1,,false,,1,1,null,395,1,1
+1531141511665,669,system-controller_GET_schemaCanary_TC-557,200,OK,[TG] -system-controller_GET_schemaCanary 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/canary?schema=dobie,668,1,0
+1531141511665,669,[TC] - system-controller_GET_schemaCanary_TC-557,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaCanary 1-1,,true,,1,1,null,668,1,0
+1531141512336,391,system-controller_GET_schemaCanary_TC-562,500,Internal Server Error,[TG] -system-controller_GET_schemaCanary 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/canary?schema=dobie12312,391,1,1
+1531141512336,391,[TC] - system-controller_GET_schemaCanary_TC-562,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -system-controller_GET_schemaCanary 1-1,,false,,1,1,null,391,1,1
+1531141753395,800,rest-controller_GET_schema_getFilters_TC-565,200,OK,[TG] -rest-controller_GET_schema_getFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getFilters?bCS=24,789,1,0
+1531141753394,800,[TC] - rest-controller_GET_schema_getFilters_TC-565,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_getFilters 1-1,,true,,1,1,null,789,1,0
+1531141754196,468,rest-controller_GET_schema_getFilters_TC-566,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/getFilters?bCS=24,468,1,1
+1531141754196,468,[TC] - rest-controller_GET_schema_getFilters_TC-566,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,468,1,1
+1531141754665,283,rest-controller_GET_schema_getFilters_TC-567,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getFilters?bCS=9898998999,283,1,1
+1531141754665,283,[TC] - rest-controller_GET_schema_getFilters_TC-567,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,283,1,1
+1531141754949,381,rest-controller_GET_schema_getFilters_TC-568,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/getFilters?bCS=9898998999,381,1,1
+1531141754949,381,[TC] - rest-controller_GET_schema_getFilters_TC-568,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,381,1,1
+1531146754789,825,rest-controller_GET_schema_getFilters_TC-565,200,OK,[TG] -rest-controller_GET_schema_getFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getFilters?bCS=24,813,1,0
+1531146754788,825,[TC] - rest-controller_GET_schema_getFilters_TC-565,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_getFilters 1-1,,true,,1,1,null,813,1,0
+1531146755616,469,rest-controller_GET_schema_getFilters_TC-566,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/getFilters?bCS=24,468,1,1
+1531146755615,469,[TC] - rest-controller_GET_schema_getFilters_TC-566,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,468,1,1
+1531146756086,282,rest-controller_GET_schema_getFilters_TC-567,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getFilters?bCS=9898998999,282,1,1
+1531146756085,282,[TC] - rest-controller_GET_schema_getFilters_TC-567,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,282,1,1
+1531146756369,369,rest-controller_GET_schema_getFilters_TC-568,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/getFilters?bCS=9898998999,369,1,1
+1531146756369,369,[TC] - rest-controller_GET_schema_getFilters_TC-568,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,369,1,1
+1531149052581,933,system-controller_GET_schemaCanary_TC-557,200,OK,[TG] -system-controller_GET_schemaCanary 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/canary?schema=dobie,932,1,0
+1531149052580,933,[TC] - system-controller_GET_schemaCanary_TC-557,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaCanary 1-1,,true,,1,1,null,932,1,0
+1531149053514,369,system-controller_GET_schemaCanary_TC-562,500,Internal Server Error,[TG] -system-controller_GET_schemaCanary 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/canary?schema=dobie12312,369,1,1
+1531149053514,369,[TC] - system-controller_GET_schemaCanary_TC-562,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -system-controller_GET_schemaCanary 1-1,,false,,1,1,null,369,1,1
+1531149088493,1706,system-controller_GET_schemaProperties_TC-563,200,OK,[TG] -system-controller_GET_schemaProperties 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/properties?schema=dobie,644,1,0
+1531149088493,1706,[TC] - system-controller_GET_schemaProperties_TC-563,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_schemaProperties 1-1,,true,,1,1,null,644,1,0
+1531149090201,375,system-controller_GET_schemaProperties_TC-564,500,Internal Server Error,[TG] -system-controller_GET_schemaProperties 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/properties?schema=dobie12312,375,1,1
+1531149090201,375,[TC] - system-controller_GET_schemaProperties_TC-564,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -system-controller_GET_schemaProperties 1-1,,false,,1,1,null,375,1,1
+1531149164579,798,system-controller_GET_sytemBuild_TC-553,200,OK,[TG] -system-controller_GET_systemBuild 1-1,,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/systemBuild,798,1,0
+1531149164579,798,[TC] - system-controller_GET_systemBuild_TC-553,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -system-controller_GET_systemBuild 1-1,,true,,1,1,null,798,1,0
+1531149225615,803,rest-controller_GET_schema_getFilters_TC-565,200,OK,[TG] -rest-controller_GET_schema_getFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getFilters?bCS=24,791,1,0
+1531149225615,803,[TC] - rest-controller_GET_schema_getFilters_TC-565,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_getFilters 1-1,,true,,1,1,null,791,1,0
+1531149226419,458,rest-controller_GET_schema_getFilters_TC-566,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/getFilters?bCS=24,458,1,1
+1531149226419,458,[TC] - rest-controller_GET_schema_getFilters_TC-566,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,458,1,1
+1531149226878,285,rest-controller_GET_schema_getFilters_TC-567,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getFilters?bCS=9898998999,285,1,1
+1531149226878,285,[TC] - rest-controller_GET_schema_getFilters_TC-567,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,285,1,1
+1531149227166,370,rest-controller_GET_schema_getFilters_TC-568,500,Internal Server Error,[TG] -rest-controller_GET_schema_getFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/getFilters?bCS=9898998999,370,1,1
+1531149227165,370,[TC] - rest-controller_GET_schema_getFilters_TC-568,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_getFilters 1-1,,false,,1,1,null,370,1,1
+1531149248266,537,rest-controller_GET_schema_languages_TC-565,200,OK,[TG] -rest-controller_GET_schema_languages 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/languages,529,1,0
+1531149248265,537,[TC] - rest-controller_GET_schema_languages_TC-565,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_languages 1-1,,true,,1,1,null,529,1,0
+1531149248806,453,rest-controller_GET_schema_languages_TC-566,500,Internal Server Error,[TG] -rest-controller_GET_schema_languages 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312/languages,453,1,1
+1531149248805,453,[TC] - rest-controller_GET_schema_languages_TC-566,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_languages 1-1,,false,,1,1,null,453,1,1
+1531149264435,546,rest-controller_GET_schema_recalculateTerms_TC-576,200,OK,[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/recalculateTerms?scoreFirst=false,546,1,0
+1531149264434,546,[TC] - rest-controller_GET_schema_recalculateTerms_TC-576,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,true,,1,1,null,546,1,0
+1531149264982,454,rest-controller_GET_schema_recalculateTerms_TC-577,500,Internal Server Error,[TG] -rest-controller_GET_schema_recalculateTerms 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie12312%20/recalculateTerms?scoreFirst=true,454,1,1
+1531149264982,454,[TC] - rest-controller_GET_schema_recalculateTerms_TC-577,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_GET_schema_recalculateTerms 1-1,,false,,1,1,null,454,1,1
+1531149358698,886,rest-controller_POST_schema_applyFilters_TC-578,200,OK,[TG] -rest-controller_POST_schema_applyFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/applyFilters?debug=true,870,1,0
+1531149358698,886,[TC] - rest-controller_POST_schema_applyFilters_TC-578,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_POST_schema_applyFilters 1-1,,true,,1,1,null,870,1,0
+1531149359585,349,rest-controller_POST_schema_applyFilters_TC-584,500,Internal Server Error,[TG] -rest-controller_POST_schema_applyFilters 1-1,text,false,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/applyFilters?debug=true,349,1,1
+1531149359585,349,[TC] - rest-controller_POST_schema_applyFilters_TC-584,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_applyFilters 1-1,,false,,1,1,null,349,1,1
+1531149359935,337,rest-controller_POST_schema_applyFilters_TC-585,200,OK,[TG] -rest-controller_POST_schema_applyFilters 1-1,text,true,,1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/applyFilters?debug=false,316,1,0
+1531149359935,337,[TC] - rest-controller_POST_schema_applyFilters_TC-585,200,"Number of samples in transaction : 1, number of failing samples : 0",[TG] -rest-controller_POST_schema_applyFilters 1-1,,true,,1,1,null,316,1,0
+1531149374518,540,rest-controller_POST_schema_getRecordss_TC-586,200,OK,[TG] -rest-controller_POST_schema_getRecords 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true
+
+JSON RESPONSE: [debug:[name:root, totalTime:1, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:[[name:SecurityComponent, totalTime:0, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:null], [name:GetRecordsComponent, totalTime:1, remoteTime:null, parallel:true, solrQuery:null, exception:null, filters:null, subEntries:[[name:City, totalTime:1, remoteTime:null, parallel:null, solrQuery:null, exception:[cause:null, stackTrace:[[methodName:valueOf, fileName:Enum.java, lineNumber:238, className:java.lang.Enum, nativeMethod:false], [methodName:valueOf, fileName:SolrQuery.java, lineNumber:47, className:org.apache.solr.client.solrj.SolrQuery$ORDER, nativeMethod:false], [methodName:<init>, fileName:SolrQuery.java, lineNumber:1120, className:org.apache.solr.client.solrj.SolrQuery$SortClause, nativeMethod:false], [methodName:lambda$getSorts$33, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:accept, fileName:ReferencePipeline.java, lineNumber:193, className:java.util.stream.ReferencePipeline$3$1, nativeMethod:false], [methodName:forEachRemaining, fileName:ArrayList.java, lineNumber:1382, className:java.util.ArrayList$ArrayListSpliterator, nativeMethod:false], [methodName:copyInto, fileName:AbstractPipeline.java, lineNumber:481, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:wrapAndCopyInto, fileName:AbstractPipeline.java, lineNumber:471, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluate, fileName:AbstractPipeline.java, lineNumber:545, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluateToArrayNode, fileName:AbstractPipeline.java, lineNumber:260, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:toArray, fileName:ReferencePipeline.java, lineNumber:438, className:java.util.stream.ReferencePipeline, nativeMethod:false], [methodName:getSorts, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:getRecordsTaxonomy, fileName:SimpleRecordDao.java, lineNumber:222, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:84, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:41, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doStepInternal, fileName:ParallelComponent.java, lineNumber:73, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:lambda$null$12, fileName:ParallelComponent.java, lineNumber:49, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:run, fileName:CompletableFuture.java, lineNumber:1590, className:java.util.concurrent.CompletableFuture$AsyncSupply, nativeMethod:false], [methodName:runWorker, fileName:ThreadPoolExecutor.java, lineNumber:1149, className:java.util.concurrent.ThreadPoolExecutor, nativeMethod:false], [methodName:run, fileName:ThreadPoolExecutor.java, lineNumber:624, className:java.util.concurrent.ThreadPoolExecutor$Worker, nativeMethod:false], [methodName:run, fileName:Thread.java, lineNumber:748, className:java.lang.Thread, nativeMethod:false]], localizedMessage:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, message:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, suppressed:[]], filters:null, subEntries:null]]]]], records:[], termVector:[:], distinct:[:]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 990
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true,529,1,1
+1531149374517,540,[TC] - rest-controller_POST_schema_getRecords_TC-586,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_getRecords 1-1,,false,,1,1,null,529,1,1
+1531149375098,281,rest-controller_POST_schema_getRecordss_TC-587,200,OK,[TG] -rest-controller_POST_schema_getRecords 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true
+
+JSON RESPONSE: [debug:[name:root, totalTime:1, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:[[name:SecurityComponent, totalTime:0, remoteTime:null, parallel:false, solrQuery:null, exception:null, filters:null, subEntries:null], [name:GetRecordsComponent, totalTime:1, remoteTime:null, parallel:true, solrQuery:null, exception:null, filters:null, subEntries:[[name:City, totalTime:0, remoteTime:null, parallel:null, solrQuery:null, exception:[cause:null, stackTrace:[[methodName:valueOf, fileName:Enum.java, lineNumber:238, className:java.lang.Enum, nativeMethod:false], [methodName:valueOf, fileName:SolrQuery.java, lineNumber:47, className:org.apache.solr.client.solrj.SolrQuery$ORDER, nativeMethod:false], [methodName:<init>, fileName:SolrQuery.java, lineNumber:1120, className:org.apache.solr.client.solrj.SolrQuery$SortClause, nativeMethod:false], [methodName:lambda$getSorts$33, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:accept, fileName:ReferencePipeline.java, lineNumber:193, className:java.util.stream.ReferencePipeline$3$1, nativeMethod:false], [methodName:forEachRemaining, fileName:ArrayList.java, lineNumber:1382, className:java.util.ArrayList$ArrayListSpliterator, nativeMethod:false], [methodName:copyInto, fileName:AbstractPipeline.java, lineNumber:481, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:wrapAndCopyInto, fileName:AbstractPipeline.java, lineNumber:471, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluate, fileName:AbstractPipeline.java, lineNumber:545, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:evaluateToArrayNode, fileName:AbstractPipeline.java, lineNumber:260, className:java.util.stream.AbstractPipeline, nativeMethod:false], [methodName:toArray, fileName:ReferencePipeline.java, lineNumber:438, className:java.util.stream.ReferencePipeline, nativeMethod:false], [methodName:getSorts, fileName:SimpleRecordDao.java, lineNumber:463, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:getRecordsTaxonomy, fileName:SimpleRecordDao.java, lineNumber:222, className:com.r4cloud.rsearch.data.SimpleRecordDao, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:84, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doInParallel, fileName:GetRecordsComponent.java, lineNumber:41, className:com.r4cloud.rsearch.component.GetRecordsComponent, nativeMethod:false], [methodName:doStepInternal, fileName:ParallelComponent.java, lineNumber:73, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:lambda$null$12, fileName:ParallelComponent.java, lineNumber:49, className:com.r4cloud.rsearch.component.base.ParallelComponent, nativeMethod:false], [methodName:run, fileName:CompletableFuture.java, lineNumber:1590, className:java.util.concurrent.CompletableFuture$AsyncSupply, nativeMethod:false], [methodName:runWorker, fileName:ThreadPoolExecutor.java, lineNumber:1149, className:java.util.concurrent.ThreadPoolExecutor, nativeMethod:false], [methodName:run, fileName:ThreadPoolExecutor.java, lineNumber:624, className:java.util.concurrent.ThreadPoolExecutor$Worker, nativeMethod:false], [methodName:run, fileName:Thread.java, lineNumber:748, className:java.lang.Thread, nativeMethod:false]], localizedMessage:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, message:No enum constant org.apache.solr.client.solrj.SolrQuery.ORDER.string, suppressed:[]], filters:null, subEntries:null]]]]], records:[], termVector:[:], distinct:[:]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 989
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=true,269,1,1
+1531149375098,281,[TC] - rest-controller_POST_schema_getRecords_TC-587,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_getRecords 1-1,,false,,1,1,null,269,1,1
+1531149375381,381,rest-controller_POST_schema_getRecordss_TC-588,200,OK,[TG] -rest-controller_POST_schema_getRecords 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=false
+
+JSON RESPONSE: [records:[], termVector:[:], distinct:[:]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 990
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/getRecords?debug=false,368,1,1
+1531149375381,381,[TC] - rest-controller_POST_schema_getRecords_TC-588,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_getRecords 1-1,,false,,1,1,null,368,1,1
+1531149412755,573,rest-controller_POST_schema_suggestFilterValues_TC-590,200,OK,[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=true
+
+JSON RESPONSE: [values:[GEORGIA]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 256
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=true,560,1,1
+1531149412755,573,[TC] - rest-controller_POST_schema_suggestFilterValues_TC-590,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,,false,,1,1,null,560,1,1
+1531149413350,271,rest-controller_POST_schema_suggestFilterValues_TC-591,400,Bad Request,[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,text,false,"Expected <response code> [200] but we got instead [400]
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=true
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 283
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=true,271,1,1
+1531149413349,271,[TC] - rest-controller_POST_schema_suggestFilterValues_TC-591,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,,false,,1,1,null,271,1,1
+1531149413623,315,rest-controller_POST_schema_suggestFilterValues_TC-592,200,OK,[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,text,false,"Diagnostics key not found in json response.
+
+URL: http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=false
+
+JSON RESPONSE: [values:[GEORGIA]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+x-gitfs-workspace: ewolf
+Content-Length: 256
+Host: dev-api-prod.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1,1,http://dev-api-prod.r4cloud.com/rSearch/dobie/suggestFilterValues?debug=false,306,1,1
+1531149413622,315,[TC] - rest-controller_POST_schema_suggestFilterValues_TC-592,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] -rest-controller_POST_schema_suggestFilterValues 1-1,,false,,1,1,null,306,1,1

@@ -1,0 +1,2 @@
+id,name,syntax,contents,TestCaseId,expectedError
+747,Automation_Caller,Scala,"import org.json.JSONObject import com.r4cloud.stat.plugin.StatisticIndexSelector import com.r4cloud.stat.model.MultiIndex?import java.util.Map; new StatisticIndexSelector { def getIndexes(context: Map[String, Object], metadata: JSONObject) : MultiIndex = {val idx: MultiIndex = new MultiIndex; idx.addEntries (""clusterId"", 1: java.lang.Long); return idx;}}",dummy,0

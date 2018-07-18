@@ -1,0 +1,6 @@
+statisticsId,martId,name,expectedError,testCaseId
+183,130,new_Name,0,TC-579
+183,130,,0,TC-580
+183,0,new_Name,0,TC-581
+0,130,new_Name,0,TC-582
+test,130,new_Name,0,TC-583

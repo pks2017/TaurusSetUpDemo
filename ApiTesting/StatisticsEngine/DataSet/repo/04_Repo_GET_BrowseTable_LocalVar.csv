@@ -1,0 +1,5 @@
+datasourceName,schemaName,tableName,testCaseId,expectedError
+impala,dobie,transaction_history,TC-607,0
+test,dobie,transaction_history,TC-608,0
+impala,test,transaction_history,TC-609,0
+impala,dobie,test,TC-610,0

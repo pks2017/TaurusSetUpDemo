@@ -12,22 +12,22 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] -POST_validate" enabled="false">
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] -POST_validate" enabled="true">
         <stringProp name="TestPlan.comments">validate</stringProp>
       </TestFragmentController>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="caller_POST_validate_${TestCaseId}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="caller_POST_validate" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{ &#xd;
-  &quot;caller&quot;: { &#xd;
-      &quot;id&quot;: 13, &#xd;
-      &quot;name&quot;: &quot;New Java Caller&quot;, &#xd;
-      &quot;syntax&quot;: &quot;Java&quot;, &#xd;
-      &quot;contents&quot;: &quot;string&quot; &#xd;
+  &quot;caller&quot;: {&#xd;
+  	&quot;id&quot;: ${id}&#xd;
+      &quot;name&quot;: &quot;${name}&quot;, &#xd;
+      &quot;syntax&quot;: &quot;${syntax}&quot;, &#xd;
+      &quot;contents&quot;: &quot;${contents}&quot;&#xd;
     } &#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>

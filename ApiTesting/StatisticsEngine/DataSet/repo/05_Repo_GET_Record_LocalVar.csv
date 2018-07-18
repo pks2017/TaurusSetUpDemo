@@ -1,0 +1,4 @@
+datasourceName,schemaName,tableName,count,page,testCaseId,expectedError
+impala,dobie,transaction_history,5,1,TC-607,0
+impala,dobie,transaction_history,test,1,TC-608,404
+impala,dobie,transaction_history,5,test,TC-609,404

@@ -1,0 +1,3 @@
+datasourceName,tableName,testCaseId,expectedError
+impala,transaction_history,TC-632,0
+impalaa,transaction_history,TC-633,330

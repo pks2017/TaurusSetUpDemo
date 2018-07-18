@@ -1,0 +1,4 @@
+datasourceName,schemaName,testCaseId,expectedError
+impala,dobie,TC-600,0
+test,dobie,TC-601,0
+impala,test,TC-602,0

@@ -12,11 +12,11 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] -POST_save" enabled="false">
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="[TF] -POST_save" enabled="true">
         <stringProp name="TestPlan.comments">save</stringProp>
       </TestFragmentController>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="caller_POST_save_${TestCaseId}" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="caller_POST_save" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -24,10 +24,10 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
   &quot;caller&quot;: {&#xd;
-    &quot;id&quot;: 987545,&#xd;
-    &quot;name&quot;: &quot;nameing123242&quot;,&#xd;
-    &quot;syntax&quot;: &quot;Drools&quot;,&#xd;
-    &quot;contents&quot;: &quot;SSSD&quot;&#xd;
+    &quot;id&quot;: ${id},&#xd;
+    &quot;name&quot;: &quot;${name}&quot;,&#xd;
+    &quot;syntax&quot;: &quot;${syntax}&quot;,&#xd;
+    &quot;contents&quot;: &quot;import org.json.JSONObject import com.r4cloud.stat.plugin.StatisticIndexSelector import com.r4cloud.stat.model.MultiIndex import java.util.Map; new StatisticIndexSelector { def getIndexes(context: Map[String, Object], metadata: JSONObject): MultiIndex = {val idx: MultiIndex = new MultiIndex; idx.addEntries (&apos;clusterId&apos;, 1: java.lang.Long); return idx;}}&quot;&#xd;
   }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>

@@ -1,4 +1,4 @@
-TestCaseId,expectedError
-TC-100,
-TC-101,
-TC-102,
+id,name,syntax,contents,testCaseId,expectedError
+747,New Scala Caller,Scala,dummy contents,TC-617,0
+747,,,,TC-618,0
+999999999,,,,TC-619,0

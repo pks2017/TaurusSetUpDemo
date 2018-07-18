@@ -1,0 +1,46 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1531741362372,802,GET - Browse Repo_TC-597,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:3], data:[oracle, impala, hive]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",357,280,1,1,802,0,531
+1531741362371,802,[TC] - Repo_TC-597,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,357,280,1,1,802,56,531
+1531741424868,854,GET - Browse Datasource_TC-598,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse/impala
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:10], data:[_impala_builtins, default, dobie, psg, psg2, r5]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",391,287,1,1,849,0,577
+1531741424868,854,[TC] - Repo_TC-598,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,391,287,1,1,849,27,577
+1531741425749,267,GET - Browse Datasource_TC-599,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse/test
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:6], data:[ADMIN, AFFL_PRIZE, ANONYMOUS, APPQOSSYS, APS, AUDSYS, BDUSER, BLACKHOLE, CNSMR_ACCT, CTXSYS, DATA_DCTNRY, DBSNMP, DEV_USER, DIP, ECHELON, GSMADMIN_INTERNAL, GSMCATUSER, GSMUSER, MEDIA, MOBILE, MSG_INCDNT, OUTLN, PICKPACK, PRMCODES, PROXY_CN, PROXY_RO, PROXY_RW, QA_USER, QRTZ, RDSADMIN, REC_ENGINE, RSEARCH_LOG, SEN_DATA, SEN_EVENTS, SEN_SCHDL, SEN_STAGE, SEN_UPLOAD, STATSMART, STATS_CORE, STATS_DATA, SYS, SYSBACKUP, SYSDG, SYSKM, SYSTEM, UBER, VBIS, VEGE, XDB, XS$NULL]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",903,285,1,1,267,0,0
+1531741425749,267,[TC] - Repo_TC-599,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,903,285,1,1,267,1,0

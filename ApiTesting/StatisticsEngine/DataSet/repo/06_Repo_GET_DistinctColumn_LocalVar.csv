@@ -1,0 +1,3 @@
+datasourceName,schemaName,tableName,columnName,count,page,testCaseId,expectedError
+oracle,DATA_DCTNRY,CLASS_SET,DATA_CLSS_ID,100,1,TC-630,0
+impala,dobie,transaction_history,bcs,100,1,TC-631,0

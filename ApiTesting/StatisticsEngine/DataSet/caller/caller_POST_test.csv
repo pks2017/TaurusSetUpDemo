@@ -1,2 +1,4 @@
-TestCaseId,expectedError
-TC-100,
+id,name,syntax,contents,expectedError,TestCaseId
+0,Automation_caller_Python,Python,from org.json import JSONObject; from com.r4cloud.stat.plugin import StatisticIndexSelector from com.r4cloud.stat.model import MultiIndex class PythonCaller(StatisticIndexSelector):  def getIndexes(self context metadata): idx = MultiIndex() idx.addEntries('clusterId'  1) return idx    selector = PythonCaller(),0,TC-626
+0,Automation_caller_Java,Java,"import org.json.JSONObject; import com.r4cloud.stat.plugin.StatisticIndexSelector;import com.r4cloud.stat.model.MultiIndex;import java.util.Map;public class Caller_6 implements StatisticIndexSelector {    @Override    public MultiIndex getIndexes(Map<String Object> context JSONObject metadata){        MultiIndex idx = new MultiIndex();      idx.addEntries(""clusterId"" 1);        return idx;    }}",0,TC-627
+0,Automation_caller_Scala,Scala,"import org.json.JSONObject import com.r4cloud.stat.plugin.StatisticIndexSelector import com.r4cloud.stat.model.MultiIndex import java.util.Map; new StatisticIndexSelector { def getIndexes(context: Map[String Object] metadata: JSONObject) : MultiIndex = {val idx: MultiIndex = new MultiIndex; idx.addEntries (""clusterId"" 1: java.lang.Long); return idx;}}",0,TC-628

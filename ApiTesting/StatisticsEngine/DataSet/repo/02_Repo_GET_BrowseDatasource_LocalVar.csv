@@ -1,0 +1,3 @@
+name,testCaseId,expectedError
+impala,TC-598,0
+test,TC-599,0

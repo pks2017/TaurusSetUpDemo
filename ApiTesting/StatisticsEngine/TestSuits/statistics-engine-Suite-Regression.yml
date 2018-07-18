@@ -1,0 +1,126 @@
+modules:
+  jmeter:
+    properties:
+      log_level.jmeter: WARN
+      #log_level.jmeter.threads: DEBUG
+      includecontroller.prefix: /home/jenkins-slave/workspace/tests/test-dev-backend-statistics-engine-regression
+      # Sets the satisfaction threshold for the APDEX calculation (in milliseconds).
+      jmeter.reportgenerator.apdex_satisfied_threshold: 2500
+
+      # Sets the tolerance threshold for the APDEX calculation (in milliseconds).
+      jmeter.reportgenerator.apdex_tolerated_threshold: 6500
+
+      # Sets the size of the sliding window used by percentile evaluation.
+      # Caution : higher value provides a better accuracy but needs more memory.
+      jmeter.reportgenerator.statistic_window: 200000
+
+      # Configure this property to change the report title
+      jmeter.reportgenerator.report_title: Apache JMeter Dashboard
+
+      # Defines the overall granularity for over time graphs
+      jmeter.reportgenerator.overall_granularity: 60000
+
+      # Sets the destination directory for generated html pages.
+      # This will be overridden by the command line option -o
+      jmeter.reportgenerator.exporter.html.property.output_dir: ApiTesting/StatisticsEngine/Reports/Results
+      jmeter.save.saveservice.assertion_results: all
+      jmeter.save.saveservice.output_format: xml
+      jmeter.save.saveservice.bytes: false
+      jmeter.save.saveservice.label: false
+      jmeter.save.saveservice.latency: false
+      jmeter.save.saveservice.response_data: true
+      jmeter.save.saveservice.response_code: true
+      jmeter.save.saveservice.response_message: true
+      jmeter.save.saveservice.successful: true
+      jmeter.save.saveservice.assertion_results_failure_message: true
+      jmeter.save.saveservice.thread_counts: true
+      jmeter.save.saveservice.thread_name: true
+      jmeter.save.saveservice.time: true
+      jmeter.save.saveservice.timestamp_format: ms
+      jmeter.save.saveservice.timestamp_format: yyyy/MM/dd HH:mm:ss
+    gui: false
+  local:
+    sequential: true
+
+execution:
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/caller/caller_GET_get_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/caller/caller_GET_List_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/caller/caller_POST_save_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/caller/caller_POST_test_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/caller/caller_POST_Validate_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/caller/caller_DELETE_delete_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/data/01_GET_data_definationid_versions_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/data/02_data_GET_definationId_versions_versionId_csv_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/data/03_data_GET_definationId_versions_versionId_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/feature/01_feature_GET_feature_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/mart/01_mart_GET_mart_select_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/mart/02_mart_PUT_mart_callers_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/mart/12_mart_POST_mart_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/queue/Queue_GET_Jms_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/queue/Queue_GET_Live_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/queue/Queue_GET_Recent_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/queue/Queue_GET_Stat_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/queue/Queue_GET_Token_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/queue/Queue_POST_ReissueToken_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/queue/Queue_DELETE_AbortToken_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/statistics/01_statistics_GET_statistics_getStatistics_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/statistics/02_statistics_GET_statistics_get_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/statistics/05_statistics_POST_statistics_create_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/statistics/03_statistics_PUT_statistics_update_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/statistics/04_statistics_DELETE_statistics_delete_TC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/UseCases/mart_UC.jmx
+    force-parent-sample: false
+- scenario: 
+    script: ApiTesting/StatisticsEngine/TestScripts/UseCases/statistics_UC.jmx
+    force-parent-sample: false

@@ -1,0 +1,196 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1531829487464,822,GET - Browse Repo_TC-597,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:3], data:[oracle, impala, hive]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",357,280,1,1,822,0,516
+1531829487446,822,[TC] - Repo_TC-597,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,357,280,1,1,822,202,516
+1531829511569,514,GET - Browse Datasource_TC-598,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse/impala
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:8], data:[_impala_builtins, default, dobie, psg, psg2, r5]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",390,287,1,1,514,0,252
+1531829511568,514,[TC] - Repo_TC-598,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,390,287,1,1,514,44,252
+1531829512129,264,GET - Browse Datasource_TC-599,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse/test
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:9], data:[ADMIN, AFFL_PRIZE, ANONYMOUS, APPQOSSYS, APS, AUDSYS, BDUSER, BLACKHOLE, CNSMR_ACCT, CTXSYS, DATA_DCTNRY, DBSNMP, DEV_USER, DIP, ECHELON, GSMADMIN_INTERNAL, GSMCATUSER, GSMUSER, MEDIA, MOBILE, MSG_INCDNT, OUTLN, PICKPACK, PRMCODES, PROXY_CN, PROXY_RO, PROXY_RW, QA_USER, QRTZ, RDSADMIN, REC_ENGINE, RSEARCH_LOG, SEN_DATA, SEN_EVENTS, SEN_SCHDL, SEN_STAGE, SEN_UPLOAD, STATSMART, STATS_CORE, STATS_DATA, SYS, SYSBACKUP, SYSDG, SYSKM, SYSTEM, UBER, VBIS, VEGE, XDB, XS$NULL]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",903,285,1,1,264,0,0
+1531829512128,264,[TC] - Repo_TC-599,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,903,285,1,1,264,9,0
+1531829561353,961,GET - Browse Schema_TC-600,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse/impala/dobie
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:7], data:[account_history, account_raw, account_shadow, account_ti, cs121_ah130, cs121_ar130, cs121_as130, cs1_ah1, cs1_ar1, cs1_as1, cs21_ah1, cs21_ah21, cs21_ar1, cs21_ar21, cs21_as1, cs21_as21, cs22_ah1, cs22_ah22, cs22_ar1, cs22_ar22, cs22_as1, cs22_as22, cs23_ah23, cs23_ar23, cs23_as23, cs24_ah25, cs24_ah42, cs24_ar25, cs24_ar42, cs24_as25, cs24_as42, cs24_dh81, cs24_dr81, cs24_ds81, cs24_th63, cs24_tr63, cs24_ts63, cs41_ah101, cs41_ar101, cs41_as101, cs42_ah102, cs42_ar102, cs42_as102, document_history, document_raw, document_shadow, document_ti, guid_cleanup, security_history, security_raw, security_shadow, security_ti, signature_mapping, transaction_history, transaction_raw, transaction_shadow, transaction_ti]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",1162,293,1,1,960,0,509
+1531829561352,961,[TC] - Repo_TC-600,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,1162,293,1,1,960,53,509
+1531829562368,261,GET - Browse Schema_TC-601,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse/test/dobie
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:6], data:[]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",330,291,1,1,261,0,0
+1531829562368,261,[TC] - Repo_TC-601,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,330,291,1,1,261,2,0
+1531829562633,261,GET - Browse Schema_TC-602,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse/impala/test
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:7], data:[]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",330,292,1,1,261,0,0
+1531829562632,261,[TC] - Repo_TC-602,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,330,292,1,1,261,7,0
+1531829584225,521,GET - Browse Table_TC-607,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse/impala/dobie/transaction_history
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:10], data:[[column:key, type:STRING, comment:HBase row key / Solr document id], [column:bcs, type:BIGINT, comment:Processing status flag], [column:bdf, type:BIGINT, comment:Data feed id], [column:bsi, type:BIGINT, comment:Storage id], [column:dlu, type:STRING, comment:Last updated timestamp], [column:dot, type:STRING, comment:Originating timestamp], [column:dxp, type:STRING, comment:Combined expiration date], [column:dxpb, type:STRING, comment:Business expiration date], [column:dxpt, type:STRING, comment:Technical expiration date], [column:icl, type:INT, comment:Confidence level], [column:saf, type:STRING, comment:Active record flag], [column:sdi, type:STRING, comment:Document id], [column:smd, type:STRING, comment:Originating timestamp modifier], [column:sms, type:STRING, comment:Master set flag], [column:snd, type:STRING, comment:Clean set flag], [column:srg, type:STRING, comment:Record GUID], [column:srs, type:STRING, comment:Record signature], [column:ssc, type:STRING, comment:Storage category], [column:ssg, type:STRING, comment:Storage group], [column:sss, type:STRING, comment:Storage stage], [column:sst, type:STRING, comment:Storage tag]]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",2197,313,1,1,521,0,256
+1531829584225,521,[TC] - Repo_TC-607,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,2197,313,1,1,521,37,256
+1531829584784,265,GET - Browse Table_TC-608,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse/test/dobie/transaction_history
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:6], data:[]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",330,311,1,1,265,0,0
+1531829584784,265,[TC] - Repo_TC-608,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,330,311,1,1,265,4,0
+1531829585055,263,GET - Browse Table_TC-609,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse/impala/test/transaction_history
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:8], data:[]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",330,312,1,1,263,0,0
+1531829585054,263,[TC] - Repo_TC-609,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,330,312,1,1,263,5,0
+1531829585325,265,GET - Browse Table_TC-610,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/browse/impala/dobie/test
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:7], data:[]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",330,298,1,1,264,0,0
+1531829585324,265,[TC] - Repo_TC-610,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,330,298,1,1,264,6,0
+1531829604888,637,GET - Record_TC-607,200,OK,[TG] - Repo 1-1,text,false,"Any or all Diagnostic fields are missing.
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/sample/impala/dobie/transaction_history/5/1
+
+JSON RESPONSE: [diagnostics:[error:0, processingTimeMs:125], data:[[ssc:T, bdf:26, ssg:T26, dot:2013-12-29T01:00:00.000Z, dxpb:, srg:4e519e22-f023-4c3d-af80-a4c7a63d315f, smd:1885796492, dlu:2017-11-22T20:56:27.735Z, sss:H, bcs:24, srs:24f5d6c49d8f42efc2269132c20c3260f8e436d6a2d16d822c53582d13507488, sst:TH26, dxpt:, bsi:26, saf:A, idx:0, dxp:, key:4e519e22-f023-4c3d-af80-a4c7a63d315f_24!TH26_24f5d6c49d8f42efc2269132c20c3260f8e436d6a2d16d822c53582d13507488_1388278800000_1885796492_26], [ssc:T, bdf:26, ssg:T26, dot:2013-12-29T01:00:00.000Z, dxpb:, srg:4e519e22-f023-4c3d-af80-a4c7a63d315f, smd:1885823494, dlu:2017-11-22T20:56:46.392Z, sss:H, bcs:24, srs:24f5d6c49d8f42efc2269132c20c3260f8e436d6a2d16d822c53582d13507488, sst:TH26, dxpt:, bsi:26, saf:A, idx:1, dxp:, key:4e519e22-f023-4c3d-af80-a4c7a63d315f_24!TH26_24f5d6c49d8f42efc2269132c20c3260f8e436d6a2d16d822c53582d13507488_1388278800000_1885823494_26], [ssc:T, bdf:26, ssg:T26, dot:2013-12-29T01:00:00.000Z, dxpb:, srg:4e519e22-f023-4c3d-af80-a4c7a63d315f, smd:1885910944, dlu:2017-11-22T20:55:25.663Z, sss:H, bcs:24, srs:24f5d6c49d8f42efc2269132c20c3260f8e436d6a2d16d822c53582d13507488, sst:TH26, dxpt:, bsi:26, saf:A, idx:2, dxp:, key:4e519e22-f023-4c3d-af80-a4c7a63d315f_24!TH26_24f5d6c49d8f42efc2269132c20c3260f8e436d6a2d16d822c53582d13507488_1388278800000_1885910944_26], [ssc:T, bdf:26, ssg:T26, dot:2013-12-29T01:00:00.000Z, dxpb:, srg:4e519e22-f023-4c3d-af80-a4c7a63d315f, smd:1885943495, dlu:2017-11-22T20:57:56.692Z, sss:H, bcs:24, srs:24f5d6c49d8f42efc2269132c20c3260f8e436d6a2d16d822c53582d13507488, sst:TH26, dxpt:, bsi:26, saf:A, idx:3, dxp:, key:4e519e22-f023-4c3d-af80-a4c7a63d315f_24!TH26_24f5d6c49d8f42efc2269132c20c3260f8e436d6a2d16d822c53582d13507488_1388278800000_1885943495_26], [ssc:T, bdf:26, ssg:T26, dot:2013-12-29T01:00:00.000Z, dxpb:, srg:4e519e22-f023-4c3d-af80-a4c7a63d315f, smd:1885945634, dlu:2017-11-22T20:57:48.280Z, sss:H, bcs:24, srs:24f5d6c49d8f42efc2269132c20c3260f8e436d6a2d16d822c53582d13507488, sst:TH26, dxpt:, bsi:26, saf:A, idx:4, dxp:, key:4e519e22-f023-4c3d-af80-a4c7a63d315f_24!TH26_24f5d6c49d8f42efc2269132c20c3260f8e436d6a2d16d822c53582d13507488_1388278800000_1885945634_26]], columns:[idx, key, bcs, bdf, bsi, dlu, dot, dxp, dxpb, dxpt, icl, saf, sdi, smd, sms, snd, srg, srs, ssc, ssg, sss, sst]]
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",2861,317,1,1,637,0,256
+1531829604888,637,[TC] - Repo_TC-607,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,2861,317,1,1,637,54,256
+1531829605580,256,GET - Record_TC-608,404,Not Found,[TG] - Repo 1-1,,false,"Expected <response code> [200] but we got instead [404]
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/sample/impala/dobie/transaction_history/test/1
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",198,320,1,1,256,0,0
+1531829605579,256,[TC] - Repo_TC-608,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,198,320,1,1,256,8,0
+1531829605844,256,GET - Record_TC-609,404,Not Found,[TG] - Repo 1-1,,false,"Expected <response code> [200] but we got instead [404]
+
+URL: http://dev-api-live.r4cloud.com/Statistics/v4/rest/repos/sample/impala/dobie/transaction_history/5/test
+
+JSON RESPONSE: null
+
+REQUEST HEADERS: Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: dev-api-live.r4cloud.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+
+
+",198,320,1,1,256,0,0
+1531829605844,256,[TC] - Repo_TC-609,,"Number of samples in transaction : 1, number of failing samples : 1",[TG] - Repo 1-1,,false,,198,320,1,1,256,5,0
