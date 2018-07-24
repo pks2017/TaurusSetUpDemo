@@ -1,0 +1,175 @@
+modules:
+  jmeter:
+    properties:
+      log_level.jmeter: WARN
+      log_level.jmeter.threads: DEBUG
+      includecontroller.prefix: C:/Users/psingh/.jenkins/workspace/JmeterDemoLocal
+      log_level.jmeter.protocol.http: DEBUG
+      jmeter.save.saveservice.bytes: true
+      jmeter.save.saveservice.label: true
+      jmeter.save.saveservice.latency: true
+      jmeter.save.saveservice.response_code: true
+      jmeter.save.saveservice.response_message: true
+      jmeter.save.saveservice.successful: true
+      jmeter.save.saveservice.thread_counts: true
+      jmeter.save.saveservice.thread_name: true
+      jmeter.save.saveservice.time: true
+      jmeter.save.saveservice.timestamp_format: ms
+      jmeter.save.saveservice.timestamp_format: yyyy/MM/dd HH:mm:ss
+    gui: false 
+execution:
+- scenario:
+    script: ApiTesting/Vege/TestScripts/class-set-controller/CSC_GET_ClassSets_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/cluster-term-boost-factor-controller/CTBFC_GET_ClusterTermBoostFactors_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/data-class-controller/DCC_GET_DataClasses_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/data-feed-controller/DFC_GET_DataFeedId_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/data-feed-controller/DFC_GET_DataFeeds_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/data-feed-field-controller/DFFC_GET_DataFeedFields_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/data-feed-map-controller/DFMC_GET_DataFeedMaps_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/data-field-controller/DFC_GET_DataFieldInfoList_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/data-field-controller/DFC_GET_DataFieldWithDataTermList_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/data-term-controller/DTC_GET_DataTerms_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/dimension-controller/DC_GET_Dimensions_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/engine-type-controller/ETC_GET_EngineTypes_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/group-controller/GC_GET_LoadModel_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/group-template-controller/GTC_GET_GroupTemplate_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/group-type-controller/GTC_GET_LoadGroupTypeList_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/model-controller/MC_GET_LoadVegeModel_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/ontology-boost-factor-controller/OBFC_GET_OntologyBoostFactors_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/ontology-group-member-controller/OGMC_GET_OntologyGroupMembers_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/ontology-map-controller/OMC_GET_OntologyMaps_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/operand-type-controller/OTC_GET_OperandTypes_TC.jmx
+    force-parent-sample: false
+    properties:
+      loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/operator-controller/OC_GET_OperatorList_TC.jmx
+    force-parent-sample: false
+    properties:
+     loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/permitted-group-type-controller/PGTC_GET_PermittedGroupType_TC.jmx
+    force-parent-sample: false
+    properties:
+     loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/process-controller/PC_GET_ProcessList_TC.jmx
+    force-parent-sample: false
+    properties:
+     loopCount: 1 
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/process-field-controller/PFC_GET_ProcessFieldList_TC.jmx
+    force-parent-sample: false
+    properties:
+     loopCount: 1  
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/rule-controller/SC_GET_StateList_TC.jmx
+    force-parent-sample: false
+    properties:
+     loopCount: 1  
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/rule-template-controller/RTC_GET_RuleTemplates_TC.jmx
+    force-parent-sample: false
+    properties:
+     loopCount: 1  
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/rule-type-controller/RTC_GET_RuleTypes_TC.jmx
+    force-parent-sample: false
+    properties:
+     loopCount: 1  
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/state-controller/RC_GET_RuleList_TC.jmx
+    force-parent-sample: false
+    properties:
+     loopCount: 1  
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/storage-bin-controller/SBC_GET_StorageBinList_TC.jmx
+    force-parent-sample: false
+    properties:
+     loopCount: 1
+- scenario: 
+    script: ApiTesting/Vege/TestScripts/storage-id-controller/SIC_GET_StorageIdList_TC.jmx
+    force-parent-sample: false
+    properties:
+     loopCount: 1     
+#- scenario: 
+#    script: ApiTesting/Vege/TestScripts//.jmx
+#    force-parent-sample: false
+#    properties:
+#      loopCount: 1     

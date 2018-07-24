@@ -1,0 +1,3 @@
+permittedGroupTypeId,testCaseId,expectedError
+1,TC-Not Defined,0
+1000,TC-Not Defined,300
