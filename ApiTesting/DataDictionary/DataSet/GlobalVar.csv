@@ -1,2 +1,2 @@
 protocol,server_name,port,app_key,user_key,Endpoint_Version,user_key1
-http,dev-api-prod.r4cloud.com,,APP_KEY,5CF1A15B4EB656F0E0530100007FDACD,2,test
+http,qa-api-live.r4cloud.com,,APP_KEY,5CF1A15B4EB656F0E0530100007FDACD,2,test
