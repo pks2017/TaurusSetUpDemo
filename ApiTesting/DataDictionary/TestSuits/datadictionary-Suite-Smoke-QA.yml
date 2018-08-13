@@ -38,11 +38,11 @@ modules:
       jmeter.save.saveservice.time: true
       jmeter.save.saveservice.timestamp_format: ms
       jmeter.save.saveservice.timestamp_format: yyyy/MM/dd HH:mm:ss
-      loopCount: 1
+      Environment: _QA
     gui: false
   local:
     sequential: true
-    Environment: _QA
+
 
 execution:
 - scenario: 
