@@ -3,7 +3,7 @@ modules:
     properties:
       log_level.jmeter: WARN
       #log_level.jmeter.threads: DEBUG
-      includecontroller.prefix: /home/jenkins-slave/workspace/tests/test-dev-backend-datadictionary-regression
+      includecontroller.prefix: /home/jenkins-slave/workspace/tests/test-dev-backend-dataDictionary
       # Sets the satisfaction threshold for the APDEX calculation (in milliseconds).
       jmeter.reportgenerator.apdex_satisfied_threshold: 2500
 

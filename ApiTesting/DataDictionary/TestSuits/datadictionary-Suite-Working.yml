@@ -3,7 +3,7 @@ modules:
     properties:
       log_level.jmeter: WARN
       #log_level.jmeter.threads: DEBUG
-      includecontroller.prefix: /home/jenkins-slave/workspace/tests/test-dev-backend-datadictionary-regression
+      includecontroller.prefix: /home/jenkins-slave/workspace/tests/test-dev-backend-datadictionary-working/
       # Sets the satisfaction threshold for the APDEX calculation (in milliseconds).
       jmeter.reportgenerator.apdex_satisfied_threshold: 2500
 
@@ -12,7 +12,7 @@ modules:
 
       # Sets the size of the sliding window used by percentile evaluation.
       # Caution : higher value provides a better accuracy but needs more memory.
-      jmeter.reportgenerator.statistic_window: 200000
+      jmeter.reportgenerator.statistic_window: 200000   
 
       # Configure this property to change the report title
       jmeter.reportgenerator.report_title: Apache JMeter Dashboard
@@ -43,405 +43,813 @@ modules:
     sequential: true
 
 execution:
-- scenario: 
+- scenario: simple-1
+- scenario: simple-2
+- scenario: simple-3
+- scenario: simple-4
+- scenario: simple-5
+- scenario: simple-6
+- scenario: simple-7
+#- scenario: simple-8
+- scenario: simple-9
+- scenario: simple-10
+- scenario: simple-11
+- scenario: simple-12
+- scenario: simple-13
+- scenario: simple-14
+- scenario: simple-15
+- scenario: simple-16
+- scenario: simple-17
+- scenario: simple-18
+#- scenario: simple-19
+#- scenario: simple-20
+#- scenario: simple-21
+#- scenario: simple-22
+#- scenario: simple-23
+- scenario: simple-24
+- scenario: simple-25
+- scenario: simple-26
+- scenario: simple-27
+- scenario: simple-28
+- scenario: simple-29
+- scenario: simple-30
+- scenario: simple-31
+- scenario: simple-32
+- scenario: simple-32
+- scenario: simple-33
+#- scenario: simple-34
+- scenario: simple-35
+- scenario: simple-36
+- scenario: simple-37
+- scenario: simple-38
+- scenario: simple-39
+- scenario: simple-40
+- scenario: simple-41
+- scenario: simple-42
+- scenario: simple-43
+- scenario: simple-44
+- scenario: simple-44
+- scenario: simple-45
+- scenario: simple-46
+- scenario: simple-47
+- scenario: simple-48
+- scenario: simple-49
+- scenario: simple-50
+- scenario: simple-51
+- scenario: simple-52
+- scenario: simple-53
+- scenario: simple-54
+#- scenario: simple-55
+- scenario: simple-56
+- scenario: simple-57
+#- scenario: simple-58
+#- scenario: simple-59
+- scenario: simple-60
+- scenario: simple-61
+- scenario: simple-62
+- scenario: simple-63
+- scenario: simple-64
+- scenario: simple-65
+- scenario: simple-66
+#- scenario: simple-67
+#- scenario: simple-68
+- scenario: simple-69
+- scenario: simple-70
+- scenario: simple-71
+- scenario: simple-72
+- scenario: simple-73
+- scenario: simple-74
+- scenario: simple-75
+- scenario: simple-76
+- scenario: simple-77
+- scenario: simple-78
+#- scenario: simple-79
+- scenario: simple-80
+- scenario: simple-81
+- scenario: simple-82
+- scenario: simple-83
+- scenario: simple-84
+- scenario: simple-85
+#- scenario: simple-86
+- scenario: simple-87
+#- scenario: simple-88
+- scenario: simple-89
+- scenario: simple-90
+- scenario: simple-91
+- scenario: simple-92
+- scenario: simple-93
+- scenario: simple-94
+- scenario: simple-95
+- scenario: simple-96
+#- scenario: simple-97
+- scenario: simple-98
+- scenario: simple-99
+- scenario: simple-100
+- scenario: simple-101
+- scenario: simple-102
+- scenario: simple-103
+- scenario: simple-104
+- scenario: simple-105
+#- scenario: simple-106
+- scenario: simple-107
+- scenario: simple-108
+- scenario: simple-109
+- scenario: simple-110
+- scenario: simple-111
+- scenario: simple-112
+- scenario: simple-113
+- scenario: simple-114
+- scenario: simple-115
+- scenario: simple-116
+- scenario: simple-117
+- scenario: simple-118
+- scenario: simple-119
+- scenario: simple-120
+- scenario: simple-121
+- scenario: simple-122
+- scenario: simple-123
+- scenario: simple-124
+- scenario: simple-125
+- scenario: simple-126
+- scenario: simple-127
+- scenario: simple-128
+- scenario: simple-129
+#- scenario: simple-130
+- scenario: simple-131
+- scenario: simple-132
+- scenario: simple-133
+- scenario: simple-134
+
+
+scenarios:
+  simple-1: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/01_GET_DataClasses_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-2: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/02_GET_ClassSets_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-3: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/03_GET_ClassSet_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-4: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/04_POST_ClassSet_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-5: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/05_GET_DataFeedBins_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-6: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/06_GET_DataTermTypes_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-7: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/07_GET_DataTerms_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-8: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/08_POST_DataTerm_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-9: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/09_PUT_DataTerm_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-10: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/10_GET_StorageIds_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 7
+  simple-11: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/11_GET_StorageId_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-12: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/12_POST_BooleanBin_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-13: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/13_GET_BooleanBins_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-14: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/14_GET_BooleanBin_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-15: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/15_PUT_BooleanBin_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-16: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/16_POST_BooleanValue_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-17: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/17_GET_BooleanValue_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-18: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/18_GET_BooleanValues_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-19: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/19_POST_BooleanValue_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-20: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/20_DELETE_BooleanValue_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-21: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/21_DELETE_ClearMapping_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-22: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/22_GET_DataClass_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-23: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/23_POST_DataFeed_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-24: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/24_GET_DataFeed_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-25: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/25_PUT_DataFeed_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-26: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/26_DELETE_DataFeed_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-27: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/27_PUT_DataFeedDocIds_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-28: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/28_PUT_DataFeedModifiers_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-29: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/29_PUT_DataFeedSignature_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-30: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/30_GET_DataFeedBin_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-31: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/31_POST_DataFeedField_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-32: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/32_GET_DataFeedField_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-33: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/33_GET_DataFeedFields_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-34: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/34_PUT_DataFeedField_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-35: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/35_DELETE_DataFeedField_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-36: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/36_GET_DataFeedMaps_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-37: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/37_GET_DataFeeds_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-38: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/38_GET_DataTermType_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-39: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/39_GET_StorageBinSets_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-40: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/40_GET_StorageBinSet_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-41: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/41_GET_StorageBins_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-42: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/42_GET_StorageCategorys_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-43: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/43_GET_StorageFields_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-44: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/44_POST_StorageId_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-45: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/45_GET_StorageStages_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 9
+  simple-46: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/46_GET_StorageStage_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-47: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/47_GET_StorageTags_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-48: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/48_POST_StorageTag_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-49: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/49_GET_StorageTag_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-50: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/50_PUT_StorageTag_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-51: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/51_GET_TimestampBins_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-52: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/52_POST_TimestampBin_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-53: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/53_GET_TimestampBin_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-54: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/54_PUT_TimestampBin_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-55: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/55_DELETE_TimestampBin_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-56: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/56_DELETE_Enricher_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-57: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/57_GET_Enricher_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-58: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/58_POST_Enricher_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-59: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/59_PUT_Enricher_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-60: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/60_GET_Enrichers_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-61: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/61_DELETE_TimestampFormat_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-62: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/62_GET_TimestampFormat_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-63: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/63_POST_TimestampFormat_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-64: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/64_PUT_TimestampFormat_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-65: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/65_GET_checkTimestampFormat_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-66: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/66_GET_TimestampFormatList_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-67: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/67_POST_TermField_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-68: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/68_PUT_TermField_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-69: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/69_POST_configureStorage_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-70: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/70_POST_DataField_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-71: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/71_GET_DataFields_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-72: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/72_PUT_DataField_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 5
+  simple-73: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/73_PUT_DataFeedMap_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-74: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/74_PUT_StorageId_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-75: 
     script: ApiTesting/DataDictionary/TestScripts/cerberus-data-controller/cerberus-data-controller_GET_dataFeedMetaAndMapping_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-76: 
     script: ApiTesting/DataDictionary/TestScripts/cerberus-data-controller/cerberus-data-controller_PUT_dataFeedProcessingStatus_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-77: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-satistics-controller/data-feed-satistics-controller_GET_getDataFeedCounters_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-78: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-satistics-controller/data-feed-satistics-controller_GET_getDataFeedList_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-79: 
     script: ApiTesting/DataDictionary/TestScripts/data-feed-satistics-controller/data-feed-satistics-controller_GET_updateDataFeedCounters_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-80: 
     script: ApiTesting/DataDictionary/TestScripts/data-ingestor-data-controller/data-ingestor-data-controller_GET_getDataIngestorMeta_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-81: 
     script: ApiTesting/DataDictionary/TestScripts/data-map-controller/data-map-controller_GET_getDataFeedMapping_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-82: 
     script: ApiTesting/DataDictionary/TestScripts/data-map-controller/data-map-controller_GET_getDataMap_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-83: 
     script: ApiTesting/DataDictionary/TestScripts/data-map-controller/data-map-controller_PUT_updateDataFeedMapping_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-84: 
     script: ApiTesting/DataDictionary/TestScripts/data-map-controller/data-map-controller_PUT_updateDataMapField_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-85: 
     script: ApiTesting/DataDictionary/TestScripts/data-map-controller/data-map-controller_PUT_updateDataMap_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-86: 
     script: ApiTesting/DataDictionary/TestScripts/deduper-data-controller/deduper-data-controller_GET_classSetMeta_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-87: 
     script: ApiTesting/DataDictionary/TestScripts/deduper-data-controller/deduper-data-controller_PUT_classSetstatus_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-88: 
     script: ApiTesting/DataDictionary/TestScripts/hive-ddl-generator-controller/hive-ddl-generator-controller_GET_generate_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-89: 
     script: ApiTesting/DataDictionary/TestScripts/request-samples-controller/request-samples-controller_GET_fileContents_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-90: 
     script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_GET_filterDefinitions_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-91: 
     script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_GET_filterValues.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-92: 
     script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_GET_log.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-93: 
     script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_GET_selectForProcessing_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-94: 
     script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_POST_log.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-95: 
     script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_POST_mergeTerms_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-96: 
     script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_POST_reverseMapping_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-97: 
     script: ApiTesting/DataDictionary/TestScripts/r-search-data-controller/r-search-data-controller_POST_updateRecommendedName_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-98: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_ClassSets_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-99: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_ClassSet_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-100: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataClasses_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-101: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataClass_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-102: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataFeedFields_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-103: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataFeedMaps_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-104: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataFeeds_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-105: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataFeed_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-106: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataField-dataTermStorageFields_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-107: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataField-dataTerms_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-108: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataField-storageFields_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-109: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataFields_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-110: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_DataTerms_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-111: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageBinSet_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-112: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageBins_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-113: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageField-list_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-114: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageFields_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-115: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageIds_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-116: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageStages_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 5
+  simple-117: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageStage_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-118: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageTags_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 4
+  simple-119: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_GET_StorageTag_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 3
+  simple-120: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_POST_DataFeed_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 2
+  simple-121: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_PUT_DataFeedMap_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-122: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_PUT_DataFeed_modifiers_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-123: 
     script: ApiTesting/DataDictionary/TestScripts/vege-controller/Vege_PUT_DataFeed_signature_TC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-124: 
     script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/1_BooleanBin_UC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-125: 
     script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/2_BooleanValue_UC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-126: 
     script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/3_ClassSet_UC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-127: 
     script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/4_DataFeed_UC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-128: 
     script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/5_DataFeedField_UC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-129: 
     script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/6_DataField_UC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-130: 
     script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/7_DataTerm_UC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 0
+  simple-131: 
     script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/8_StorageId_UC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-132: 
     script: ApiTesting/DataDictionary/TestScripts/UseCases/data-feed-configurator-controller/9_TimestampBin_UC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-133: 
     script: ApiTesting/DataDictionary/TestScripts/UseCases/data-map-controller/1_DataMap_UC.jmx
     force-parent-sample: false
-- scenario: 
+    properties:
+      loopCount: 1
+  simple-134: 
     script: ApiTesting/DataDictionary/TestScripts/UseCases/vege-controller/1_VegeDataFeed_UC.jmx
     force-parent-sample: false
+    properties:
+      loopCount: 1
+          
