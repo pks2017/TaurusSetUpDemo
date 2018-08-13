@@ -170,7 +170,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DataDictionary/Reports&quot;;,)}/Result${env_name}_ ${__time(MM-dd-yyyy,)}.csv</stringProp>
+        <stringProp name="filename">${__groovy(import org.apache.jmeter.services.FileServer; String[] baseDirHome = FileServer.getFileServer().getBaseDir().split(&apos;ApiTesting&apos;); def globalDataFilePath = baseDirHome[0]+&quot;ApiTesting/DataDictionary/Reports&quot;;,)}/Result${env_name}_${__time(MM-dd-yyyy,)}.csv</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
