@@ -137,7 +137,7 @@ execution:
     #properties:
       #loopCount: 1
 - scenario: 
-    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/19_POST_BooleanValue_TC.jmx
+    script: ApiTesting/DataDictionary/TestScripts/data-feed-configurator-controller/19_PUT_BooleanValue_TC.jmx
     force-parent-sample: false
     #properties:
       #loopCount: 1
